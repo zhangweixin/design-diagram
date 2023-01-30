@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T06:24:42.457Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="nI3KaJbacRw3ut8CCwwV" version="20.8.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-30T06:25:58.718Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="LtcLwTbgAECIyIfmd122" version="20.8.13" type="github" pages="3">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1249" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,6 +60,19 @@
         </mxCell>
         <mxCell id="ZZE0mEBVyTOkd9DTVgJ5-36" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZZE0mEBVyTOkd9DTVgJ5-2" source="ZZE0mEBVyTOkd9DTVgJ5-33" target="ZZE0mEBVyTOkd9DTVgJ5-35">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZE0mEBVyTOkd9DTVgJ5-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ZZE0mEBVyTOkd9DTVgJ5-2" source="ZZE0mEBVyTOkd9DTVgJ5-33" target="ZZE0mEBVyTOkd9DTVgJ5-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="770" />
+              <mxPoint x="120" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZE0mEBVyTOkd9DTVgJ5-44" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZZE0mEBVyTOkd9DTVgJ5-43">
+          <mxGeometry x="-0.7053" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZZE0mEBVyTOkd9DTVgJ5-33" value="是否缓存已执orderPricing" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZZE0mEBVyTOkd9DTVgJ5-2">
           <mxGeometry x="180" y="730" width="80" height="80" as="geometry" />
