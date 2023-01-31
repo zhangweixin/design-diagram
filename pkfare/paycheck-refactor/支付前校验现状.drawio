@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T09:22:55.984Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="_4XoHo3YnjX6lxMqtkZH" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T09:23:20.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="hmXcsmPW2-9Pv3q2P4e4" version="20.8.13" type="github" pages="5">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1249" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -751,8 +751,14 @@
         <mxCell id="cxaEL_nWbzmhcryOfmaX-6" value="pricing是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="gvtDUDEt5myI1uzvv_XU-2">
           <mxGeometry x="150" y="730" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="cxaEL_nWbzmhcryOfmaX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gvtDUDEt5myI1uzvv_XU-2" source="cxaEL_nWbzmhcryOfmaX-8" target="cxaEL_nWbzmhcryOfmaX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cxaEL_nWbzmhcryOfmaX-8" value="写pricing失败日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gvtDUDEt5myI1uzvv_XU-2">
           <mxGeometry x="140" y="850" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cxaEL_nWbzmhcryOfmaX-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gvtDUDEt5myI1uzvv_XU-2">
+          <mxGeometry x="140" y="930" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gvtDUDEt5myI1uzvv_XU-3" value="gong-service" style="swimlane;startSize=20;html=1;" parent="gvtDUDEt5myI1uzvv_XU-1" vertex="1">
           <mxGeometry x="560" y="20" width="290" height="1110" as="geometry" />
