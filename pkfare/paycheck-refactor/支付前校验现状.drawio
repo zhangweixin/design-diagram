@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T09:24:07.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="Fq6PXWmD4NEGhKMwYaim" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T09:25:13.219Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="9iyzpR_k71egKICEu8vl" version="20.8.13" type="github" pages="5">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1249" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -653,11 +653,8 @@
         <mxCell id="yFkJAx0bYrZzU30jKvLQ-5" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="yFkJAx0bYrZzU30jKvLQ-2" vertex="1">
           <mxGeometry x="150" y="40" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yFkJAx0bYrZzU30jKvLQ-6" value="是否执行了pricing" style="rhombus;whiteSpace=wrap;html=1;" parent="yFkJAx0bYrZzU30jKvLQ-2" vertex="1">
+        <mxCell id="yFkJAx0bYrZzU30jKvLQ-6" value="执行pricing是否成功" style="rhombus;whiteSpace=wrap;html=1;" parent="yFkJAx0bYrZzU30jKvLQ-2" vertex="1">
           <mxGeometry x="150" y="120" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="yFkJAx0bYrZzU30jKvLQ-10" value="执行pricing" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="yFkJAx0bYrZzU30jKvLQ-2" vertex="1">
-          <mxGeometry x="130" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A06klWb_FYAvXbKyL8mI-1" value="是否" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="yFkJAx0bYrZzU30jKvLQ-2">
           <mxGeometry x="150" y="330" width="80" height="80" as="geometry" />
@@ -676,6 +673,11 @@
         <mxCell id="yFkJAx0bYrZzU30jKvLQ-9" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yFkJAx0bYrZzU30jKvLQ-8" vertex="1" connectable="0">
           <mxGeometry x="-0.55" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cn85f-xD3S9L0Q7uJ_mD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yFkJAx0bYrZzU30jKvLQ-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
