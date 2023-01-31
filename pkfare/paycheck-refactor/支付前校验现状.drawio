@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T11:41:21.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="Fe-Ee5455pXPfU7rLcSp" version="20.8.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-31T01:59:32.182Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="xcJf9rs_BRG9vTN5_Elt" version="20.8.13" type="github" pages="4">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1249" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -633,6 +633,14 @@
             <mxPoint x="340" y="1280" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OpXgDojtCh16NHDfue_Z" name="LCC支付前校验具体逻辑">
+    <mxGraphModel dx="1249" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
