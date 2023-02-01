@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T03:31:22.653Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="zXr1a5MBx-z_xZEWZhBo" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T03:40:53.080Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="g9UdPJdz756zuNi2MKOZ" version="20.8.13" type="github" pages="5">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1249" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -642,10 +642,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yFkJAx0bYrZzU30jKvLQ-1" value="Kiwi支付前校验逻辑" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="90" width="890" height="1430" as="geometry" />
+          <mxGeometry x="220" y="90" width="890" height="1640" as="geometry" />
         </mxCell>
         <mxCell id="yFkJAx0bYrZzU30jKvLQ-2" value="order-manage" style="swimlane;startSize=20;html=1;" parent="yFkJAx0bYrZzU30jKvLQ-1" vertex="1">
-          <mxGeometry y="20" width="450" height="1410" as="geometry" />
+          <mxGeometry y="20" width="450" height="1620" as="geometry" />
         </mxCell>
         <mxCell id="yFkJAx0bYrZzU30jKvLQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="yFkJAx0bYrZzU30jKvLQ-2" source="yFkJAx0bYrZzU30jKvLQ-5" target="yFkJAx0bYrZzU30jKvLQ-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -751,6 +751,9 @@
         <mxCell id="cn85f-xD3S9L0Q7uJ_mD-38" value="save Booking返回的价格拆分覆盖pricing当中tagSolution的供应价格" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="yFkJAx0bYrZzU30jKvLQ-2">
           <mxGeometry x="190" y="1150" width="130" height="71" as="geometry" />
         </mxCell>
+        <mxCell id="cn85f-xD3S9L0Q7uJ_mD-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yFkJAx0bYrZzU30jKvLQ-2" source="cn85f-xD3S9L0Q7uJ_mD-48" target="cn85f-xD3S9L0Q7uJ_mD-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cn85f-xD3S9L0Q7uJ_mD-48" value="计算是否变价" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="yFkJAx0bYrZzU30jKvLQ-2">
           <mxGeometry x="185.5" y="1280" width="139" height="50" as="geometry" />
         </mxCell>
@@ -759,14 +762,36 @@
             <mxPoint x="190" y="1130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="cn85f-xD3S9L0Q7uJ_mD-51" value="变价且是API采购" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="yFkJAx0bYrZzU30jKvLQ-2">
+          <mxGeometry x="215" y="1360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cn85f-xD3S9L0Q7uJ_mD-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="cn85f-xD3S9L0Q7uJ_mD-56" target="cn85f-xD3S9L0Q7uJ_mD-57" parent="yFkJAx0bYrZzU30jKvLQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cn85f-xD3S9L0Q7uJ_mD-56" value="记录flightchecked失败日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#ff2600;" vertex="1" parent="yFkJAx0bYrZzU30jKvLQ-2">
+          <mxGeometry x="20" y="1450" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cn85f-xD3S9L0Q7uJ_mD-57" value="返回变价&lt;br&gt;失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yFkJAx0bYrZzU30jKvLQ-2">
+          <mxGeometry x="20" y="1530" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cn85f-xD3S9L0Q7uJ_mD-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yFkJAx0bYrZzU30jKvLQ-2" source="cn85f-xD3S9L0Q7uJ_mD-51" target="cn85f-xD3S9L0Q7uJ_mD-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cn85f-xD3S9L0Q7uJ_mD-53" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cn85f-xD3S9L0Q7uJ_mD-52">
+          <mxGeometry x="-0.3538" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yFkJAx0bYrZzU30jKvLQ-3" value="gongfu-service" style="swimlane;startSize=20;html=1;" parent="yFkJAx0bYrZzU30jKvLQ-1" vertex="1">
-          <mxGeometry x="450" y="20" width="220" height="1410" as="geometry" />
+          <mxGeometry x="450" y="20" width="220" height="1620" as="geometry" />
         </mxCell>
         <mxCell id="cn85f-xD3S9L0Q7uJ_mD-21" value="saveBooking" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="yFkJAx0bYrZzU30jKvLQ-3">
           <mxGeometry x="37" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yFkJAx0bYrZzU30jKvLQ-4" value="Lane 3" style="swimlane;startSize=20;html=1;" parent="yFkJAx0bYrZzU30jKvLQ-1" vertex="1">
-          <mxGeometry x="670" y="20" width="220" height="1410" as="geometry" />
+          <mxGeometry x="670" y="20" width="220" height="1620" as="geometry" />
         </mxCell>
         <mxCell id="yFkJAx0bYrZzU30jKvLQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="yFkJAx0bYrZzU30jKvLQ-6" edge="1">
           <mxGeometry relative="1" as="geometry">
