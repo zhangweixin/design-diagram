@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T13:19:13.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="uN2OnB2SQL4FN5Cvy07e" version="20.8.13" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-01T13:19:41.763Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="wbwm_WfiLkclkrbaxfYI" version="20.8.13" type="github" pages="6">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1249" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -825,7 +825,7 @@
         <mxCell id="FY_jXPqzMf7xJGpVUtCT-2" value="获取原订单总价" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="yFkJAx0bYrZzU30jKvLQ-2">
           <mxGeometry x="195" y="1614" width="120" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="FY_jXPqzMf7xJGpVUtCT-4" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="yFkJAx0bYrZzU30jKvLQ-2">
+        <mxCell id="FY_jXPqzMf7xJGpVUtCT-4" value="是否变价" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="yFkJAx0bYrZzU30jKvLQ-2">
           <mxGeometry x="215" y="1750" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yFkJAx0bYrZzU30jKvLQ-3" value="gongfu-service" style="swimlane;startSize=20;html=1;" parent="yFkJAx0bYrZzU30jKvLQ-1" vertex="1">
