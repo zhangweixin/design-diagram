@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T07:59:02.153Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="hzH5xoKdhOKg92jUOMnX" version="20.8.13" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-01T08:01:45.886Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="Z4rBaMMrDOweqxi2MrId" version="20.8.13" type="github" pages="6">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1249" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1143,14 +1143,25 @@
             <mxPoint x="460" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="dwPkOxKMX4_ATCKYquNe-20" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dwPkOxKMX4_ATCKYquNe-18">
+          <mxGeometry x="-0.6076" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dwPkOxKMX4_ATCKYquNe-14" value="是否是API订单" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="302" y="740" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dwPkOxKMX4_ATCKYquNe-16" value="变价阈值为个GDS指定的阈值" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="160" y="870" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="dwPkOxKMX4_ATCKYquNe-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwPkOxKMX4_ATCKYquNe-19" target="dwPkOxKMX4_ATCKYquNe-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dwPkOxKMX4_ATCKYquNe-19" value="获取API Partner设置的变价数据" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="402" y="860" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dwPkOxKMX4_ATCKYquNe-21" value="变价阈值与变价百分比都设置" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="422" y="940" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
