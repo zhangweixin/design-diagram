@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T03:53:16.457Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="k4MwqS3hwcmd4Bx6RUga" version="20.8.13" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-01T07:01:37.534Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="HFxj4LIk23mCdjRk9eVs" version="20.8.13" type="github" pages="6">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1249" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1081,6 +1081,29 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dwPkOxKMX4_ATCKYquNe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dwPkOxKMX4_ATCKYquNe-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="342" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwPkOxKMX4_ATCKYquNe-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="294" y="160" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dwPkOxKMX4_ATCKYquNe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwPkOxKMX4_ATCKYquNe-3" target="dwPkOxKMX4_ATCKYquNe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dwPkOxKMX4_ATCKYquNe-3" value="计算订单供应原始总价 p1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="282" y="240" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dwPkOxKMX4_ATCKYquNe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwPkOxKMX4_ATCKYquNe-4" target="dwPkOxKMX4_ATCKYquNe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dwPkOxKMX4_ATCKYquNe-4" value="计算pricig供应原始总价 p2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="282" y="330" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dwPkOxKMX4_ATCKYquNe-6" value="获取订单s2cny汇率" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="282" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
