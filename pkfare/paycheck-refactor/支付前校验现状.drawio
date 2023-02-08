@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T03:22:30.519Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="1VQAofsYI3Q8x3NV-EjR" version="20.8.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-08T03:22:58.864Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="ANXp-kW2ysVX2HFHOyfu" version="20.8.18" type="github" pages="6">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1284" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -971,14 +971,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oc8WQ_O2f6PPn4_RoBA6-4" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="oc8WQ_O2f6PPn4_RoBA6-4" value="感觉这个错误码不正确" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="940" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="oc8WQ_O2f6PPn4_RoBA6-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="630" y="1300" as="sourcePoint" />
-            <mxPoint x="680" y="1250" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
