@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T07:04:01.909Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="WW4QMXAxxNGIRNnsXSMS" version="20.8.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-08T07:04:35.592Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="dxiF53m1wR9ECOQ0nXU1" version="20.8.18" type="github" pages="7">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1284" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -854,6 +854,14 @@
         </mxCell>
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-2" source="QK3JLm6o1d5tWPSBXhA1-99" target="QK3JLm6o1d5tWPSBXhA1-100">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK3JLm6o1d5tWPSBXhA1-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-2" source="QK3JLm6o1d5tWPSBXhA1-102" target="QK3JLm6o1d5tWPSBXhA1-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK3JLm6o1d5tWPSBXhA1-104" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QK3JLm6o1d5tWPSBXhA1-103">
+          <mxGeometry x="-0.2947" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-102" value="是否全是pricing失败错误" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
           <mxGeometry x="374" y="1450" width="80" height="80" as="geometry" />
