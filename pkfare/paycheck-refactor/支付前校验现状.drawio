@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T06:39:40.040Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="JjqXfswewwbm-6oqZP6B" version="20.8.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-08T06:41:54.437Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="CtIhwisagTXtxxtu4Zyy" version="20.8.18" type="github" pages="7">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1284" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -796,6 +796,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="560" y="570" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QK3JLm6o1d5tWPSBXhA1-78" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=65;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QK3JLm6o1d5tWPSBXhA1-77" target="QK3JLm6o1d5tWPSBXhA1-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK3JLm6o1d5tWPSBXhA1-77" value="1.最晚出票时间比较&lt;br&gt;2.当前时间距离最晚出票时间是否不足1h" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1000" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
