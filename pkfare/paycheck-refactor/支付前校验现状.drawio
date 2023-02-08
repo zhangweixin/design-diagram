@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T03:21:43.881Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="j6yi-i0lz_cr3q5gGgw-" version="20.8.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-08T03:22:30.519Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="1VQAofsYI3Q8x3NV-EjR" version="20.8.18" type="github" pages="6">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1284" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -721,10 +721,10 @@
         <mxCell id="cn85f-xD3S9L0Q7uJ_mD-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="yFkJAx0bYrZzU30jKvLQ-2" source="cn85f-xD3S9L0Q7uJ_mD-30" target="cn85f-xD3S9L0Q7uJ_mD-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cn85f-xD3S9L0Q7uJ_mD-30" value="记录saveBook失败日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;" parent="yFkJAx0bYrZzU30jKvLQ-2" vertex="1">
+        <mxCell id="cn85f-xD3S9L0Q7uJ_mD-30" value="记录saveBook失败日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="yFkJAx0bYrZzU30jKvLQ-2" vertex="1">
           <mxGeometry x="10" y="900" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cn85f-xD3S9L0Q7uJ_mD-31" value="返回Book&lt;br&gt;失败" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF3333;" parent="yFkJAx0bYrZzU30jKvLQ-2" vertex="1">
+        <mxCell id="cn85f-xD3S9L0Q7uJ_mD-31" value="返回Book&lt;br&gt;失败" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="yFkJAx0bYrZzU30jKvLQ-2" vertex="1">
           <mxGeometry x="15" y="970" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cn85f-xD3S9L0Q7uJ_mD-36" value="保存kiwi bookId和transactionId" style="rounded=0;whiteSpace=wrap;html=1;" parent="yFkJAx0bYrZzU30jKvLQ-2" vertex="1">
@@ -969,6 +969,15 @@
         <mxCell id="cn85f-xD3S9L0Q7uJ_mD-64" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cn85f-xD3S9L0Q7uJ_mD-62" vertex="1" connectable="0">
           <mxGeometry x="-0.35" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oc8WQ_O2f6PPn4_RoBA6-4" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="70" y="940" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oc8WQ_O2f6PPn4_RoBA6-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="1300" as="sourcePoint" />
+            <mxPoint x="680" y="1250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
