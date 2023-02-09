@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T09:53:02.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="Qge83--bCisYOD73dFt1" version="20.8.18" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-09T09:57:23.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="Hl9Cg17HVkAQtkvxhCM1" version="20.8.18" type="github" pages="8">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1284" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -842,8 +842,26 @@
         <mxCell id="0UGlcwUck9__QTOhCd2a-21" value="检查pnr是否有效" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
           <mxGeometry x="390" y="1180" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="0UGlcwUck9__QTOhCd2a-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-2" source="0UGlcwUck9__QTOhCd2a-24" target="0UGlcwUck9__QTOhCd2a-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0UGlcwUck9__QTOhCd2a-24" value="pnr是否有效" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
           <mxGeometry x="410" y="1330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0UGlcwUck9__QTOhCd2a-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="0UGlcwUck9__QTOhCd2a-26" target="0UGlcwUck9__QTOhCd2a-28" parent="QK3JLm6o1d5tWPSBXhA1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0UGlcwUck9__QTOhCd2a-26" value="pricingSuccess=false" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
+          <mxGeometry x="575" y="1350" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0UGlcwUck9__QTOhCd2a-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="0UGlcwUck9__QTOhCd2a-28" target="0UGlcwUck9__QTOhCd2a-29" parent="QK3JLm6o1d5tWPSBXhA1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0UGlcwUck9__QTOhCd2a-28" value="记录失败原因日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
+          <mxGeometry x="575" y="1430" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0UGlcwUck9__QTOhCd2a-29" value="返回具体错误paycheck结果" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
+          <mxGeometry x="576.5" y="1510" width="107" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-3" value="gongfu-service" style="swimlane;startSize=20;html=1;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-1">
           <mxGeometry x="830" y="20" width="310" height="2880" as="geometry" />
