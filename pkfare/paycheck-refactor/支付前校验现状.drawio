@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T09:35:16.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="6yrd1Ih02YsxgmUiHf8Q" version="20.8.18" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-09T09:36:50.054Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="XtGrDURZKNu2kXNAwE-c" version="20.8.18" type="github" pages="8">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1284" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -812,9 +812,13 @@
         <mxCell id="0UGlcwUck9__QTOhCd2a-13" value="返回航变错误结果" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
           <mxGeometry x="576.5" y="1290" width="107" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0UGlcwUck9__QTOhCd2a-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-2" source="0UGlcwUck9__QTOhCd2a-14">
+        <mxCell id="0UGlcwUck9__QTOhCd2a-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-2" source="0UGlcwUck9__QTOhCd2a-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="1290" as="targetPoint" />
+            <mxPoint x="1210" y="1230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="1230" />
+              <mxPoint x="740" y="1230" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="0UGlcwUck9__QTOhCd2a-14" value="更新航段信息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
@@ -829,6 +833,9 @@
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-4" value="one-order" style="swimlane;startSize=20;html=1;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-1">
           <mxGeometry x="1140" y="20" width="190" height="2880" as="geometry" />
         </mxCell>
+        <mxCell id="0UGlcwUck9__QTOhCd2a-16" value="更新航段信息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-4">
+          <mxGeometry x="70" y="1210" width="100" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-1" source="QK3JLm6o1d5tWPSBXhA1-30" target="QK3JLm6o1d5tWPSBXhA1-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -836,6 +843,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="560" y="570" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0UGlcwUck9__QTOhCd2a-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-1" source="0UGlcwUck9__QTOhCd2a-16" target="0UGlcwUck9__QTOhCd2a-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
