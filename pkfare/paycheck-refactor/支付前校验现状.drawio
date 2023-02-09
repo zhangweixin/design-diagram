@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T09:49:14.356Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="yDuvh_uFr95yo28lD3oE" version="20.8.18" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-09T09:49:36.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="LdqQSZObIi-mRb0QjPUL" version="20.8.18" type="github" pages="8">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1284" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -841,6 +841,9 @@
         </mxCell>
         <mxCell id="0UGlcwUck9__QTOhCd2a-21" value="检查pnr是否有效" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
           <mxGeometry x="390" y="1180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0UGlcwUck9__QTOhCd2a-24" value="pnr是否有效" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
+          <mxGeometry x="410" y="1300" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-3" value="gongfu-service" style="swimlane;startSize=20;html=1;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-1">
           <mxGeometry x="830" y="20" width="310" height="2880" as="geometry" />
