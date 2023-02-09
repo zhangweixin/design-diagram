@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T03:35:39.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="uI_XuAYmFmlLFSbN7iXq" version="20.8.18" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-09T03:36:13.922Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="oNnxCBaZlU5X7-nL0zh5" version="20.8.18" type="github" pages="8">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1284" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1811,16 +1811,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ACN07JfFne-jJOV3WNUc-1" value="IBE支付前校验" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="260" y="120" width="910" height="660" as="geometry" />
+          <mxGeometry x="260" y="120" width="890" height="660" as="geometry" />
         </mxCell>
         <mxCell id="ACN07JfFne-jJOV3WNUc-2" value="Lane 1" style="swimlane;startSize=20;html=1;strokeColor=#000000;" vertex="1" parent="ACN07JfFne-jJOV3WNUc-1">
-          <mxGeometry y="20" width="360" height="640" as="geometry" />
+          <mxGeometry y="20" width="670" height="640" as="geometry" />
         </mxCell>
         <mxCell id="ACN07JfFne-jJOV3WNUc-3" value="Lane 2" style="swimlane;startSize=20;html=1;strokeColor=#000000;" vertex="1" parent="ACN07JfFne-jJOV3WNUc-1">
-          <mxGeometry x="360" y="20" width="300" height="640" as="geometry" />
-        </mxCell>
-        <mxCell id="ACN07JfFne-jJOV3WNUc-4" value="Lane 3" style="swimlane;startSize=20;html=1;strokeColor=#000000;" vertex="1" parent="ACN07JfFne-jJOV3WNUc-1">
-          <mxGeometry x="660" y="20" width="250" height="640" as="geometry" />
+          <mxGeometry x="670" y="20" width="220" height="640" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
