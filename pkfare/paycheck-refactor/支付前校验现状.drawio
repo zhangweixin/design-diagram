@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T07:48:52.724Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="tEkJdGeIMYAlJmfS9II-" version="20.8.19" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-10T07:50:32.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="pzk3Jwrb9jZoRFSNwzZu" version="20.8.19" type="github" pages="8">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1387" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -707,7 +707,17 @@
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-19" value="记录供应下线日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
           <mxGeometry x="41" y="450" width="105" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QK3JLm6o1d5tWPSBXhA1-20" value="返回供应下线错误" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
+        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-2" source="QK3JLm6o1d5tWPSBXhA1-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="4590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="22" y="620" />
+              <mxPoint x="22" y="4590" />
+              <mxPoint x="389" y="4590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QK3JLm6o1d5tWPSBXhA1-20" value="返回供应下线错误" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
           <mxGeometry x="41.5" y="600" width="107" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="QK3JLm6o1d5tWPSBXhA1-2" source="QK3JLm6o1d5tWPSBXhA1-22" target="QK3JLm6o1d5tWPSBXhA1-14" edge="1">
@@ -759,6 +769,14 @@
         </mxCell>
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-64" value="记录rt失败日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
           <mxGeometry x="560" y="740" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-2" source="QK3JLm6o1d5tWPSBXhA1-67" target="iWQUa-pTEo2-h8qP0TEZ-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="840" />
+              <mxPoint x="770" y="4595" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-67" value="返回RT失败错误" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
           <mxGeometry x="561.5" y="820" width="107" height="40" as="geometry" />
