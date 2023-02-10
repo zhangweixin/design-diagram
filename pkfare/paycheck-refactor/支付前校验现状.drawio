@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T07:45:06.752Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="1ONeCoBnsL1UJXjPZTtX" version="20.8.19" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-10T07:46:34.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="MT3PdnyymfOtLU163Gg-" version="20.8.19" type="github" pages="8">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1387" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -983,6 +983,15 @@
         <mxCell id="0UGlcwUck9__QTOhCd2a-57" value="记录No_fare日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
           <mxGeometry x="620" y="2480" width="115" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-2" source="0UGlcwUck9__QTOhCd2a-59" target="iWQUa-pTEo2-h8qP0TEZ-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="2580" />
+              <mxPoint x="770" y="4550" />
+              <mxPoint x="463" y="4550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0UGlcwUck9__QTOhCd2a-59" value="返回NO_FARE错误" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
           <mxGeometry x="620" y="2560" width="115" height="40" as="geometry" />
         </mxCell>
@@ -1032,8 +1041,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="770" y="2910" />
-              <mxPoint x="770" y="3768" />
-              <mxPoint x="463" y="3768" />
+              <mxPoint x="770" y="4550" />
+              <mxPoint x="463" y="4550" />
             </Array>
           </mxGeometry>
         </mxCell>
