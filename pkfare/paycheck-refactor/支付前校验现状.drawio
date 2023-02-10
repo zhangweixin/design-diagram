@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T11:30:20.862Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="vNWLZ8e_XN6VaxOWE1yT" version="20.8.18" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-10T01:50:47.862Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="LQSeMbyjAmw7xDSEUpvC" version="20.8.18" type="github" pages="8">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1284" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -924,6 +924,11 @@
         </mxCell>
         <mxCell id="0UGlcwUck9__QTOhCd2a-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-2" source="0UGlcwUck9__QTOhCd2a-49" target="0UGlcwUck9__QTOhCd2a-48">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0UGlcwUck9__QTOhCd2a-53" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0UGlcwUck9__QTOhCd2a-50">
+          <mxGeometry x="-0.16" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0UGlcwUck9__QTOhCd2a-49" value="是否是Sabre、amadeus、gaileo" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
           <mxGeometry x="400" y="2180" width="100" height="80" as="geometry" />
