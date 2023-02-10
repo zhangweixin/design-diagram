@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T06:01:43.778Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="YpeHhN77mxvN0h5C6H2j" version="20.8.19" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-10T06:04:48.801Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="5VAPmX2ujtRwNjA5m2D0" version="20.8.19" type="github" pages="8">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1387" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1031,8 +1031,16 @@
         <mxCell id="iWQUa-pTEo2-h8qP0TEZ-8" value="返回超时错误" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
           <mxGeometry x="637" y="2900" width="115" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-2" source="iWQUa-pTEo2-h8qP0TEZ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="2940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="iWQUa-pTEo2-h8qP0TEZ-11" value="判断供应商区时是否跨天" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
           <mxGeometry x="390" y="2810" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-13" value="是否跨天" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
+          <mxGeometry x="410" y="2940" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-3" value="gongfu-service" style="swimlane;startSize=20;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-1" vertex="1">
           <mxGeometry x="830" y="20" width="310" height="3180" as="geometry" />
