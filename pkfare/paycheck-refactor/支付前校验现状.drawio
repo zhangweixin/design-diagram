@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T03:30:46.021Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="3eYLVok0LbsQUgGRAubS" version="20.8.19" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-02-14T03:36:14.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="5UC4pfjJZFaTC4ss0xBD" version="20.8.19" type="github" pages="8">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1058" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1454,7 +1454,7 @@
         <mxCell id="pkG4NbqPYfFWXWQT60rB-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=122.5;exitDy=90;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-2" source="pkG4NbqPYfFWXWQT60rB-12" target="pkG4NbqPYfFWXWQT60rB-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pkG4NbqPYfFWXWQT60rB-12" value="这个逻辑比较奇怪明明是判断的savePrice或者pricing失败进行下一步，但是下一步里面只是通过RT判断存票价是否成功，跟pricing没有任何关系" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
+        <mxCell id="pkG4NbqPYfFWXWQT60rB-12" value="这个逻辑比较奇怪明明是判断的savePrice或者pricing失败进行下一步，但是下一步里面只是通过RT判断存票价是否成功，跟pricing没有任何关系，即使是pricing失败也是去确认出票价结果" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
           <mxGeometry x="87.5" y="2100" width="122.5" height="150" as="geometry" />
         </mxCell>
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-3" value="gongfu-service" style="swimlane;startSize=20;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-1" vertex="1">
