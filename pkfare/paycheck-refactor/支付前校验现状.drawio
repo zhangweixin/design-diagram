@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T11:05:06.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="wGp6F5dlw4f5U8TKHLmK" version="20.8.19" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-02-14T11:07:30.216Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="lRlJ9cOoTAaVLK5VmuRp" version="20.8.19" type="github" pages="12">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1058" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3188,10 +3188,18 @@
         <mxCell id="wlMy2dQnTKCYN9tSQu9R-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="--RC-euVgEo1hT0H7JXQ-31">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="170" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="1136" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="--RC-euVgEo1hT0H7JXQ-31" value="是否变价可吸收" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="345" y="1089" width="80" height="80" as="geometry" />
+        <mxCell id="wlMy2dQnTKCYN9tSQu9R-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="--RC-euVgEo1hT0H7JXQ-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--RC-euVgEo1hT0H7JXQ-31" value="是否变价未吸收且是API订单" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="1090" width="105" height="91" as="geometry" />
         </mxCell>
         <mxCell id="wlMy2dQnTKCYN9tSQu9R-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wlMy2dQnTKCYN9tSQu9R-2">
           <mxGeometry relative="1" as="geometry">
