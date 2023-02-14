@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T06:45:50.814Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="aZ0vPAYcNXZt7pLBJqrl" version="20.8.19" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-02-14T06:48:12.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="11v6aTap-JLRSbcmKrSU" version="20.8.19" type="github" pages="10">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1058" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2833,6 +2833,33 @@
         </mxCell>
         <mxCell id="Dxf_uxwF9pquBvCTPIhT-41" value="是否通过" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="310" y="940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dxf_uxwF9pquBvCTPIhT-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="Dxf_uxwF9pquBvCTPIhT-45" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dxf_uxwF9pquBvCTPIhT-45" value="流转订单状态为CNCL" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1060" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dxf_uxwF9pquBvCTPIhT-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="Dxf_uxwF9pquBvCTPIhT-47" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dxf_uxwF9pquBvCTPIhT-47" value="记录cancel日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dxf_uxwF9pquBvCTPIhT-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="Dxf_uxwF9pquBvCTPIhT-49" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dxf_uxwF9pquBvCTPIhT-49" value="记录远端失败日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dxf_uxwF9pquBvCTPIhT-50" value="返回支付前校验是失败错误" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1280" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
