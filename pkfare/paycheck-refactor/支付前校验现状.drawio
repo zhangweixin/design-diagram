@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T08:51:58.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="WDQUJPETZUFyzG6AN5P7" version="20.8.19" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-02-14T08:59:06.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="rMoxrWbjjq9Ld68UDiJS" version="20.8.19" type="github" pages="11">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1058" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3011,7 +3011,12 @@
         </mxCell>
         <mxCell id="ytIc_TsobS6llpPPzS5z-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ytIc_TsobS6llpPPzS5z-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="385" y="260" as="targetPoint" />
+            <mxPoint x="385" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ytIc_TsobS6llpPPzS5z-8" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ytIc_TsobS6llpPPzS5z-4">
+          <mxGeometry x="-0.075" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ytIc_TsobS6llpPPzS5z-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ytIc_TsobS6llpPPzS5z-3">
@@ -3026,6 +3031,9 @@
         </mxCell>
         <mxCell id="ytIc_TsobS6llpPPzS5z-3" value="订单状态是否为to_be_paid" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="332.5" y="130" width="105" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ytIc_TsobS6llpPPzS5z-7" value="抛出异常，结束流程" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
