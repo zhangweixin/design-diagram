@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T06:19:33.355Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="GVSmBQMIEmMkRl9dOJrx" version="20.8.19" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-02-14T06:20:33.670Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="F9qixpF8VwiOD5FMvkbA" version="20.8.19" type="github" pages="9">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1058" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2667,7 +2667,7 @@
           <mxGeometry x="170" y="620" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i4vCO0G4c9wesi6BrsAw-16" value="返回支付前校验通过" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="320" y="585" width="105" height="45" as="geometry" />
+          <mxGeometry x="317.5" y="580" width="105" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
