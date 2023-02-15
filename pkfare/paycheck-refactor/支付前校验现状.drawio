@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T09:43:54.022Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="srRSPzslGO2BRfNnJPv3" version="20.8.19" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-02-15T09:45:10.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="X4ahlpfQGf6OQ9JMTkkp" version="20.8.19" type="github" pages="12">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1058" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3539,8 +3539,24 @@
         <mxCell id="zsPxc50Kthg1Im8aBYuD-69" value="是否可吸收" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;" vertex="1" parent="zsPxc50Kthg1Im8aBYuD-2">
           <mxGeometry x="90" y="940" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="zsPxc50Kthg1Im8aBYuD-73" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="zsPxc50Kthg1Im8aBYuD-2" source="zsPxc50Kthg1Im8aBYuD-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="1136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zsPxc50Kthg1Im8aBYuD-71" value="取消订单" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="zsPxc50Kthg1Im8aBYuD-2">
           <mxGeometry x="240" y="1056" width="100" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="zsPxc50Kthg1Im8aBYuD-75" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="zsPxc50Kthg1Im8aBYuD-2" source="zsPxc50Kthg1Im8aBYuD-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="1226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zsPxc50Kthg1Im8aBYuD-74" value="记录变价日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="zsPxc50Kthg1Im8aBYuD-2">
+          <mxGeometry x="240" y="1136" width="100" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="zsPxc50Kthg1Im8aBYuD-76" value="返回变价错误" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="zsPxc50Kthg1Im8aBYuD-2">
+          <mxGeometry x="230" y="1226" width="120" height="34" as="geometry" />
         </mxCell>
         <mxCell id="zsPxc50Kthg1Im8aBYuD-3" value="gong-service" style="swimlane;startSize=20;html=1;rounded=0;strokeColor=#000000;" vertex="1" parent="zsPxc50Kthg1Im8aBYuD-1">
           <mxGeometry x="1030" y="20" width="350" height="1490" as="geometry" />
