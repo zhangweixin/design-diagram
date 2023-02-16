@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T10:00:24.713Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="LBklzpPPDnr1jS-AHEEG" version="20.8.19" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-02-16T01:55:53.976Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="RhFtMEKgFnnmavIjTxfA" version="20.8.19" type="github" pages="13">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1058" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3798,30 +3798,15 @@
         <mxCell id="5m85UrEleEo4pGpgQJ05-48" value="返回支付前校验是失败错误" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="520" y="1280" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5m85UrEleEo4pGpgQJ05-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5m85UrEleEo4pGpgQJ05-51">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="1220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5m85UrEleEo4pGpgQJ05-50" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5m85UrEleEo4pGpgQJ05-49">
-          <mxGeometry x="-0.25" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5m85UrEleEo4pGpgQJ05-51" value="是否返回了pnr" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="305" y="1100" width="90" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="5m85UrEleEo4pGpgQJ05-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5m85UrEleEo4pGpgQJ05-53">
+        <mxCell id="5m85UrEleEo4pGpgQJ05-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="353" y="1300" as="targetPoint" />
             <Array as="points">
               <mxPoint x="353" y="1280" />
               <mxPoint x="353" y="1280" />
             </Array>
+            <mxPoint x="352.5" y="1260" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="5m85UrEleEo4pGpgQJ05-53" value="更新pnr和airpnr" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="295" y="1220" width="115" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5m85UrEleEo4pGpgQJ05-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5m85UrEleEo4pGpgQJ05-55">
           <mxGeometry relative="1" as="geometry">
