@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T03:52:10.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="1oQF_vwaURqnRxppH15f" version="20.8.19" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-02-16T03:57:30.836Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="wRGsHJsRBtH0bMiVpyn1" version="20.8.19" type="github" pages="13">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1450" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3832,28 +3832,16 @@
         <mxCell id="5m85UrEleEo4pGpgQJ05-60" value="是否变高" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="313" y="1260" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5m85UrEleEo4pGpgQJ05-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5m85UrEleEo4pGpgQJ05-69" edge="1">
+        <mxCell id="G0sxKvK9GlT0BWwavtHY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5m85UrEleEo4pGpgQJ05-69">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="1700" as="targetPoint" />
+            <mxPoint x="353" y="1650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5m85UrEleEo4pGpgQJ05-69" value="记录变价日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="303" y="1570" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5m85UrEleEo4pGpgQJ05-70" value="返回支付前校验是失败错误" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="520" y="1860" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="5m85UrEleEo4pGpgQJ05-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5m85UrEleEo4pGpgQJ05-72" target="5m85UrEleEo4pGpgQJ05-74" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5m85UrEleEo4pGpgQJ05-72" value="流转订单状态为CNCL" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="520" y="1700" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="5m85UrEleEo4pGpgQJ05-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5m85UrEleEo4pGpgQJ05-74" target="5m85UrEleEo4pGpgQJ05-70" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5m85UrEleEo4pGpgQJ05-74" value="记录cancel日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="520" y="1780" width="100" height="40" as="geometry" />
+        <mxCell id="5m85UrEleEo4pGpgQJ05-70" value="返回变价错误" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="302.5" y="1650" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5m85UrEleEo4pGpgQJ05-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5m85UrEleEo4pGpgQJ05-76" edge="1">
           <mxGeometry relative="1" as="geometry">
