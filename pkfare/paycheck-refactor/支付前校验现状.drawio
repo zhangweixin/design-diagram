@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T09:21:48.251Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="cHREoRetP8kV5glQgPGG" version="20.8.19" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-02-16T09:43:38.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="2XtUYkfcs-kQ0A7c8OD_" version="20.8.19" type="github" pages="13">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1450" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3372,13 +3372,16 @@
         <mxCell id="0uy04ZB31_37sPzK6R1L-15" value="回滚代金券" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="560" y="1070" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0uy04ZB31_37sPzK6R1L-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0uy04ZB31_37sPzK6R1L-17">
+        <mxCell id="0uy04ZB31_37sPzK6R1L-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0uy04ZB31_37sPzK6R1L-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="1200" as="targetPoint" />
+            <mxPoint x="610" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0uy04ZB31_37sPzK6R1L-17" value="记录接口调用日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="560" y="1140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0uy04ZB31_37sPzK6R1L-20" value="返回变价错误" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1210" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
