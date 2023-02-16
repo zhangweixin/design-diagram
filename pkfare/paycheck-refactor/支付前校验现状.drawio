@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T09:45:50.664Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="KO0W0MdMLZUSsOCc9Uyo" version="20.8.19" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-02-16T09:47:48.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="lrtZwMGZ7IchpSPnEJyA" version="20.8.19" type="github" pages="13">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1450" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3358,6 +3358,19 @@
             <mxPoint x="-2" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0uy04ZB31_37sPzK6R1L-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0uy04ZB31_37sPzK6R1L-8" target="0uy04ZB31_37sPzK6R1L-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="840" />
+              <mxPoint x="750" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0uy04ZB31_37sPzK6R1L-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0uy04ZB31_37sPzK6R1L-23">
+          <mxGeometry x="-0.831" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0uy04ZB31_37sPzK6R1L-8" value="是否是指定错误码集合中的错误吗" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="570" y="800" width="80" height="80" as="geometry" />
         </mxCell>
@@ -3395,6 +3408,12 @@
         </mxCell>
         <mxCell id="0uy04ZB31_37sPzK6R1L-20" value="返回变价错误" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="560" y="1210" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0uy04ZB31_37sPzK6R1L-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0uy04ZB31_37sPzK6R1L-25" target="0uy04ZB31_37sPzK6R1L-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0uy04ZB31_37sPzK6R1L-25" value="为啥是指定的错误码才不取消" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="860" y="750" width="80" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
