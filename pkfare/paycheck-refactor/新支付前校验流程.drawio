@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T03:08:16.633Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="RwZ3foh9LXanNSj1lFpv" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-23T03:10:58.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="PLuZR_uPtVmy3DNg74Fa" version="20.8.23" type="github">
   <diagram name="第 1 页" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1425" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,19 +12,40 @@
         </mxCell>
         <mxCell id="5nTDPpgoF1n0D92lt2fB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="5nTDPpgoF1n0D92lt2fB-6" source="5nTDPpgoF1n0D92lt2fB-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="120" as="targetPoint" />
+            <mxPoint x="270" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5nTDPpgoF1n0D92lt2fB-9" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
-          <mxGeometry x="200" y="50" width="100" height="30" as="geometry" />
+          <mxGeometry x="220" y="50" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5nTDPpgoF1n0D92lt2fB-12" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="5nTDPpgoF1n0D92lt2fB-6" source="5nTDPpgoF1n0D92lt2fB-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="110" y="220" as="targetPoint" />
+            <mxPoint x="130" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5nTDPpgoF1n0D92lt2fB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="5nTDPpgoF1n0D92lt2fB-6" source="5nTDPpgoF1n0D92lt2fB-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5nTDPpgoF1n0D92lt2fB-11" value="供应是否在在线" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
-          <mxGeometry x="205" y="120" width="90" height="80" as="geometry" />
+          <mxGeometry x="225" y="120" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTDPpgoF1n0D92lt2fB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5nTDPpgoF1n0D92lt2fB-6" source="5nTDPpgoF1n0D92lt2fB-14" target="5nTDPpgoF1n0D92lt2fB-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5nTDPpgoF1n0D92lt2fB-14" value="校验最晚出票时间" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
+          <mxGeometry x="210" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTDPpgoF1n0D92lt2fB-17" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="5nTDPpgoF1n0D92lt2fB-6" source="5nTDPpgoF1n0D92lt2fB-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5nTDPpgoF1n0D92lt2fB-16" value="是否超时" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
+          <mxGeometry x="230" y="350" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5nTDPpgoF1n0D92lt2fB-7" value="booking-service" style="swimlane;startSize=20;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-5">
           <mxGeometry x="680" y="20" width="390" height="710" as="geometry" />
