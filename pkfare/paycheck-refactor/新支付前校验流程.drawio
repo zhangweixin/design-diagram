@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T03:39:39.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="CfJXlhQ29c78PqwMSLF5" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-23T03:43:45.683Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="_tTzyn2pFipB-rbJwAjr" version="20.8.23" type="github">
   <diagram name="第 1 页" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1425" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,6 +59,16 @@
         </mxCell>
         <mxCell id="5nTDPpgoF1n0D92lt2fB-21" value="构造支付前校验请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
           <mxGeometry x="210" y="510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTDPpgoF1n0D92lt2fB-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="5nTDPpgoF1n0D92lt2fB-6" source="5nTDPpgoF1n0D92lt2fB-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5nTDPpgoF1n0D92lt2fB-29" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5nTDPpgoF1n0D92lt2fB-28">
+          <mxGeometry x="-0.4" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5nTDPpgoF1n0D92lt2fB-27" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
           <mxGeometry x="230" y="650" width="80" height="80" as="geometry" />
