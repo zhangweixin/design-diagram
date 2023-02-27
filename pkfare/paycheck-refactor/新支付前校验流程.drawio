@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T06:40:49.960Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="lTCzIXvDVxMa_121HejC" version="20.8.23" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-27T06:41:29.787Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="jWmoK8AJwYfA7r5qSF8q" version="20.8.23" type="github" pages="2">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1651" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,8 +143,21 @@
         <mxCell id="-qYitcc_TvjlTfYSESTi-8" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="280" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="-qYitcc_TvjlTfYSESTi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-qYitcc_TvjlTfYSESTi-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qYitcc_TvjlTfYSESTi-14" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qYitcc_TvjlTfYSESTi-12">
+          <mxGeometry x="-0.3467" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-qYitcc_TvjlTfYSESTi-11" value="订单状态是否为TO_BE_PAID" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="245" y="350" width="130" height="80" as="geometry" />
+          <mxGeometry x="245" y="350" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-qYitcc_TvjlTfYSESTi-13" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="430" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
