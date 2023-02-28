@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T06:31:39.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="yzPedB_aN9OXazRDPEg6" version="20.8.23" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-28T06:32:19.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="d1-uWZd2jtsN4-nS2D1k" version="20.8.23" type="github" pages="3">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1596" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,12 +88,12 @@
         </mxCell>
         <mxCell id="pVrCg7nVss32-KPqxlof-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="5nTDPpgoF1n0D92lt2fB-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="360" as="targetPoint" />
+            <mxPoint x="180" y="370" as="targetPoint" />
             <mxPoint x="180" y="330" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pVrCg7nVss32-KPqxlof-3" value="抛出供应下线异常" style="rounded=1;whiteSpace=wrap;html=1;" parent="5nTDPpgoF1n0D92lt2fB-6" vertex="1">
-          <mxGeometry x="120" y="360" width="120" height="40" as="geometry" />
+          <mxGeometry x="120" y="375" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pVrCg7nVss32-KPqxlof-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="5nTDPpgoF1n0D92lt2fB-6" source="pVrCg7nVss32-KPqxlof-25" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -103,14 +103,14 @@
         <mxCell id="pVrCg7nVss32-KPqxlof-25" value="记录出票超时日志" style="rounded=0;whiteSpace=wrap;html=1;" parent="5nTDPpgoF1n0D92lt2fB-6" vertex="1">
           <mxGeometry x="120" y="510" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pVrCg7nVss32-KPqxlof-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="5nTDPpgoF1n0D92lt2fB-6" edge="1">
+        <mxCell id="pVrCg7nVss32-KPqxlof-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="5nTDPpgoF1n0D92lt2fB-6" edge="1" target="pVrCg7nVss32-KPqxlof-29">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="650" as="targetPoint" />
             <mxPoint x="180" y="620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pVrCg7nVss32-KPqxlof-29" value="抛出出票超时异常" style="rounded=1;whiteSpace=wrap;html=1;" parent="5nTDPpgoF1n0D92lt2fB-6" vertex="1">
-          <mxGeometry x="120" y="650" width="120" height="40" as="geometry" />
+          <mxGeometry x="120" y="660" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pVrCg7nVss32-KPqxlof-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="5nTDPpgoF1n0D92lt2fB-6" source="pVrCg7nVss32-KPqxlof-32" target="pVrCg7nVss32-KPqxlof-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -128,6 +128,12 @@
         </mxCell>
         <mxCell id="pVrCg7nVss32-KPqxlof-35" value="抛出出票超时异常" style="rounded=1;whiteSpace=wrap;html=1;" parent="5nTDPpgoF1n0D92lt2fB-6" vertex="1">
           <mxGeometry x="120" y="950" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jq3luqGkns8-lUVeM0Ta-1" value="取消订单处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
+          <mxGeometry x="120" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jq3luqGkns8-lUVeM0Ta-2" value="取消订单处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
+          <mxGeometry x="120" y="580" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5nTDPpgoF1n0D92lt2fB-7" value="booking-service" style="swimlane;startSize=20;html=1;" parent="5nTDPpgoF1n0D92lt2fB-5" vertex="1">
           <mxGeometry x="790" y="20" width="390" height="1360" as="geometry" />
