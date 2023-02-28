@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T11:07:51.251Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="h8pnBjHZv1S_TFxNKz_Y" version="20.8.23" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-28T11:11:06.358Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="WHno8GyQNSqnYeJRZV8C" version="20.8.23" type="github" pages="4">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1596" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -453,8 +453,36 @@
         <mxCell id="XkrHyAcLLD7Hsy3G-QSW-12" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XkrHyAcLLD7Hsy3G-QSW-4">
           <mxGeometry x="150" y="45" width="110" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="XkrHyAcLLD7Hsy3G-QSW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="XkrHyAcLLD7Hsy3G-QSW-4" source="XkrHyAcLLD7Hsy3G-QSW-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XkrHyAcLLD7Hsy3G-QSW-14" value="获取缓存存放的支付过期时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XkrHyAcLLD7Hsy3G-QSW-4">
           <mxGeometry x="152.5" y="120" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XkrHyAcLLD7Hsy3G-QSW-19" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="XkrHyAcLLD7Hsy3G-QSW-4" source="XkrHyAcLLD7Hsy3G-QSW-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="240" />
+              <mxPoint x="320" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkrHyAcLLD7Hsy3G-QSW-20" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="XkrHyAcLLD7Hsy3G-QSW-4" source="XkrHyAcLLD7Hsy3G-QSW-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkrHyAcLLD7Hsy3G-QSW-16" value="不存在或者已经过期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="XkrHyAcLLD7Hsy3G-QSW-4">
+          <mxGeometry x="165" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XkrHyAcLLD7Hsy3G-QSW-21" value="返回成功结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XkrHyAcLLD7Hsy3G-QSW-4">
+          <mxGeometry x="277" y="300" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkrHyAcLLD7Hsy3G-QSW-22" value="返回支付时间过期错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XkrHyAcLLD7Hsy3G-QSW-4">
+          <mxGeometry x="50" y="300" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XkrHyAcLLD7Hsy3G-QSW-5" value="去哪儿" style="swimlane;startSize=20;html=1;" vertex="1" parent="XkrHyAcLLD7Hsy3G-QSW-2">
           <mxGeometry x="680" y="20" width="280" height="710" as="geometry" />
