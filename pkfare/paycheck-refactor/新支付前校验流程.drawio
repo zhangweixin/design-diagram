@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T08:43:05.717Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="spJhlFszCQ50WrHxi6iz" version="20.8.23" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-28T08:45:51.328Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="I4pDcpziOFoXjP-bID8Q" version="20.8.23" type="github" pages="3">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1596" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,24 +134,20 @@
         <mxCell id="Jq3luqGkns8-lUVeM0Ta-3" value="是否需要人工确认" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
           <mxGeometry x="180" y="820" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Jq3luqGkns8-lUVeM0Ta-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="5nTDPpgoF1n0D92lt2fB-6" source="Jq3luqGkns8-lUVeM0Ta-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="90" y="970" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="MYEh1pIcEnBHvjVPmqZJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5nTDPpgoF1n0D92lt2fB-6" source="Jq3luqGkns8-lUVeM0Ta-6" target="MYEh1pIcEnBHvjVPmqZJ-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jq3luqGkns8-lUVeM0Ta-6" value="记录对应的错误信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
-          <mxGeometry x="30" y="910" width="120" height="30" as="geometry" />
+        <mxCell id="Jq3luqGkns8-lUVeM0Ta-6" value="记录对应的错误日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
+          <mxGeometry x="30" y="1000" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MYEh1pIcEnBHvjVPmqZJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="5nTDPpgoF1n0D92lt2fB-6" source="MYEh1pIcEnBHvjVPmqZJ-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="90" y="1050" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="MYEh1pIcEnBHvjVPmqZJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5nTDPpgoF1n0D92lt2fB-6" source="MYEh1pIcEnBHvjVPmqZJ-1" target="Jq3luqGkns8-lUVeM0Ta-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MYEh1pIcEnBHvjVPmqZJ-1" value="平台订单状态处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
-          <mxGeometry x="30" y="970" width="120" height="50" as="geometry" />
+          <mxGeometry x="30" y="910" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MYEh1pIcEnBHvjVPmqZJ-4" value="抛出对应的业务异常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
-          <mxGeometry x="30" y="1050" width="120" height="40" as="geometry" />
+          <mxGeometry x="30" y="1070" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MYEh1pIcEnBHvjVPmqZJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="5nTDPpgoF1n0D92lt2fB-6" source="MYEh1pIcEnBHvjVPmqZJ-5">
           <mxGeometry relative="1" as="geometry">
