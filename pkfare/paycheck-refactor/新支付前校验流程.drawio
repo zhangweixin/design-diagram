@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T15:01:57.577Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="jzAte5Dq-5_qPua2qLN9" version="20.8.23" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-01T15:03:13.812Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="uV3m1zhFwlhjewXLsTHW" version="20.8.23" type="github" pages="5">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="794" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -437,7 +437,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OnuMOGwIerN4vuZGrGfd" name="ssdc支付前校验">
-    <mxGraphModel dx="1596" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1222" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -659,8 +659,11 @@
         <mxCell id="LaLr844Y5T8F-nFK2ioF-7" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XkrHyAcLLD7Hsy3G-QSW-5">
           <mxGeometry x="150" y="1200" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LmJPZaRciix9GfWiOVAM-1" value="去哪儿按照之前的逻辑配置分校比例，吸收阈值" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="730" width="80" height="100" as="geometry" />
+        <mxCell id="RwNDyk4pQ5uLWXpUyWrs-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LmJPZaRciix9GfWiOVAM-1" target="XkrHyAcLLD7Hsy3G-QSW-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LmJPZaRciix9GfWiOVAM-1" value="去哪儿按照之前的逻辑配置分校比例，吸收阈值" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="930" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
