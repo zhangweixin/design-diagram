@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T09:09:52.124Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="Ix4ucDl-dpTqyW4pLBnK" version="20.8.23" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-01T09:14:36.026Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="VBLLH2x7ksZU-a7Fii66" version="20.8.23" type="github" pages="5">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1596" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -676,6 +676,9 @@
         <mxCell id="_0qeHDVoHormdlfTx5un-2" value="gongfu-service" style="swimlane;startSize=20;html=1;" vertex="1" parent="_0qeHDVoHormdlfTx5un-1">
           <mxGeometry y="20" width="290" height="700" as="geometry" />
         </mxCell>
+        <mxCell id="_0qeHDVoHormdlfTx5un-11" value="执行pricing" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="_0qeHDVoHormdlfTx5un-2">
+          <mxGeometry x="70" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="_0qeHDVoHormdlfTx5un-3" value="gds-processor" style="swimlane;startSize=20;html=1;" vertex="1" parent="_0qeHDVoHormdlfTx5un-1">
           <mxGeometry x="290" y="20" width="570" height="700" as="geometry" />
         </mxCell>
@@ -687,16 +690,29 @@
         <mxCell id="_0qeHDVoHormdlfTx5un-5" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_0qeHDVoHormdlfTx5un-3">
           <mxGeometry x="210" y="40" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_0qeHDVoHormdlfTx5un-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_0qeHDVoHormdlfTx5un-3" source="_0qeHDVoHormdlfTx5un-7">
+        <mxCell id="_0qeHDVoHormdlfTx5un-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_0qeHDVoHormdlfTx5un-3" source="_0qeHDVoHormdlfTx5un-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="265" y="210" as="targetPoint" />
+            <mxPoint x="-100" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_0qeHDVoHormdlfTx5un-7" value="组装pricing请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_0qeHDVoHormdlfTx5un-3">
           <mxGeometry x="210" y="130" width="110" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="_0qeHDVoHormdlfTx5un-14" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_0qeHDVoHormdlfTx5un-3" source="_0qeHDVoHormdlfTx5un-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0qeHDVoHormdlfTx5un-13" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="_0qeHDVoHormdlfTx5un-3">
+          <mxGeometry x="225" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="_0qeHDVoHormdlfTx5un-4" value="kiwi" style="swimlane;startSize=20;html=1;" vertex="1" parent="_0qeHDVoHormdlfTx5un-1">
           <mxGeometry x="860" y="20" width="210" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="_0qeHDVoHormdlfTx5un-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_0qeHDVoHormdlfTx5un-1" source="_0qeHDVoHormdlfTx5un-11" target="_0qeHDVoHormdlfTx5un-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
