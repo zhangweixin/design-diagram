@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T14:51:25.368Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="Q4P5X1v3kqSknniHte_v" version="20.8.23" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-01T15:01:22.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="TstzE2-wUAIYGa7OxnBI" version="20.8.23" type="github" pages="5">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="794" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -906,6 +906,12 @@
         </mxCell>
         <mxCell id="7poP5LE_r2VrWBQu5gr--10" value="返回成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_0qeHDVoHormdlfTx5un-3">
           <mxGeometry x="520" y="1170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7poP5LE_r2VrWBQu5gr--12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=65;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_0qeHDVoHormdlfTx5un-3" source="7poP5LE_r2VrWBQu5gr--11" target="R8OplZgFprL1DOKuu22t-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7poP5LE_r2VrWBQu5gr--11" value="变价阈值平台是5EUR API取的是采购支付前校验变价配置" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="_0qeHDVoHormdlfTx5un-3">
+          <mxGeometry x="20" y="1050" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_0qeHDVoHormdlfTx5un-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_0qeHDVoHormdlfTx5un-1" source="_0qeHDVoHormdlfTx5un-11" target="_0qeHDVoHormdlfTx5un-13">
           <mxGeometry relative="1" as="geometry">
