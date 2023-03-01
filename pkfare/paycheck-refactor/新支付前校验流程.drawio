@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T03:38:19.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="ttqJCQydComqwwOLsw4w" version="20.8.23" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-01T03:42:21.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="HedvjKV-DGxaRhaJRAWe" version="20.8.23" type="github" pages="4">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1596" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,7 +175,7 @@
         <mxCell id="MYEh1pIcEnBHvjVPmqZJ-17" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="5nTDPpgoF1n0D92lt2fB-6" source="MYEh1pIcEnBHvjVPmqZJ-12" target="MYEh1pIcEnBHvjVPmqZJ-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MYEh1pIcEnBHvjVPmqZJ-12" value="是否变价未吸收" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
+        <mxCell id="MYEh1pIcEnBHvjVPmqZJ-12" value="是否变价未吸收错误" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
           <mxGeometry x="320" y="940" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MYEh1pIcEnBHvjVPmqZJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5nTDPpgoF1n0D92lt2fB-6" source="MYEh1pIcEnBHvjVPmqZJ-13" target="MYEh1pIcEnBHvjVPmqZJ-4">
@@ -192,6 +192,11 @@
         <mxCell id="MYEh1pIcEnBHvjVPmqZJ-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MYEh1pIcEnBHvjVPmqZJ-19">
           <mxGeometry x="-0.7244" y="-3" relative="1" as="geometry">
             <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rd4VLdxQ8b3KFPyCuCR2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="5nTDPpgoF1n0D92lt2fB-6" source="MYEh1pIcEnBHvjVPmqZJ-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MYEh1pIcEnBHvjVPmqZJ-16" value="是否平台订单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
@@ -234,7 +239,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MYEh1pIcEnBHvjVPmqZJ-25" value="是否已吸收" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
+        <mxCell id="MYEh1pIcEnBHvjVPmqZJ-25" value="是否是变价已吸收错误" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="5nTDPpgoF1n0D92lt2fB-6">
           <mxGeometry x="340" y="1080" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MYEh1pIcEnBHvjVPmqZJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="MYEh1pIcEnBHvjVPmqZJ-31" parent="5nTDPpgoF1n0D92lt2fB-6">
