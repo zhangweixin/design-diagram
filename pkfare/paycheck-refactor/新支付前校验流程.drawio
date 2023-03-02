@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T11:08:26.088Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="v-Y9BO4CvwpfmJ7WQOaX" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-02T11:08:54.969Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="DEH0bZ4kak3Zg0FDGVgM" version="20.8.23" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1553" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1247,8 +1247,16 @@
         <mxCell id="JXLmBtRANnX0RTuqyyDL-33" value="是否存票价成功" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="_5e3HS68W7tbTp2PWzOW-3">
           <mxGeometry x="239" y="1150" width="94" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="JXLmBtRANnX0RTuqyyDL-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_5e3HS68W7tbTp2PWzOW-3" source="JXLmBtRANnX0RTuqyyDL-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="286" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JXLmBtRANnX0RTuqyyDL-37" value="最晚出票时间1h检查" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="_5e3HS68W7tbTp2PWzOW-3">
           <mxGeometry x="226" y="1300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JXLmBtRANnX0RTuqyyDL-39" value="是否不足1h" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="_5e3HS68W7tbTp2PWzOW-3">
+          <mxGeometry x="246" y="1400" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_5e3HS68W7tbTp2PWzOW-4" value="GDS" style="swimlane;startSize=20;html=1;" vertex="1" parent="_5e3HS68W7tbTp2PWzOW-1">
           <mxGeometry x="840" y="20" width="220" height="1760" as="geometry" />
