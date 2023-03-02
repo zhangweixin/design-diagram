@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T08:51:53.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="Oqcyam9sO46RoOGnJWN4" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-02T08:52:53.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="tWtFkQAgHZv6FwrUPY96" version="20.8.23" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1553" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1271,7 +1271,7 @@
             <mxPoint x="75" y="1130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uEUFi3Mm2ZmicawddF4U-46" value="记录paycheck失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uEUFi3Mm2ZmicawddF4U-3">
+        <mxCell id="uEUFi3Mm2ZmicawddF4U-46" value="记录paycheck请求失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uEUFi3Mm2ZmicawddF4U-3">
           <mxGeometry x="20" y="1040" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uEUFi3Mm2ZmicawddF4U-47" value="返回人工协助错误码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uEUFi3Mm2ZmicawddF4U-3">
@@ -1409,7 +1409,7 @@
             <mxPoint x="460" y="1730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uEUFi3Mm2ZmicawddF4U-134" value="记录paycheck失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uEUFi3Mm2ZmicawddF4U-3">
+        <mxCell id="uEUFi3Mm2ZmicawddF4U-134" value="记录pricing失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uEUFi3Mm2ZmicawddF4U-3">
           <mxGeometry x="405" y="1640" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uEUFi3Mm2ZmicawddF4U-135" value="返回人工协助错误码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uEUFi3Mm2ZmicawddF4U-3">
