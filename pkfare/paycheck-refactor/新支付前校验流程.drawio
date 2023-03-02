@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T08:08:02.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="pqkCQ7YYALbUo-ryMu4P" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-02T08:08:39.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="-P_56aK6rxQg2VeCfnCY" version="20.8.23" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1553" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1276,6 +1276,16 @@
         </mxCell>
         <mxCell id="uEUFi3Mm2ZmicawddF4U-51" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uEUFi3Mm2ZmicawddF4U-50">
           <mxGeometry x="-0.2917" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uEUFi3Mm2ZmicawddF4U-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="uEUFi3Mm2ZmicawddF4U-3" source="uEUFi3Mm2ZmicawddF4U-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uEUFi3Mm2ZmicawddF4U-54" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uEUFi3Mm2ZmicawddF4U-53">
+          <mxGeometry x="-0.19" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
