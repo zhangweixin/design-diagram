@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T07:00:59.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="tA9u2IlB_8VW_UvWT8iW" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-02T07:01:49.187Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="4DKJk0iQLa-5x89qzBIB" version="20.8.23" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1553" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1188,6 +1188,11 @@
         </mxCell>
         <mxCell id="uEUFi3Mm2ZmicawddF4U-15" value="构造RT请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uEUFi3Mm2ZmicawddF4U-3">
           <mxGeometry x="180" y="340" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uEUFi3Mm2ZmicawddF4U-20" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uEUFi3Mm2ZmicawddF4U-3" source="uEUFi3Mm2ZmicawddF4U-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="530" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uEUFi3Mm2ZmicawddF4U-19" value="RT是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="uEUFi3Mm2ZmicawddF4U-3">
           <mxGeometry x="190" y="440" width="80" height="80" as="geometry" />
