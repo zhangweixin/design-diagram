@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T08:57:55.658Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="zun-EGKx2MgaxvtnYzhN" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-02T08:58:08.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="YpjtJ3_op9Wr1IsuKPEe" version="20.8.23" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1553" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1452,7 +1452,7 @@
           <mxGeometry x="60" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uEUFi3Mm2ZmicawddF4U-220" value="通过阅读之前的代码，感觉IBE的RT请求是多余的，完全可以不做这一步" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;strokeColor=#FF3333;" vertex="1" parent="uEUFi3Mm2ZmicawddF4U-27">
-          <mxGeometry x="70" y="370" width="80" height="100" as="geometry" />
+          <mxGeometry x="70" y="370" width="110" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uEUFi3Mm2ZmicawddF4U-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uEUFi3Mm2ZmicawddF4U-1" source="uEUFi3Mm2ZmicawddF4U-34" target="uEUFi3Mm2ZmicawddF4U-36">
           <mxGeometry relative="1" as="geometry">
