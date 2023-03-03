@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T06:18:14.409Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="kJaJb3BF_0QUkrR15mRY" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-03T06:19:37.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="fnfyTf2dYJIQ2a8w6n7g" version="20.8.23" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1553" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1374,7 +1374,12 @@
         <mxCell id="JXLmBtRANnX0RTuqyyDL-70" value="比较PNR价格与订单价格" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="_5e3HS68W7tbTp2PWzOW-3">
           <mxGeometry x="333" y="2390" width="106" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JXLmBtRANnX0RTuqyyDL-72" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="_5e3HS68W7tbTp2PWzOW-3">
+        <mxCell id="JXLmBtRANnX0RTuqyyDL-73" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_5e3HS68W7tbTp2PWzOW-3" source="JXLmBtRANnX0RTuqyyDL-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="2570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXLmBtRANnX0RTuqyyDL-72" value="是否变价" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="_5e3HS68W7tbTp2PWzOW-3">
           <mxGeometry x="346" y="2480" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_5e3HS68W7tbTp2PWzOW-4" value="GDS" style="swimlane;startSize=20;html=1;" vertex="1" parent="_5e3HS68W7tbTp2PWzOW-1">
