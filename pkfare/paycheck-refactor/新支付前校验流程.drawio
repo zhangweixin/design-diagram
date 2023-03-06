@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T08:02:15.942Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="7tG_jD9yB9Jv3GHTzHwl" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-06T08:02:41.416Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="tRFfAxqnyhc_Pn2rYrqu" version="20.8.23" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1827" dy="1173" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1248,6 +1248,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="wWC4HntYJ2T4vfCzDPGf-18" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JXLmBtRANnX0RTuqyyDL-36">
+          <mxGeometry x="-0.6472" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JXLmBtRANnX0RTuqyyDL-31" value="最多重复三次RT，确认savePrice是否成功，每次间隔0.5s" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
           <mxGeometry x="226" y="1050" width="120" height="50" as="geometry" />
         </mxCell>
@@ -1269,7 +1274,7 @@
             <mxPoint x="286" y="1400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JXLmBtRANnX0RTuqyyDL-37" value="最晚出票时间1h检查" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
+        <mxCell id="JXLmBtRANnX0RTuqyyDL-37" value="最晚出票时间" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
           <mxGeometry x="226" y="1300" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JXLmBtRANnX0RTuqyyDL-40" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_5e3HS68W7tbTp2PWzOW-3" source="JXLmBtRANnX0RTuqyyDL-39" edge="1" target="JXLmBtRANnX0RTuqyyDL-51">
