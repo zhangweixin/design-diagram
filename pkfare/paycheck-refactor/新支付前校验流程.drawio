@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T08:35:54.518Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="bMcrqbS9y8N7twxuvmik" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-06T08:36:40.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="Y-rKEUSzU2Z2j3Bx9Gp7" version="20.8.23" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1553" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1677,7 +1677,7 @@
         <mxCell id="l20MlsMcVa_1vt8E1s8W-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=101;exitDy=75;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_5e3HS68W7tbTp2PWzOW-3" source="l20MlsMcVa_1vt8E1s8W-16" target="JXLmBtRANnX0RTuqyyDL-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l20MlsMcVa_1vt8E1s8W-16" value="单纯判断是否成功来重试，感觉太粗暴了，我觉得如果上游明确返回错误这种情况，没有必要重试" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="_5e3HS68W7tbTp2PWzOW-3">
+        <mxCell id="l20MlsMcVa_1vt8E1s8W-16" value="单纯判断是否成功来重试，感觉太粗暴了，我觉得如果上游明确返回错误这种情况，是没有必要重试" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="_5e3HS68W7tbTp2PWzOW-3">
           <mxGeometry x="25" y="820" width="101" height="120" as="geometry" />
         </mxCell>
         <mxCell id="_5e3HS68W7tbTp2PWzOW-4" value="GDS" style="swimlane;startSize=20;html=1;" parent="_5e3HS68W7tbTp2PWzOW-1" vertex="1">
