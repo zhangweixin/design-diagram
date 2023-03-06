@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T12:46:44.734Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="kr37JDLi_v8ScvP6roqN" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-06T12:48:48.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="wtSDkZI38D2B4qC9XeAN" version="20.8.23" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1553" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
             <mxPoint x="320" y="575" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5nTDPpgoF1n0D92lt2fB-16" value="是否超时" style="rhombus;whiteSpace=wrap;html=1;" parent="5nTDPpgoF1n0D92lt2fB-6" vertex="1">
+        <mxCell id="5nTDPpgoF1n0D92lt2fB-16" value="是否超过最晚出票时间" style="rhombus;whiteSpace=wrap;html=1;" parent="5nTDPpgoF1n0D92lt2fB-6" vertex="1">
           <mxGeometry x="280" y="415" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5nTDPpgoF1n0D92lt2fB-21" value="构造支付前校验请求" style="rounded=0;whiteSpace=wrap;html=1;" parent="5nTDPpgoF1n0D92lt2fB-6" vertex="1">
