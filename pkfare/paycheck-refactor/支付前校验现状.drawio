@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-08T11:08:02.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="b9rRo-rFk3TUKuheu405" version="21.0.2" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-03-08T12:44:13.822Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="XTR4lMo0rwp_yGZp2pjK" version="21.0.2" type="github" pages="13">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1946" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1483,7 +1483,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ACN07JfFne-jJOV3WNUc-1" value="IBE支付前校验" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;strokeColor=#000000;" parent="1" vertex="1">
+        <mxCell id="ACN07JfFne-jJOV3WNUc-1" value="IBE支付前校验" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;strokeColor=#000000;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="120" width="1160" height="2460" as="geometry" />
         </mxCell>
         <mxCell id="ACN07JfFne-jJOV3WNUc-2" value="order-manage" style="swimlane;startSize=20;html=1;strokeColor=#000000;" parent="ACN07JfFne-jJOV3WNUc-1" vertex="1">
@@ -1840,6 +1840,12 @@
         </mxCell>
         <mxCell id="cRkpZB2eLbfNMds4ev---96" value="记paycheck不通过日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="ACN07JfFne-jJOV3WNUc-2" vertex="1">
           <mxGeometry x="360" y="2142.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="XtuKO0kG35PwToF6bgwr-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ACN07JfFne-jJOV3WNUc-2" source="XtuKO0kG35PwToF6bgwr-1" target="cRkpZB2eLbfNMds4ev---3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XtuKO0kG35PwToF6bgwr-1" value="感觉是可以不需要rt操作的，因为只是用来查询accountcode而且这些信息通过订单也可以拿到" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="ACN07JfFne-jJOV3WNUc-2">
+          <mxGeometry x="670" y="70" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ACN07JfFne-jJOV3WNUc-3" value="gong-service" style="swimlane;startSize=20;html=1;strokeColor=#000000;" parent="ACN07JfFne-jJOV3WNUc-1" vertex="1">
           <mxGeometry x="940" y="20" width="220" height="2440" as="geometry" />
