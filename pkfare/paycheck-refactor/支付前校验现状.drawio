@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-08T10:40:08.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="xt_x6wLYn72k92u9saYu" version="21.0.2" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-03-08T10:43:47.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="NVCs6NQ46YFDaYcBTaxd" version="21.0.2" type="github" pages="13">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1946" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1857,7 +1857,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OpXgDojtCh16NHDfue_Z" name="LCC支付前校验具体逻辑">
-    <mxGraphModel dx="1034" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1967,7 +1967,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cn85f-xD3S9L0Q7uJ_mD-42" value="是否变价" style="rhombus;whiteSpace=wrap;html=1;" parent="yFkJAx0bYrZzU30jKvLQ-2" vertex="1">
+        <mxCell id="cn85f-xD3S9L0Q7uJ_mD-42" value="是否返回变价标志" style="rhombus;whiteSpace=wrap;html=1;" parent="yFkJAx0bYrZzU30jKvLQ-2" vertex="1">
           <mxGeometry x="20" y="1100" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cn85f-xD3S9L0Q7uJ_mD-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="yFkJAx0bYrZzU30jKvLQ-2" source="cn85f-xD3S9L0Q7uJ_mD-44" target="cn85f-xD3S9L0Q7uJ_mD-45" edge="1">
