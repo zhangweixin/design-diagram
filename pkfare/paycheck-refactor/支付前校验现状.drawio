@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T02:41:49.088Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="azZX7XdYyXmgdYVy2pgU" version="21.0.2" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-03-09T02:42:53.093Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="NVFxVFF9r46i3zc2BbUk" version="21.0.2" type="github" pages="13">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1946" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1433,9 +1433,6 @@
         <mxCell id="W3GlF-sRB1h_i-9tdYno-2" value="变价未吸收更新采购和供应价格，变价吸收只更新供应价格" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
           <mxGeometry x="360" y="4425" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Rsm3U4mAEoSXwmVeKRxr-1" value="平台变价未吸收订单，支付前校验通过之后，返回提示信息展示订单变价" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
-          <mxGeometry x="224" y="3547" width="100" height="106" as="geometry" />
-        </mxCell>
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-4" value="gongfu-service" style="swimlane;startSize=20;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-1" vertex="1">
           <mxGeometry x="830" y="20" width="280" height="5000" as="geometry" />
         </mxCell>
@@ -1444,6 +1441,9 @@
         </mxCell>
         <mxCell id="b6AwSbPijfvZci44UIJe-4" value="savePrice处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=#000000;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-4">
           <mxGeometry x="110" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rsm3U4mAEoSXwmVeKRxr-1" value="平台变价未吸收订单，支付前校验通过之后，返回提示信息展示订单变价" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-4">
+          <mxGeometry x="50" y="4369" width="100" height="106" as="geometry" />
         </mxCell>
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="QK3JLm6o1d5tWPSBXhA1-1" source="QK3JLm6o1d5tWPSBXhA1-30" target="b6AwSbPijfvZci44UIJe-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1470,6 +1470,9 @@
           <mxGeometry x="70" y="1210" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b6AwSbPijfvZci44UIJe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-1" source="b6AwSbPijfvZci44UIJe-4" target="0UGlcwUck9__QTOhCd2a-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rsm3U4mAEoSXwmVeKRxr-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-1" source="Rsm3U4mAEoSXwmVeKRxr-1" target="iWQUa-pTEo2-h8qP0TEZ-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
