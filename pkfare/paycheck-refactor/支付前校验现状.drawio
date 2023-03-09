@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T03:35:34.034Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="xaFLnquxWs1WHHr8_FLT" version="21.0.2" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-03-09T03:53:23.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="o_LddC38hScGylWqF2el" version="21.0.2" type="github" pages="13">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1946" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2406,7 +2406,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aCNhgeEh9tyZbImY43nr" name="支付前校验公共价检查变价逻辑">
-    <mxGraphModel dx="1396" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3537,8 +3537,8 @@
         <mxCell id="zsPxc50Kthg1Im8aBYuD-72" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="zsPxc50Kthg1Im8aBYuD-2" source="zsPxc50Kthg1Im8aBYuD-22" target="zsPxc50Kthg1Im8aBYuD-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zsPxc50Kthg1Im8aBYuD-22" value="只更改订单状态，但是后来加了一个监听cancel逻辑，并调用供应取消订单" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;strokeColor=#000000;size=16;dashed=1;" parent="zsPxc50Kthg1Im8aBYuD-2" vertex="1">
-          <mxGeometry x="870" y="796" width="110" height="94" as="geometry" />
+        <mxCell id="zsPxc50Kthg1Im8aBYuD-22" value="只更改订单状态" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;strokeColor=#000000;size=16;dashed=1;" parent="zsPxc50Kthg1Im8aBYuD-2" vertex="1">
+          <mxGeometry x="870" y="796" width="110" height="64" as="geometry" />
         </mxCell>
         <mxCell id="zsPxc50Kthg1Im8aBYuD-25" value="返回支付前校验失败" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="zsPxc50Kthg1Im8aBYuD-2" vertex="1">
           <mxGeometry x="735.5" y="590" width="95" height="40" as="geometry" />
