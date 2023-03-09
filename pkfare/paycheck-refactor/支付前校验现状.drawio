@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T05:42:13.429Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="MgMwHIgpkHwCHigIeKKq" version="21.0.2" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-03-09T06:20:29.541Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="KGfbTopJKse_4gFtXAQv" version="21.0.2" type="github" pages="13">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1946" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1439,14 +1439,8 @@
         <mxCell id="9D26PIAHBQEcWmaXoKbc-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=65;exitPerimeter=0;entryX=-0.017;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-2" source="9D26PIAHBQEcWmaXoKbc-3" target="0UGlcwUck9__QTOhCd2a-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9D26PIAHBQEcWmaXoKbc-3" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
+        <mxCell id="9D26PIAHBQEcWmaXoKbc-3" value="判断最晚出票时间以及是否距离最晚出票时间不足15min" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
           <mxGeometry x="140" y="2620" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="9D26PIAHBQEcWmaXoKbc-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=65;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QK3JLm6o1d5tWPSBXhA1-2" source="9D26PIAHBQEcWmaXoKbc-5" target="iWQUa-pTEo2-h8qP0TEZ-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9D26PIAHBQEcWmaXoKbc-5" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
-          <mxGeometry x="130" y="2840" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-4" value="gongfu-service" style="swimlane;startSize=20;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-1" vertex="1">
           <mxGeometry x="830" y="20" width="280" height="5000" as="geometry" />
