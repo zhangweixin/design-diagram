@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T03:16:49.788Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="GVSiS1_bAhl1-C8akCag" version="21.0.2" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-03-09T03:19:32.430Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="lPF3C8FaRuNFQl2HF304" version="21.0.2" type="github" pages="13">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1946" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1107,16 +1107,12 @@
             <mxPoint x="450" y="2940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-11" value="判断供应商区时是否跨天" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
+        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-11" value="判断供应商区时是否跨天/或者临近夸天" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
           <mxGeometry x="390" y="2810" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iWQUa-pTEo2-h8qP0TEZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="QK3JLm6o1d5tWPSBXhA1-2" source="iWQUa-pTEo2-h8qP0TEZ-13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="3050" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="630" y="2980" />
-              <mxPoint x="630" y="3040" />
-            </Array>
+            <mxPoint x="690" y="3030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iWQUa-pTEo2-h8qP0TEZ-20" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iWQUa-pTEo2-h8qP0TEZ-14" vertex="1" connectable="0">
@@ -1136,6 +1132,34 @@
         </mxCell>
         <mxCell id="iWQUa-pTEo2-h8qP0TEZ-13" value="是否供应商时间跨天" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
           <mxGeometry x="410" y="2940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="QK3JLm6o1d5tWPSBXhA1-2" source="iWQUa-pTEo2-h8qP0TEZ-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="687" y="3100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-16" value="pricingSuccess=false" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
+          <mxGeometry x="632" y="3030" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="QK3JLm6o1d5tWPSBXhA1-2" source="iWQUa-pTEo2-h8qP0TEZ-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="3180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-18" value="记录跨区超时日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
+          <mxGeometry x="632" y="3100" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="QK3JLm6o1d5tWPSBXhA1-2" source="iWQUa-pTEo2-h8qP0TEZ-19" target="iWQUa-pTEo2-h8qP0TEZ-86" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="3200" />
+              <mxPoint x="770" y="4550" />
+              <mxPoint x="463" y="4550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-19" value="返回跨区超时错误" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
+          <mxGeometry x="632" y="3180" width="115" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iWQUa-pTEo2-h8qP0TEZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="QK3JLm6o1d5tWPSBXhA1-2" source="iWQUa-pTEo2-h8qP0TEZ-22" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1416,9 +1440,6 @@
         </mxCell>
         <mxCell id="W3GlF-sRB1h_i-9tdYno-2" value="变价未吸收更新采购和供应价格，变价吸收只更新供应价格" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
           <mxGeometry x="360" y="4425" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="9D26PIAHBQEcWmaXoKbc-2" value="是否临近夸天" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="QK3JLm6o1d5tWPSBXhA1-2">
-          <mxGeometry x="588.5" y="3050" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QK3JLm6o1d5tWPSBXhA1-4" value="gongfu-service" style="swimlane;startSize=20;html=1;strokeColor=#000000;" parent="QK3JLm6o1d5tWPSBXhA1-1" vertex="1">
           <mxGeometry x="830" y="20" width="280" height="5000" as="geometry" />
