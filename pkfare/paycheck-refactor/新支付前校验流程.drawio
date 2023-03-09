@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T05:46:48.987Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="Z7mv15raG5sGUvfRPqRr" version="21.0.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-09T05:49:48.429Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="842sJvN6wu-FPH83Xwx3" version="21.0.2" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1403" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1131,7 +1131,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jd7ZZtrgnL5yiKttJo--" name="gds支付前校验">
-    <mxGraphModel dx="1403" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1163" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1237,16 +1237,16 @@
         <mxCell id="JXLmBtRANnX0RTuqyyDL-16" value="是否航变" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
           <mxGeometry x="246" y="500" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JXLmBtRANnX0RTuqyyDL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="_5e3HS68W7tbTp2PWzOW-3" source="JXLmBtRANnX0RTuqyyDL-19" edge="1">
+        <mxCell id="u_IbKKOCWE82UIgT8Vb--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_5e3HS68W7tbTp2PWzOW-3" source="JXLmBtRANnX0RTuqyyDL-19">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="96" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JXLmBtRANnX0RTuqyyDL-19" value="记录航班日志" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
+        <mxCell id="JXLmBtRANnX0RTuqyyDL-19" value="记录航班日志" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
           <mxGeometry x="43" y="590" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JXLmBtRANnX0RTuqyyDL-21" value="返回航变错误" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
-          <mxGeometry x="46" y="650" width="106" height="40" as="geometry" />
+          <mxGeometry x="43" y="730" width="106" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JXLmBtRANnX0RTuqyyDL-24" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="_5e3HS68W7tbTp2PWzOW-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1254,7 +1254,12 @@
             <mxPoint x="281" y="940" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JXLmBtRANnX0RTuqyyDL-23" value="是否已存票价" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
+        <mxCell id="u_IbKKOCWE82UIgT8Vb--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_5e3HS68W7tbTp2PWzOW-3" source="JXLmBtRANnX0RTuqyyDL-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="286" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXLmBtRANnX0RTuqyyDL-23" value="pnr检查" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
           <mxGeometry x="246" y="670" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JXLmBtRANnX0RTuqyyDL-25" value="构造存票价请求" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
@@ -1725,6 +1730,12 @@
         </mxCell>
         <mxCell id="6SP1Vn1W7rzsavHz3wBv-1" value="变价阈值平台是10CNY，API取的是采购支付前校验变价配置" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;strokeColor=#FF3333;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
           <mxGeometry x="550" y="2620" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="u_IbKKOCWE82UIgT8Vb--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_5e3HS68W7tbTp2PWzOW-3" source="u_IbKKOCWE82UIgT8Vb--2" target="JXLmBtRANnX0RTuqyyDL-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_IbKKOCWE82UIgT8Vb--2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_5e3HS68W7tbTp2PWzOW-3">
+          <mxGeometry x="41" y="650" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_5e3HS68W7tbTp2PWzOW-4" value="GDS" style="swimlane;startSize=20;html=1;" parent="_5e3HS68W7tbTp2PWzOW-1" vertex="1">
           <mxGeometry x="890" y="20" width="220" height="4110" as="geometry" />
