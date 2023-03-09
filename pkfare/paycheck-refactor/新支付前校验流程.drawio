@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T05:51:29.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="oSKtEa0Hl55-2Pc0GcJN" version="21.0.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-09T05:53:59.290Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="bHPi2N8GieBJgiGPWNAj" version="21.0.2" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1403" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1256,11 +1256,11 @@
         </mxCell>
         <mxCell id="u_IbKKOCWE82UIgT8Vb--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_5e3HS68W7tbTp2PWzOW-3" source="JXLmBtRANnX0RTuqyyDL-23">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="286" y="810" as="targetPoint" />
+            <mxPoint x="286" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JXLmBtRANnX0RTuqyyDL-23" value="pnr检查" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
-          <mxGeometry x="246" y="670" width="80" height="80" as="geometry" />
+          <mxGeometry x="246" y="750" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JXLmBtRANnX0RTuqyyDL-25" value="构造存票价请求" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
           <mxGeometry x="221" y="1000" width="120" height="40" as="geometry" />
@@ -1736,6 +1736,12 @@
         </mxCell>
         <mxCell id="u_IbKKOCWE82UIgT8Vb--2" value="返回航班航段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_5e3HS68W7tbTp2PWzOW-3">
           <mxGeometry x="41" y="650" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u_IbKKOCWE82UIgT8Vb--9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_5e3HS68W7tbTp2PWzOW-3" source="u_IbKKOCWE82UIgT8Vb--8" target="JXLmBtRANnX0RTuqyyDL-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_IbKKOCWE82UIgT8Vb--8" value="1.航段状态检查&lt;br&gt;2.航司大编码检查&lt;br&gt;3.pnr行程、乘客是否与订单一致" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="_5e3HS68W7tbTp2PWzOW-3">
+          <mxGeometry x="460" y="710" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_5e3HS68W7tbTp2PWzOW-4" value="GDS" style="swimlane;startSize=20;html=1;" parent="_5e3HS68W7tbTp2PWzOW-1" vertex="1">
           <mxGeometry x="890" y="20" width="220" height="4110" as="geometry" />
