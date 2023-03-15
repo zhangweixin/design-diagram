@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T12:18:52.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="QiDmymeFS-8Qp_vmasM2" version="21.0.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-15T12:29:51.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="ptI51hreHJFmV2DMRbob" version="21.0.6" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1034" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -582,7 +582,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OnuMOGwIerN4vuZGrGfd" name="ssdc支付前校验">
-    <mxGraphModel dx="1194" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -790,7 +790,7 @@
             <mxPoint x="360" y="1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LaLr844Y5T8F-nFK2ioF-2" value="错误码为变价未吸收" style="rounded=0;whiteSpace=wrap;html=1;" parent="XkrHyAcLLD7Hsy3G-QSW-5" vertex="1">
+        <mxCell id="LaLr844Y5T8F-nFK2ioF-2" value="错误码为变价" style="rounded=0;whiteSpace=wrap;html=1;" parent="XkrHyAcLLD7Hsy3G-QSW-5" vertex="1">
           <mxGeometry x="300" y="969" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LaLr844Y5T8F-nFK2ioF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="XkrHyAcLLD7Hsy3G-QSW-5" source="LaLr844Y5T8F-nFK2ioF-5" edge="1">
