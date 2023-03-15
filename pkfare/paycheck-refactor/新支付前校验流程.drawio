@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T13:05:17.695Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="x6dthqlNxSKLswmJbNrZ" version="21.0.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-15T13:18:47.998Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="0nPMZDdesLgQxxokP4Sz" version="21.0.6" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1034" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -203,7 +203,7 @@
             <mxPoint x="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rd4VLdxQ8b3KFPyCuCR2-1" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="5nTDPpgoF1n0D92lt2fB-6" source="MYEh1pIcEnBHvjVPmqZJ-16" edge="1" target="Rd4VLdxQ8b3KFPyCuCR2-62">
+        <mxCell id="Rd4VLdxQ8b3KFPyCuCR2-1" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="5nTDPpgoF1n0D92lt2fB-6" source="MYEh1pIcEnBHvjVPmqZJ-16" target="Rd4VLdxQ8b3KFPyCuCR2-62" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="770" y="1320" as="targetPoint" />
           </mxGeometry>
@@ -1423,7 +1423,7 @@
         <mxCell id="JXLmBtRANnX0RTuqyyDL-33" value="是否存票价成功" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
           <mxGeometry x="241.5" y="1340" width="94" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JXLmBtRANnX0RTuqyyDL-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_5e3HS68W7tbTp2PWzOW-3" source="JXLmBtRANnX0RTuqyyDL-37" edge="1" target="wWC4HntYJ2T4vfCzDPGf-19">
+        <mxCell id="JXLmBtRANnX0RTuqyyDL-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_5e3HS68W7tbTp2PWzOW-3" source="JXLmBtRANnX0RTuqyyDL-37" target="wWC4HntYJ2T4vfCzDPGf-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="289" y="1750" as="targetPoint" />
           </mxGeometry>
@@ -1777,7 +1777,7 @@
             <mxPoint x="117.5" y="1530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l20MlsMcVa_1vt8E1s8W-12" value="记录超过最晚出票时间日志" style="rounded=0;whiteSpace=wrap;html=1;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
+        <mxCell id="l20MlsMcVa_1vt8E1s8W-12" value="记录存票价失败日志" style="rounded=0;whiteSpace=wrap;html=1;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
           <mxGeometry x="62.5" y="1450" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="l20MlsMcVa_1vt8E1s8W-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="_5e3HS68W7tbTp2PWzOW-3" source="l20MlsMcVa_1vt8E1s8W-14" edge="1">
