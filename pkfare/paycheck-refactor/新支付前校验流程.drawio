@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T11:51:52.058Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="Ue04FLFtI_BoRY5edmGz" version="21.0.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-15T11:52:07.962Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="CF9quB_WQ_Mro9HS0eW5" version="21.0.6" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1034" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -964,7 +964,7 @@
             <mxPoint x="1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R8OplZgFprL1DOKuu22t-23" value="是否有价格变动" style="rhombus;whiteSpace=wrap;html=1;" parent="_0qeHDVoHormdlfTx5un-3" vertex="1">
+        <mxCell id="R8OplZgFprL1DOKuu22t-23" value="是否有价格返回" style="rhombus;whiteSpace=wrap;html=1;" parent="_0qeHDVoHormdlfTx5un-3" vertex="1">
           <mxGeometry x="217.5" y="930" width="95" height="80" as="geometry" />
         </mxCell>
         <mxCell id="R8OplZgFprL1DOKuu22t-32" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="_0qeHDVoHormdlfTx5un-3" source="R8OplZgFprL1DOKuu22t-31" edge="1">
