@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-12T11:51:34.634Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="TttgaGV4DnQ5JGrKCsWd" version="21.0.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-15T11:16:51.322Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="p2KXfNtwEL4xi4v3eA4l" version="21.0.6" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
-    <mxGraphModel dx="1194" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -203,7 +203,7 @@
             <mxPoint x="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rd4VLdxQ8b3KFPyCuCR2-1" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="5nTDPpgoF1n0D92lt2fB-6" source="MYEh1pIcEnBHvjVPmqZJ-16" edge="1">
+        <mxCell id="Rd4VLdxQ8b3KFPyCuCR2-1" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="5nTDPpgoF1n0D92lt2fB-6" source="MYEh1pIcEnBHvjVPmqZJ-16" edge="1" target="Rd4VLdxQ8b3KFPyCuCR2-62">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="770" y="1320" as="targetPoint" />
           </mxGeometry>
@@ -288,12 +288,6 @@
         </mxCell>
         <mxCell id="SSOm8pihenWJKR16HNwk-1" value="取消订单处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="5nTDPpgoF1n0D92lt2fB-6" vertex="1">
           <mxGeometry x="157.5" y="1700" width="95" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="SSOm8pihenWJKR16HNwk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="5nTDPpgoF1n0D92lt2fB-6" source="SSOm8pihenWJKR16HNwk-2" target="Rd4VLdxQ8b3KFPyCuCR2-62" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SSOm8pihenWJKR16HNwk-2" value="取消订单处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="5nTDPpgoF1n0D92lt2fB-6" vertex="1">
-          <mxGeometry x="710" y="1320" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fiq5RMS-TuSx02vXCmrR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="5nTDPpgoF1n0D92lt2fB-6" source="fiq5RMS-TuSx02vXCmrR-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -448,7 +442,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pjRH3pqJzsh3LExV7d5h" name="平台订单状态处理">
-    <mxGraphModel dx="1194" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
