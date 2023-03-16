@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T06:45:22.338Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="3wn2lk-xTswrKoXJASL5" version="21.0.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-16T07:22:41.016Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="XrPYT9QmScQ577F6zXvA" version="21.0.6" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1589" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -440,9 +440,6 @@
         </mxCell>
         <mxCell id="5nTDPpgoF1n0D92lt2fB-25" value="支付前校验处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="5nTDPpgoF1n0D92lt2fB-8" vertex="1">
           <mxGeometry x="140" y="845" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fiq5RMS-TuSx02vXCmrR-1" value="1.要不要设计取消&lt;br&gt;2.取消是否需要需要取消供应侧价格" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="2290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
