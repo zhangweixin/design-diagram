@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T09:54:04.102Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="PvTHFyEAhgbNFE7quCsD" version="21.0.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-16T09:54:58.276Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="3Ez0yXJTrtJhD1ZK2zNx" version="21.0.6" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1589" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1079,8 +1079,8 @@
         <mxCell id="7poP5LE_r2VrWBQu5gr--12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=65;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_0qeHDVoHormdlfTx5un-3" source="7poP5LE_r2VrWBQu5gr--11" target="R8OplZgFprL1DOKuu22t-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7poP5LE_r2VrWBQu5gr--11" value="变价阈值平台是5EUR，API取的是采购支付前校验变价配置" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;strokeColor=#FF3333;" parent="_0qeHDVoHormdlfTx5un-3" vertex="1">
-          <mxGeometry x="20" y="1050" width="80" height="100" as="geometry" />
+        <mxCell id="7poP5LE_r2VrWBQu5gr--11" value="1.变价阈值获取方式待定&lt;br&gt;2.比价总价还是乘客类型总价待定" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;strokeColor=#FF3333;" parent="_0qeHDVoHormdlfTx5un-3" vertex="1">
+          <mxGeometry x="-40" y="1100" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_0qeHDVoHormdlfTx5un-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_0qeHDVoHormdlfTx5un-1" source="_0qeHDVoHormdlfTx5un-11" target="_0qeHDVoHormdlfTx5un-13" edge="1">
           <mxGeometry relative="1" as="geometry">
