@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T09:49:47.811Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="CAXxWCfxEegOzr58aEAV" version="21.0.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-16T09:50:19.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="nv0bAjkhJFt8sFt4NMDn" version="21.0.6" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1589" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -783,7 +783,7 @@
         <mxCell id="LaLr844Y5T8F-nFK2ioF-5" value="返回变价明细" style="rounded=0;whiteSpace=wrap;html=1;" parent="XkrHyAcLLD7Hsy3G-QSW-5" vertex="1">
           <mxGeometry x="150" y="1340" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LaLr844Y5T8F-nFK2ioF-7" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="XkrHyAcLLD7Hsy3G-QSW-5" vertex="1">
+        <mxCell id="LaLr844Y5T8F-nFK2ioF-7" value="返回对应结果" style="rounded=1;whiteSpace=wrap;html=1;" parent="XkrHyAcLLD7Hsy3G-QSW-5" vertex="1">
           <mxGeometry x="150" y="1420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rC9ltgaurZ8Od6AI8boR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="XkrHyAcLLD7Hsy3G-QSW-5" source="rC9ltgaurZ8Od6AI8boR-1">
