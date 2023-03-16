@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T09:58:23.381Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="aJbJ4Fk4nzB9upE5o2Xo" version="21.0.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-16T09:59:56.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="okAkzaAzleRK0C1mDPmc" version="21.0.6" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1589" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1113,15 +1113,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AeD-_GiU10upShjMJ84P" name="51book支付前校验">
-    <mxGraphModel dx="1034" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1589" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FcHx20Z5Cjgq7JycWprM-2" value="51book支付前校验" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="130" width="730" height="1220" as="geometry" />
+          <mxGeometry x="210" y="130" width="730" height="1290" as="geometry" />
         </mxCell>
         <mxCell id="FcHx20Z5Cjgq7JycWprM-3" value="domestic-processor" style="swimlane;startSize=20;html=1;" parent="FcHx20Z5Cjgq7JycWprM-2" vertex="1">
-          <mxGeometry y="20" width="500" height="1200" as="geometry" />
+          <mxGeometry y="20" width="500" height="1270" as="geometry" />
         </mxCell>
         <mxCell id="FcHx20Z5Cjgq7JycWprM-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="FcHx20Z5Cjgq7JycWprM-3" source="FcHx20Z5Cjgq7JycWprM-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1224,14 +1224,6 @@
         <mxCell id="8DAxKXWUrYcZoMIEqvZ--8" value="是否变价可吸收" style="rhombus;whiteSpace=wrap;html=1;" parent="FcHx20Z5Cjgq7JycWprM-3" vertex="1">
           <mxGeometry x="150" y="820" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="W-0PBhujf5FganfYSxDy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="FcHx20Z5Cjgq7JycWprM-3" source="8DAxKXWUrYcZoMIEqvZ--12" target="8DAxKXWUrYcZoMIEqvZ--16" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="350" y="1030" />
-              <mxPoint x="190" y="1030" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="8DAxKXWUrYcZoMIEqvZ--12" value="错误码为变价" style="rounded=0;whiteSpace=wrap;html=1;" parent="FcHx20Z5Cjgq7JycWprM-3" vertex="1">
           <mxGeometry x="300" y="910" width="100" height="40" as="geometry" />
         </mxCell>
@@ -1252,10 +1244,16 @@
           <mxGeometry x="140" y="1060" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8DAxKXWUrYcZoMIEqvZ--19" value="返回结果" style="rounded=1;whiteSpace=wrap;html=1;" parent="FcHx20Z5Cjgq7JycWprM-3" vertex="1">
+          <mxGeometry x="140" y="1210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh-beuMjqWgiiUDz2kJ0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FcHx20Z5Cjgq7JycWprM-3" source="Fh-beuMjqWgiiUDz2kJ0-1" target="8DAxKXWUrYcZoMIEqvZ--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh-beuMjqWgiiUDz2kJ0-1" value="记录日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FcHx20Z5Cjgq7JycWprM-3">
           <mxGeometry x="140" y="1140" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FcHx20Z5Cjgq7JycWprM-4" value="51book" style="swimlane;startSize=20;html=1;" parent="FcHx20Z5Cjgq7JycWprM-2" vertex="1">
-          <mxGeometry x="500" y="20" width="230" height="1200" as="geometry" />
+          <mxGeometry x="500" y="20" width="230" height="1270" as="geometry" />
         </mxCell>
         <mxCell id="FcHx20Z5Cjgq7JycWprM-12" value="paycheck" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="FcHx20Z5Cjgq7JycWprM-4" vertex="1">
           <mxGeometry x="80" y="135" width="120" height="50" as="geometry" />
