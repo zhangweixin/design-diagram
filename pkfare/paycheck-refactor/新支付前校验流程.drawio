@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T10:45:05.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="X8P-cmhYt0vy3PeGD6ZB" version="21.0.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-16T10:46:12.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="_T6TIuYr8U8FD-fpBt6J" version="21.0.6" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1589" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1305,10 +1305,15 @@
             <mxPoint x="502.5" y="2280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0uNLCixURVh2OTE7m_tl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="_5e3HS68W7tbTp2PWzOW-1" target="0uNLCixURVh2OTE7m_tl-10" edge="1">
+        <mxCell id="0uNLCixURVh2OTE7m_tl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="_5e3HS68W7tbTp2PWzOW-1" target="0uNLCixURVh2OTE7m_tl-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="362.5" y="3170" as="targetPoint" />
-            <mxPoint x="92.5" y="3090" as="sourcePoint" />
+            <mxPoint x="70" y="3090" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="70" y="3090" />
+              <mxPoint x="70" y="3140" />
+              <mxPoint x="393" y="3140" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="wWC4HntYJ2T4vfCzDPGf-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=50;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_5e3HS68W7tbTp2PWzOW-1" source="wWC4HntYJ2T4vfCzDPGf-16" target="wWC4HntYJ2T4vfCzDPGf-14" edge="1">
