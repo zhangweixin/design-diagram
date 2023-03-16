@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T09:57:46.214Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="okieWMd020ap7g9Zz7cB" version="21.0.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-16T09:58:23.381Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="aJbJ4Fk4nzB9upE5o2Xo" version="21.0.6" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1589" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1056,7 +1056,7 @@
         <mxCell id="JeRGfBC9caxjkBwdc_1a-1" value="返回错误码为变价" style="rounded=0;whiteSpace=wrap;html=1;" parent="_0qeHDVoHormdlfTx5un-3" vertex="1">
           <mxGeometry x="390" y="1230" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7poP5LE_r2VrWBQu5gr--1" value="返回支付前校验失败" style="rounded=1;whiteSpace=wrap;html=1;" parent="_0qeHDVoHormdlfTx5un-3" vertex="1">
+        <mxCell id="7poP5LE_r2VrWBQu5gr--1" value="返回对应的支付前校验结果" style="rounded=1;whiteSpace=wrap;html=1;" parent="_0qeHDVoHormdlfTx5un-3" vertex="1">
           <mxGeometry x="215" y="1550" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6NYD0MSRUNBDioxO11Vb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_0qeHDVoHormdlfTx5un-3" source="7poP5LE_r2VrWBQu5gr--3" target="7poP5LE_r2VrWBQu5gr--1">
@@ -1081,6 +1081,9 @@
         </mxCell>
         <mxCell id="7poP5LE_r2VrWBQu5gr--11" value="1.变价阈值获取方式待定&lt;br&gt;2.比价总价还是乘客类型总价待定" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;strokeColor=#FF3333;" parent="_0qeHDVoHormdlfTx5un-3" vertex="1">
           <mxGeometry x="-40" y="1100" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NYD0MSRUNBDioxO11Vb-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_0qeHDVoHormdlfTx5un-3" source="6NYD0MSRUNBDioxO11Vb-3" target="7poP5LE_r2VrWBQu5gr--3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6NYD0MSRUNBDioxO11Vb-3" value="返回错误码为变价可吸收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_0qeHDVoHormdlfTx5un-3">
           <mxGeometry x="40" y="1380" width="100" height="40" as="geometry" />
