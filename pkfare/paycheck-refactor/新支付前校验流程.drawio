@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T04:11:33.170Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="sDWoFmU0rZu0D_k9VE4g" version="21.0.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-17T04:13:41.011Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="lU_QSqaBbNVimjIJl5cr" version="21.0.6" type="github" pages="9">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1665" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -799,8 +799,38 @@
         <mxCell id="QUihNmFbuFHCNYA927ex-6" value="上游取消" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="465" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QUihNmFbuFHCNYA927ex-8" value="是否" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QUihNmFbuFHCNYA927ex-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QUihNmFbuFHCNYA927ex-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QUihNmFbuFHCNYA927ex-11" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QUihNmFbuFHCNYA927ex-9">
+          <mxGeometry x="-0.325" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QUihNmFbuFHCNYA927ex-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QUihNmFbuFHCNYA927ex-8" target="QUihNmFbuFHCNYA927ex-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="615" />
+              <mxPoint x="530" y="795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QUihNmFbuFHCNYA927ex-8" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="570" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QUihNmFbuFHCNYA927ex-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QUihNmFbuFHCNYA927ex-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QUihNmFbuFHCNYA927ex-10" value="记录上游取消失败日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="700" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QUihNmFbuFHCNYA927ex-14" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="780" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
