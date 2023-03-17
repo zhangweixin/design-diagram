@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T04:07:02.142Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="HZzCBGmGw45MS_o0GjKp" version="21.0.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-17T04:08:15.966Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="yYYFrLMUoYS6jL5p24PZ" version="21.0.6" type="github" pages="9">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1665" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -725,7 +725,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uVFDjTBLUcWXfF2ea8Ar" name="取消订单处理">
-    <mxGraphModel dx="1403" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1665" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -781,7 +781,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a6QOYJSaoDBkK8MPunVD-2" value="这块会加开关" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;size=16;" parent="1" vertex="1">
-          <mxGeometry x="620" y="120" width="80" height="70" as="geometry" />
+          <mxGeometry x="620" y="120" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
