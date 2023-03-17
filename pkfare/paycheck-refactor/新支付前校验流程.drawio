@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T03:10:40.903Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="zfjCAtqq5U4qlSfGnQ3m" version="21.0.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-17T03:13:19.798Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="jajPXCgKKR7K8NWkTzlh" version="21.0.6" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1665" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1943,7 +1943,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pwVn3uVgXT-Uwnsneaf0" name="gds支付前校验-IBE">
-    <mxGraphModel dx="1589" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1665" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2138,7 +2138,7 @@
             <mxPoint x="240" y="1535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uEUFi3Mm2ZmicawddF4U-117" value="比较订单价格和pricing价格" style="rounded=0;whiteSpace=wrap;html=1;" parent="uEUFi3Mm2ZmicawddF4U-3" vertex="1">
+        <mxCell id="uEUFi3Mm2ZmicawddF4U-117" value="比较订单和pricing总价" style="rounded=0;whiteSpace=wrap;html=1;" parent="uEUFi3Mm2ZmicawddF4U-3" vertex="1">
           <mxGeometry x="182.5" y="1455" width="115" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uEUFi3Mm2ZmicawddF4U-120" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="uEUFi3Mm2ZmicawddF4U-3" source="uEUFi3Mm2ZmicawddF4U-119" edge="1">
