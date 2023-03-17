@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T03:18:32.283Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="7kJu-ByLYO4cz0xNWZEF" version="21.0.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-17T03:20:26.475Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="i2W8aXpuZkQxlAWVmygn" version="21.0.6" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1665" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1081,6 +1081,12 @@
         </mxCell>
         <mxCell id="6NYD0MSRUNBDioxO11Vb-3" value="返回错误码为变价可吸收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_0qeHDVoHormdlfTx5un-3">
           <mxGeometry x="40" y="1380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ufu6OMu9Dh0U2TDvMFYG-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=77.5;exitDy=60;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_0qeHDVoHormdlfTx5un-3" source="ufu6OMu9Dh0U2TDvMFYG-1" target="R8OplZgFprL1DOKuu22t-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ufu6OMu9Dh0U2TDvMFYG-1" value="变价吸收阈值由订单系统一传递" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;strokeColor=default;" vertex="1" parent="_0qeHDVoHormdlfTx5un-3">
+          <mxGeometry x="40" y="1160" width="77.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_0qeHDVoHormdlfTx5un-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_0qeHDVoHormdlfTx5un-1" source="_0qeHDVoHormdlfTx5un-11" target="_0qeHDVoHormdlfTx5un-13" edge="1">
           <mxGeometry relative="1" as="geometry">
