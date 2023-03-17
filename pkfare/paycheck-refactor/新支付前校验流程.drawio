@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T02:53:07.946Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="bPUIASkGIDbVi49o93VQ" version="21.0.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-17T03:04:19.246Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="1IBgsMfGA0v0NRL7ZgHY" version="21.0.6" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1665" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1798,7 +1798,7 @@
         <mxCell id="6SP1Vn1W7rzsavHz3wBv-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.889;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="_5e3HS68W7tbTp2PWzOW-3" source="6SP1Vn1W7rzsavHz3wBv-1" target="0uNLCixURVh2OTE7m_tl-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6SP1Vn1W7rzsavHz3wBv-1" value="变价阈值平台是10CNY，API取的是采购支付前校验变价配置" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;strokeColor=#FF3333;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
+        <mxCell id="6SP1Vn1W7rzsavHz3wBv-1" value="变价吸收阈值由订单系统一传递" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;strokeColor=default;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
           <mxGeometry x="557.5" y="2620" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="u_IbKKOCWE82UIgT8Vb--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_5e3HS68W7tbTp2PWzOW-3" source="u_IbKKOCWE82UIgT8Vb--2" target="JXLmBtRANnX0RTuqyyDL-21" edge="1">
