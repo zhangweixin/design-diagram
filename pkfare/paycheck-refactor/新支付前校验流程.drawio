@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T03:44:40.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="dtU3sLqRx4rpfNGCQTmT" version="21.0.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-17T03:45:11.852Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="eZQioQ7nWn0zec5bWA9c" version="21.0.6" type="github" pages="9">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1665" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -499,7 +499,7 @@
         <mxCell id="BdgOvoLHu59kN5eRbxc4-8" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="515" y="290" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BdgOvoLHu59kN5eRbxc4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BdgOvoLHu59kN5eRbxc4-11">
+        <mxCell id="BdgOvoLHu59kN5eRbxc4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BdgOvoLHu59kN5eRbxc4-11" target="BdgOvoLHu59kN5eRbxc4-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="360" as="targetPoint" />
           </mxGeometry>
@@ -515,8 +515,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="BdgOvoLHu59kN5eRbxc4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BdgOvoLHu59kN5eRbxc4-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BdgOvoLHu59kN5eRbxc4-23" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BdgOvoLHu59kN5eRbxc4-22">
+          <mxGeometry x="-0.0154" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BdgOvoLHu59kN5eRbxc4-13" value="变价阈值与变价百分比都未配置" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="360" width="120" height="90" as="geometry" />
+          <mxGeometry x="310" y="365" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BdgOvoLHu59kN5eRbxc4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="BdgOvoLHu59kN5eRbxc4-18" parent="1">
           <mxGeometry relative="1" as="geometry">
