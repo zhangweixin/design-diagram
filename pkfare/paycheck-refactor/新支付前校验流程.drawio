@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T04:09:04.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="uwq-aMPok_zH9-gNfWkt" version="21.0.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-17T04:09:57.750Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="f3pDuXQSya7gGUHyz1Q1" version="21.0.6" type="github" pages="9">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1665" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -747,16 +747,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JC3PIAOvy8O7A9L7iVyF-11" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JC3PIAOvy8O7A9L7iVyF-3" target="JC3PIAOvy8O7A9L7iVyF-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="520" y="215" />
-              <mxPoint x="520" y="490" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="QUihNmFbuFHCNYA927ex-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JC3PIAOvy8O7A9L7iVyF-3" target="JC3PIAOvy8O7A9L7iVyF-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JC3PIAOvy8O7A9L7iVyF-3" value="是否是指定范围的错误码" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="170" width="100" height="90" as="geometry" />
+          <mxGeometry x="310" y="170" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JC3PIAOvy8O7A9L7iVyF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JC3PIAOvy8O7A9L7iVyF-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -775,13 +770,13 @@
           <mxGeometry x="310" y="390" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JC3PIAOvy8O7A9L7iVyF-10" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="470" width="100" height="40" as="geometry" />
+          <mxGeometry x="580" y="190" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a6QOYJSaoDBkK8MPunVD-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a6QOYJSaoDBkK8MPunVD-2" target="JC3PIAOvy8O7A9L7iVyF-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a6QOYJSaoDBkK8MPunVD-2" value="这块会加开关" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;size=16;" parent="1" vertex="1">
-          <mxGeometry x="620" y="120" width="80" height="60" as="geometry" />
+          <mxGeometry x="620" y="100" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
