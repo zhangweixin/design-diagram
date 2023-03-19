@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T06:28:06.409Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="hQB02NqwHqga6sCecsD6" version="21.0.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-19T06:28:14.477Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="svtBJ9EAJ8lsosI6xT2L" version="21.0.6" type="github" pages="9">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="954" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -415,7 +415,7 @@
             <mxPoint x="350" y="1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pVrCg7nVss32-KPqxlof-25" value="记录出票超过最晚出票日志" style="rounded=0;whiteSpace=wrap;html=1;" parent="5nTDPpgoF1n0D92lt2fB-6" vertex="1">
+        <mxCell id="pVrCg7nVss32-KPqxlof-25" value="记录出票超过最晚出票时间日志" style="rounded=0;whiteSpace=wrap;html=1;" parent="5nTDPpgoF1n0D92lt2fB-6" vertex="1">
           <mxGeometry x="290" y="939.25" width="120" height="38.5" as="geometry" />
         </mxCell>
         <mxCell id="pVrCg7nVss32-KPqxlof-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="5nTDPpgoF1n0D92lt2fB-6" target="pVrCg7nVss32-KPqxlof-29" edge="1">
