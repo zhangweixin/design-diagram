@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T09:07:38.918Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="SCwXKgOlJeO7hZ_KLhA1" version="21.0.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-21T09:12:10.860Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="384Z8PZgqItDK5Zjm6H5" version="21.0.8" type="github" pages="9">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1576" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -573,7 +573,7 @@
         <mxCell id="BdgOvoLHu59kN5eRbxc4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BdgOvoLHu59kN5eRbxc4-30" target="BdgOvoLHu59kN5eRbxc4-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BdgOvoLHu59kN5eRbxc4-30" value="变价吸收阈值为配置的变价阈值" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="BdgOvoLHu59kN5eRbxc4-30" value="变价吸收阈值为变价阈值币种2Sbankrate)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="710" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BdgOvoLHu59kN5eRbxc4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BdgOvoLHu59kN5eRbxc4-31" edge="1">
