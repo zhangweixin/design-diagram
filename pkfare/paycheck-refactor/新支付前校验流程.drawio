@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T13:36:50.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="zo128j6ioRdca_9fGitY" version="21.0.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-23T13:37:09.901Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="biMV6Bz8Yt-NrABgpXKb" version="21.0.8" type="github" pages="9">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1576" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1114,7 +1114,7 @@
             <mxPoint x="310" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9_iH4FNOpgJvpeCe5Ag8-1" value="traveloka支付前校验目前独立出来，等之后把预定时最晚支付时间做了处理按照最晚出票时间返回之后，就可以走后面的通用流程" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="1">
+        <mxCell id="9_iH4FNOpgJvpeCe5Ag8-1" value="traveloka支付前校验目前独立出来，等之后把预定时最晚支付时间做了处理按照最晚出票时间返回之后，就可以走后面的通用流程" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="20" y="170" width="110" height="120" as="geometry" />
         </mxCell>
       </root>
