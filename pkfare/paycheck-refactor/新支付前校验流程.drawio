@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T05:45:35.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="L2B9t-TfOhngapkoXFso" version="21.0.10" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-25T05:45:56.592Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="QfheLoBpY4aYYBzzkhEI" version="21.0.10" type="github" pages="9">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2185,16 +2185,8 @@
         <mxCell id="q68K0UH9T0I2eylse7xW-10" value="记录变价日志" style="rounded=0;whiteSpace=wrap;html=1;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
           <mxGeometry x="460" y="3460" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="q68K0UH9T0I2eylse7xW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="_5e3HS68W7tbTp2PWzOW-3" source="q68K0UH9T0I2eylse7xW-12" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="3620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="q68K0UH9T0I2eylse7xW-12" value="错误码为需要人工协助" style="rounded=0;whiteSpace=wrap;html=1;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
-          <mxGeometry x="465" y="3540" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="q68K0UH9T0I2eylse7xW-14" value="返回对应支付前校验结果" style="rounded=1;whiteSpace=wrap;html=1;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
-          <mxGeometry x="467.5" y="3620" width="105" height="40" as="geometry" />
+        <mxCell id="q68K0UH9T0I2eylse7xW-14" value="返回变价错误" style="rounded=1;whiteSpace=wrap;html=1;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
+          <mxGeometry x="467.5" y="3540" width="105" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q68K0UH9T0I2eylse7xW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="_5e3HS68W7tbTp2PWzOW-3" source="q68K0UH9T0I2eylse7xW-16" target="v7Eq-lXt8AVHBBPlxpM8-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
