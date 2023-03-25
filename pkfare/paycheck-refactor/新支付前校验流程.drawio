@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T03:37:48.793Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="6ZnKFptnrcupRUjpucwE" version="21.0.10" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-25T03:46:15.762Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="zJZvGTVJJv27wKrjAhFp" version="21.0.10" type="github" pages="9">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1169,7 +1169,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-NpA8moC1EEkeq_gwj64" name="kiwi支付前校验">
-    <mxGraphModel dx="993" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2283,7 +2283,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pwVn3uVgXT-Uwnsneaf0" name="gds支付前校验-IBE">
-    <mxGraphModel dx="1134" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2405,7 +2405,7 @@
         <mxCell id="uEUFi3Mm2ZmicawddF4U-46" value="记录paycheck请求失败" style="rounded=0;whiteSpace=wrap;html=1;" parent="uEUFi3Mm2ZmicawddF4U-3" vertex="1">
           <mxGeometry x="30" y="785" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uEUFi3Mm2ZmicawddF4U-47" value="返回人工协助错误码" style="rounded=1;whiteSpace=wrap;html=1;" parent="uEUFi3Mm2ZmicawddF4U-3" vertex="1">
+        <mxCell id="uEUFi3Mm2ZmicawddF4U-47" value="返回请求失败错误" style="rounded=1;whiteSpace=wrap;html=1;" parent="uEUFi3Mm2ZmicawddF4U-3" vertex="1">
           <mxGeometry x="35" y="875" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uEUFi3Mm2ZmicawddF4U-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="uEUFi3Mm2ZmicawddF4U-3" source="uEUFi3Mm2ZmicawddF4U-49" edge="1">
