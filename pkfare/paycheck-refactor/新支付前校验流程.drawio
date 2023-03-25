@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T03:51:49.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="BBk6qj2FtsxvynTjXTjF" version="21.0.10" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-25T03:52:50.571Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="DMDJgslANna6SG6Yy2wG" version="21.0.10" type="github" pages="9">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2099,16 +2099,8 @@
         <mxCell id="l20MlsMcVa_1vt8E1s8W-7" value="记录距最晚出票时间不足1h日志" style="rounded=0;whiteSpace=wrap;html=1;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
           <mxGeometry x="37.5" y="1840" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l20MlsMcVa_1vt8E1s8W-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="_5e3HS68W7tbTp2PWzOW-3" source="l20MlsMcVa_1vt8E1s8W-9" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="92.5" y="2000" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l20MlsMcVa_1vt8E1s8W-9" value="错误码为需要人工协助" style="rounded=0;whiteSpace=wrap;html=1;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
-          <mxGeometry x="37.5" y="1920" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="l20MlsMcVa_1vt8E1s8W-10" value="返回支付前校验结果" style="rounded=1;whiteSpace=wrap;html=1;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
-          <mxGeometry x="40" y="2000" width="105" height="40" as="geometry" />
+        <mxCell id="l20MlsMcVa_1vt8E1s8W-10" value="返回距离最晚出票时间不足1h错误" style="rounded=1;whiteSpace=wrap;html=1;" parent="_5e3HS68W7tbTp2PWzOW-3" vertex="1">
+          <mxGeometry x="37.5" y="1920" width="105" height="40" as="geometry" />
         </mxCell>
         <mxCell id="l20MlsMcVa_1vt8E1s8W-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="_5e3HS68W7tbTp2PWzOW-3" source="l20MlsMcVa_1vt8E1s8W-12" edge="1">
           <mxGeometry relative="1" as="geometry">
