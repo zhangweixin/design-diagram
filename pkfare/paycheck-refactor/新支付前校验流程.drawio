@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T03:34:46.505Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="SAcaFeMBIudVD9ZpbM2c" version="21.0.10" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-25T03:36:01.905Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="hLrbuPMNzkQb_8NgV5xe" version="21.0.10" type="github" pages="9">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -776,14 +776,19 @@
         </mxCell>
         <mxCell id="JC3PIAOvy8O7A9L7iVyF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JC3PIAOvy8O7A9L7iVyF-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-100" y="600" as="targetPoint" />
+            <mxPoint x="620" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JC3PIAOvy8O7A9L7iVyF-6" value="设置订单状态为已取消" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="530" width="120" height="40" as="geometry" />
+          <mxGeometry x="560" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fsk0-aZ5MVM5T6YnHF3r-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JC3PIAOvy8O7A9L7iVyF-8" target="Fsk0-aZ5MVM5T6YnHF3r-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="670" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="JC3PIAOvy8O7A9L7iVyF-8" value="记录日志" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="600" width="120" height="40" as="geometry" />
+          <mxGeometry x="560" y="590" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JC3PIAOvy8O7A9L7iVyF-10" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="260" width="100" height="40" as="geometry" />
@@ -822,13 +827,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QUihNmFbuFHCNYA927ex-12" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QUihNmFbuFHCNYA927ex-8" target="QUihNmFbuFHCNYA927ex-14" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="645" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="530" y="540" />
-              <mxPoint x="530" y="720" />
-            </Array>
+        <mxCell id="Fsk0-aZ5MVM5T6YnHF3r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QUihNmFbuFHCNYA927ex-8" target="JC3PIAOvy8O7A9L7iVyF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fsk0-aZ5MVM5T6YnHF3r-2" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fsk0-aZ5MVM5T6YnHF3r-1">
+          <mxGeometry x="-0.0286" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QUihNmFbuFHCNYA927ex-8" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -874,6 +878,9 @@
         </mxCell>
         <mxCell id="ToBIAgVwKtYWTislfT-t-8" value="1.供应不在线&lt;br&gt;2.超过最晚出票时间&lt;br&gt;3.请求上游供应明确返回失败&lt;br&gt;4.变价&lt;br&gt;5.距离最晚出票时间不足一小时&lt;br&gt;6.pnr检查失败&lt;br&gt;7.api订单且变价不可吸收的情况下&lt;br&gt;8.上游供应交互超时不考虑取消" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="310" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Fsk0-aZ5MVM5T6YnHF3r-4" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="675" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
