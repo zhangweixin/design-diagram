@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T03:36:20.349Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="blECzHBwKk_19TfUGXbC" version="21.0.10" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-25T03:37:01.680Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="rLxKym_R5YkkXJBSNxhJ" version="21.0.10" type="github" pages="9">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -847,7 +847,7 @@
           <mxGeometry x="320" y="625" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QUihNmFbuFHCNYA927ex-14" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="705" width="100" height="30" as="geometry" />
+          <mxGeometry x="320" y="780" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ToBIAgVwKtYWTislfT-t-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ToBIAgVwKtYWTislfT-t-1" target="JC3PIAOvy8O7A9L7iVyF-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -881,6 +881,14 @@
         </mxCell>
         <mxCell id="Fsk0-aZ5MVM5T6YnHF3r-4" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="675" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fsk0-aZ5MVM5T6YnHF3r-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fsk0-aZ5MVM5T6YnHF3r-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fsk0-aZ5MVM5T6YnHF3r-5" value="流转订单状态到取消失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="705" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
