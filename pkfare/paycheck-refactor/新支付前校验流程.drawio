@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T06:00:51.980Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="cOLYnXAVx0LDevLv6lUO" version="21.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-28T06:03:02.292Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="uBuZ0avn6oRtLcNJW36h" version="21.1.1" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="954" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -717,6 +717,11 @@
             <mxPoint x="370" y="495" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="cUSHWbPC8PhxK4zedg_L-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QUihNmFbuFHCNYA927ex-6" target="cUSHWbPC8PhxK4zedg_L-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QUihNmFbuFHCNYA927ex-6" value="路由取消" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="390" width="120" height="50" as="geometry" />
         </mxCell>
@@ -798,6 +803,21 @@
         </mxCell>
         <mxCell id="cUSHWbPC8PhxK4zedg_L-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;order-manage&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-110" y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cUSHWbPC8PhxK4zedg_L-3" value="" style="swimlane;startSize=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="10" width="320" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="cUSHWbPC8PhxK4zedg_L-5" value="具体执行cancel" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUSHWbPC8PhxK4zedg_L-7" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;booking-service&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="55" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cUSHWbPC8PhxK4zedg_L-9" value="" style="swimlane;startSize=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="10" width="260" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="cUSHWbPC8PhxK4zedg_L-10" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;XXXX-processor&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="cUSHWbPC8PhxK4zedg_L-9">
+          <mxGeometry x="20" y="40" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
