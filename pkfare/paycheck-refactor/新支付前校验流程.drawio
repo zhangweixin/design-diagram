@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T06:00:17.442Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="WuF47jU7peEIig8UBXU0" version="21.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-28T06:00:51.980Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36" etag="cOLYnXAVx0LDevLv6lUO" version="21.1.1" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="954" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -792,6 +792,12 @@
         </mxCell>
         <mxCell id="Fsk0-aZ5MVM5T6YnHF3r-5" value="流转订单状态到取消失败" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="705" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cUSHWbPC8PhxK4zedg_L-1" value="" style="swimlane;startSize=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="10" width="860" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="cUSHWbPC8PhxK4zedg_L-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;order-manage&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="30" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
