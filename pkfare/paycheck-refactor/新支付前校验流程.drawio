@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T06:39:31.023Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.0.2317 Yowser/2.5 Safari/537.36" etag="lnCnr8X13Fg5rXJSjwUi" version="21.1.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-05-23T02:04:42.982Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.3.769 Yowser/2.5 Safari/537.36" etag="keHyzni-IqreuSWnvKVi" version="21.3.0" type="github" pages="8">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
     <mxGraphModel dx="1194" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1099,7 +1099,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-NpA8moC1EEkeq_gwj64" name="kiwi支付前校验">
-    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1603" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1241,7 +1241,7 @@
             <mxPoint x="1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R8OplZgFprL1DOKuu22t-23" value="是否有价格返回" style="rhombus;whiteSpace=wrap;html=1;" parent="_0qeHDVoHormdlfTx5un-3" vertex="1">
+        <mxCell id="R8OplZgFprL1DOKuu22t-23" value="是否有价格明细返回" style="rhombus;whiteSpace=wrap;html=1;" parent="_0qeHDVoHormdlfTx5un-3" vertex="1">
           <mxGeometry x="217.5" y="930" width="95" height="80" as="geometry" />
         </mxCell>
         <mxCell id="R8OplZgFprL1DOKuu22t-32" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="_0qeHDVoHormdlfTx5un-3" source="R8OplZgFprL1DOKuu22t-31" edge="1">
@@ -1259,7 +1259,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R8OplZgFprL1DOKuu22t-31" value="是否返回变价状态" style="rhombus;whiteSpace=wrap;html=1;" parent="_0qeHDVoHormdlfTx5un-3" vertex="1">
+        <mxCell id="R8OplZgFprL1DOKuu22t-31" value="变价状态标志是否存在" style="rhombus;whiteSpace=wrap;html=1;" parent="_0qeHDVoHormdlfTx5un-3" vertex="1">
           <mxGeometry x="400" y="1020" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="R8OplZgFprL1DOKuu22t-33" value="返回支付前校验失败" style="rounded=1;whiteSpace=wrap;html=1;" parent="_0qeHDVoHormdlfTx5un-3" vertex="1">
