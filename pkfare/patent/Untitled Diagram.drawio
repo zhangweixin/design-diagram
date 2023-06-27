@@ -1,9 +1,139 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T06:19:28.617Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.1.762 Yowser/2.5 Safari/537.36" etag="xZ8O4w-CvuqG4qtwSZHi" version="21.5.0" type="github">
-  <diagram name="Page-1" id="lohE0_ROMSyT3_82dJKe">
-    <mxGraphModel dx="1194" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-06-27T07:23:50.560Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.1.762 Yowser/2.5 Safari/537.36" etag="sXJViUca7lTOMSe80LgB" version="21.5.0" type="github">
+  <diagram name="探测存在质量问题航班组合流程" id="lohE0_ROMSyT3_82dJKe">
+    <mxGraphModel dx="2275" dy="1332" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="neV9el-shMqcffgQ8eqq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="neV9el-shMqcffgQ8eqq-1" target="neV9el-shMqcffgQ8eqq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-1" value="接收到下游客户的验价请求&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#212930;" vertex="1" parent="1">
+          <mxGeometry x="233" y="112" width="154" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="neV9el-shMqcffgQ8eqq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-2" value="&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;渠道分发之后向上游发起请求&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#212930;" vertex="1" parent="1">
+          <mxGeometry x="233" y="198" width="154" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="neV9el-shMqcffgQ8eqq-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-5" value="&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;收到返回结果Response&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#212930;" vertex="1" parent="1">
+          <mxGeometry x="233" y="280" width="154" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="neV9el-shMqcffgQ8eqq-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="456" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-8" value="&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;收到返回结果Response&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;/p&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;接收到下游客户的验价请求&amp;quot;]]&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#212930;" vertex="1" parent="1">
+          <mxGeometry x="233" y="368" width="154" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="neV9el-shMqcffgQ8eqq-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="578" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-29" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="neV9el-shMqcffgQ8eqq-11">
+          <mxGeometry x="-0.616" relative="1" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="neV9el-shMqcffgQ8eqq-10" target="neV9el-shMqcffgQ8eqq-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="495" />
+              <mxPoint x="40" y="1301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-31" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="neV9el-shMqcffgQ8eqq-30">
+          <mxGeometry x="-0.7961" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-10" value="失败且是无舱无价错误" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="259" y="456" width="102" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="neV9el-shMqcffgQ8eqq-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-12" value="查询RecordList是否存在由当前请求的Journey信息组成的key1所对应的Record" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="239" y="577" width="142" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="neV9el-shMqcffgQ8eqq-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="783" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-33" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="neV9el-shMqcffgQ8eqq-15">
+          <mxGeometry x="-0.3897" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="neV9el-shMqcffgQ8eqq-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="568" y="1165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-32" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="neV9el-shMqcffgQ8eqq-28">
+          <mxGeometry x="-0.7741" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-14" value="是否存在对应记录" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="664" width="115" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="neV9el-shMqcffgQ8eqq-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="857" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-16" value="Record的num+1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="239" y="784" width="142" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="neV9el-shMqcffgQ8eqq-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="969" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-18" value="当前num值是否超过配置的阈值" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="856" width="114" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="neV9el-shMqcffgQ8eqq-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="1092" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-20" value="&lt;div&gt;根据构造当前请求的Journey信息构造一个行程黑名单信息数据，以key1为key存储到&lt;span style=&quot;background-color: initial;&quot;&gt;BlackList&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="239" y="970" width="142" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="neV9el-shMqcffgQ8eqq-22" target="neV9el-shMqcffgQ8eqq-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="1209" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-22" value="&lt;div&gt;构造一个定时探测恢复任&lt;span style=&quot;background-color: initial;&quot;&gt;务Task，key为上key1，到期执行时间为可配置的间隔&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Threshold，保存到ScheduleList&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="239" y="1093" width="142" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="neV9el-shMqcffgQ8eqq-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-25" value="根据Journey构造一个新的Record，num初始值为1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1163" width="142" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="neV9el-shMqcffgQ8eqq-27" value="以key1为key保存Record到RecordList" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="239" y="1281" width="142" height="39" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
