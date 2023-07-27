@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T10:53:26.350Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="8mRPNVRBf73JA0UFdM0H" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T11:20:00.405Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="1gBHV9IXnSKIqk0aFdb9" version="21.5.0" type="github">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,6 +18,9 @@
         </mxCell>
         <mxCell id="vrYzodw-wXzMlCgV3lVE-10" value="分发供应" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-3">
           <mxGeometry x="130" y="85" width="125" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-121" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-3">
+          <mxGeometry x="153" y="170" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vrYzodw-wXzMlCgV3lVE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="vrYzodw-wXzMlCgV3lVE-1" source="vrYzodw-wXzMlCgV3lVE-5" target="vrYzodw-wXzMlCgV3lVE-10">
           <mxGeometry relative="1" as="geometry" />
@@ -216,6 +219,15 @@
         <mxCell id="vrYzodw-wXzMlCgV3lVE-92" value="不解析maxPrice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-4">
           <mxGeometry x="40" y="412.5" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="vrYzodw-wXzMlCgV3lVE-4" source="vrYzodw-wXzMlCgV3lVE-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-60" y="520" />
+              <mxPoint x="-60" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vrYzodw-wXzMlCgV3lVE-94" value="返回搜索结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-4">
           <mxGeometry x="35" y="500" width="110" height="40" as="geometry" />
         </mxCell>
@@ -253,11 +265,6 @@
         <mxCell id="vrYzodw-wXzMlCgV3lVE-111" value="原流程其他节点处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-4">
           <mxGeometry x="210" y="1425" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vrYzodw-wXzMlCgV3lVE-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="vrYzodw-wXzMlCgV3lVE-4" source="vrYzodw-wXzMlCgV3lVE-114">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-30" y="200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="vrYzodw-wXzMlCgV3lVE-114" value="返回搜索结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-4">
           <mxGeometry x="50" y="1420" width="110" height="45" as="geometry" />
         </mxCell>
@@ -272,7 +279,7 @@
         <mxCell id="vrYzodw-wXzMlCgV3lVE-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="vrYzodw-wXzMlCgV3lVE-4" source="vrYzodw-wXzMlCgV3lVE-119" target="vrYzodw-wXzMlCgV3lVE-111">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vrYzodw-wXzMlCgV3lVE-119" value="设置 maxPrice" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF3333;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-4">
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-119" value="转化过程设置 maxPrice" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF3333;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-4">
           <mxGeometry x="210" y="1330" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vrYzodw-wXzMlCgV3lVE-39" value="supplier" style="swimlane;startSize=20;html=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-1">
@@ -280,6 +287,23 @@
         </mxCell>
         <mxCell id="vrYzodw-wXzMlCgV3lVE-50" value="process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-39">
           <mxGeometry x="30" y="302.5" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="vrYzodw-wXzMlCgV3lVE-1" source="vrYzodw-wXzMlCgV3lVE-114" target="vrYzodw-wXzMlCgV3lVE-121">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="1463" />
+              <mxPoint x="640" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="vrYzodw-wXzMlCgV3lVE-1" source="vrYzodw-wXzMlCgV3lVE-57" target="vrYzodw-wXzMlCgV3lVE-121">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="413" />
+              <mxPoint x="640" y="230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
