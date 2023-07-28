@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T06:40:31.243Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="VAbgZtYu4ZJ_w58VvYnb" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T07:00:21.940Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="3HQXo8gdE0UIuRAV1LGw" version="21.5.0" type="github">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,6 +78,9 @@
         </mxCell>
         <mxCell id="vrYzodw-wXzMlCgV3lVE-158" value="" style="swimlane;startSize=0;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-3">
           <mxGeometry x="91" y="750" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-159" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 14px;&quot;&gt;S2B 价格转换&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-158">
+          <mxGeometry x="39" y="10" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vrYzodw-wXzMlCgV3lVE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="vrYzodw-wXzMlCgV3lVE-1" source="vrYzodw-wXzMlCgV3lVE-5" target="vrYzodw-wXzMlCgV3lVE-10">
           <mxGeometry relative="1" as="geometry" />
