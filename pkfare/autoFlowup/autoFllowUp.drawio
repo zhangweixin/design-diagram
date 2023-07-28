@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T07:00:21.940Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="3HQXo8gdE0UIuRAV1LGw" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T07:07:47.954Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="01PA0F66yG9cKc9LQ5M_" version="21.5.0" type="github">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,6 +81,15 @@
         </mxCell>
         <mxCell id="vrYzodw-wXzMlCgV3lVE-159" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 14px;&quot;&gt;S2B 价格转换&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-158">
           <mxGeometry x="39" y="10" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vrYzodw-wXzMlCgV3lVE-158" source="vrYzodw-wXzMlCgV3lVE-164" target="vrYzodw-wXzMlCgV3lVE-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-164" value="原转换逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-158">
+          <mxGeometry x="46.25" y="50" width="107.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-170" value="按照 S2B 银行汇率取supplierMaxFaceValue&lt;br&gt;转为&lt;br&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: Consolas, monospace; font-size: 9.8pt;&quot;&gt;buyerMaxTicketPrice&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-158">
+          <mxGeometry x="33.13" y="120" width="133.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vrYzodw-wXzMlCgV3lVE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="vrYzodw-wXzMlCgV3lVE-1" source="vrYzodw-wXzMlCgV3lVE-5" target="vrYzodw-wXzMlCgV3lVE-10">
           <mxGeometry relative="1" as="geometry" />
