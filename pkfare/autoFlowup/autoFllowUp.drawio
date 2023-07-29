@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-29T07:23:13.605Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="b3yVPJD3UilcSMIbcyQs" version="21.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-29T07:24:51.149Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="5xCqUCNJkNX4vPkEhCM_" version="21.5.0" type="github" pages="2">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -395,36 +395,66 @@
         <mxCell id="1" parent="0" />
         <mxCell id="BL_8u3DRFZ2-j0idkSxH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BL_8u3DRFZ2-j0idkSxH-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="375" y="140" as="targetPoint" />
+            <mxPoint x="475" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BL_8u3DRFZ2-j0idkSxH-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="60" width="110" height="40" as="geometry" />
+          <mxGeometry x="420" y="70" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BL_8u3DRFZ2-j0idkSxH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BL_8u3DRFZ2-j0idkSxH-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="375" y="240" as="targetPoint" />
+            <mxPoint x="475" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BL_8u3DRFZ2-j0idkSxH-3" value="一次遍历获取最低价以及次低价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="140" width="110" height="50" as="geometry" />
+          <mxGeometry x="420" y="150" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="BL_8u3DRFZ2-j0idkSxH-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BL_8u3DRFZ2-j0idkSxH-4" target="BL_8u3DRFZ2-j0idkSxH-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BL_8u3DRFZ2-j0idkSxH-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="BL_8u3DRFZ2-j0idkSxH-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="115" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BL_8u3DRFZ2-j0idkSxH-4" value="比成人总价:&lt;br&gt;采购票价&lt;br&gt;采购税费&lt;br&gt;采购开票费&lt;br&gt;markup&lt;br&gt;汇率加价&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="50" width="130" height="110" as="geometry" />
+          <mxGeometry x="760" y="50" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="BL_8u3DRFZ2-j0idkSxH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BL_8u3DRFZ2-j0idkSxH-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="350" as="targetPoint" />
+            <mxPoint x="260" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XQ4MlhTmbq03vNWOSiSf-5" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BL_8u3DRFZ2-j0idkSxH-8">
+          <mxGeometry x="-0.3502" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BL_8u3DRFZ2-j0idkSxH-7" value="次低价与最低价是同一供应？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="317.5" y="240" width="115" height="100" as="geometry" />
+          <mxGeometry x="417.5" y="250" width="115" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="BL_8u3DRFZ2-j0idkSxH-9" value="该价格是否为在自动" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="350" width="80" height="80" as="geometry" />
+        <mxCell id="XQ4MlhTmbq03vNWOSiSf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BL_8u3DRFZ2-j0idkSxH-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XQ4MlhTmbq03vNWOSiSf-6" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XQ4MlhTmbq03vNWOSiSf-1">
+          <mxGeometry x="-0.116" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XQ4MlhTmbq03vNWOSiSf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BL_8u3DRFZ2-j0idkSxH-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XQ4MlhTmbq03vNWOSiSf-4" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XQ4MlhTmbq03vNWOSiSf-2">
+          <mxGeometry x="-0.184" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BL_8u3DRFZ2-j0idkSxH-9" value="该价格是否为自动跟价报价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="360" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XQ4MlhTmbq03vNWOSiSf-3" value="不做任何处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="460" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
