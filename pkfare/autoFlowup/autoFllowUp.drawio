@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T07:16:50.641Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="ObGeQczrtH62H_FlVakZ" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-29T07:14:49.140Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="QWbStX-4JXWVYVZp1iB3" version="21.5.0" type="github">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,14 +104,22 @@
         <mxCell id="vrYzodw-wXzMlCgV3lVE-173" value="定价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-3">
           <mxGeometry x="131" y="1020" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vrYzodw-wXzMlCgV3lVE-176" value="" style="swimlane;startSize=0;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-3">
-          <mxGeometry x="91" y="1110" width="200" height="200" as="geometry" />
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="vrYzodw-wXzMlCgV3lVE-3" source="vrYzodw-wXzMlCgV3lVE-176">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="191" y="1340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="vrYzodw-wXzMlCgV3lVE-178" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 15px;&quot;&gt;分组取最低价&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-176">
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-176" value="" style="swimlane;startSize=0;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-3">
+          <mxGeometry x="91" y="1110" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-178" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 15px;&quot;&gt;分组取选低价&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-176">
           <mxGeometry x="42.75" y="10" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vrYzodw-wXzMlCgV3lVE-179" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-176">
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-179" value="分组选最低价逻辑调整" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-176">
           <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-181" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-3">
+          <mxGeometry x="131" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vrYzodw-wXzMlCgV3lVE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="vrYzodw-wXzMlCgV3lVE-1" source="vrYzodw-wXzMlCgV3lVE-5" target="vrYzodw-wXzMlCgV3lVE-10">
           <mxGeometry relative="1" as="geometry" />
