@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-30T13:16:54.366Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="coDZJa_JumNkayxE8q72" version="21.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-07-30T13:17:23.245Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="mkDcCUEoqqGAoLPuTB7O" version="21.5.0" type="github" pages="3">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1588" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -841,7 +841,7 @@
             <mxPoint x="190.3157894736844" y="1110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jPsxuMP3VCl0q2h1OJQY-36" value="保存自动更加标致到 pricing 结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jPsxuMP3VCl0q2h1OJQY-3">
+        <mxCell id="jPsxuMP3VCl0q2h1OJQY-36" value="保存自动跟价标识到 pricing 结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jPsxuMP3VCl0q2h1OJQY-3">
           <mxGeometry x="130" y="1000" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jPsxuMP3VCl0q2h1OJQY-38" value="" style="swimlane;startSize=0;dashed=1;strokeColor=#FF3333;" vertex="1" parent="jPsxuMP3VCl0q2h1OJQY-3">
