@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-30T13:16:01.375Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="QpQmdJMHGNvVvBBZHEI8" version="21.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-07-30T13:16:54.366Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="coDZJa_JumNkayxE8q72" version="21.5.0" type="github" pages="3">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1588" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -796,6 +796,16 @@
         </mxCell>
         <mxCell id="jPsxuMP3VCl0q2h1OJQY-22" value="是否有 shopping 缓存且是自动跟价结果" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="jPsxuMP3VCl0q2h1OJQY-3">
           <mxGeometry x="130" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jPsxuMP3VCl0q2h1OJQY-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jPsxuMP3VCl0q2h1OJQY-3" source="jPsxuMP3VCl0q2h1OJQY-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1322.6315789473683" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="670" />
+              <mxPoint x="40" y="1280" />
+              <mxPoint x="190" y="1280" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="jPsxuMP3VCl0q2h1OJQY-29" value="原变价吸收流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jPsxuMP3VCl0q2h1OJQY-3">
           <mxGeometry x="10" y="630" width="100" height="40" as="geometry" />
