@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-30T15:11:46.337Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="6heRet5-DwWQnt-OjkDC" version="21.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-07-30T15:12:52.366Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="Yn8O6GKu4l2SWjgs5860" version="21.6.6" type="github" pages="6">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1434" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1354,8 +1354,14 @@
         <mxCell id="-tGU8aZS875bEcrCDBfO-2" value="返回变价错误" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jbB7zbW8MUomiMJYjZ2A-35">
           <mxGeometry x="13" y="760" width="97" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="-tGU8aZS875bEcrCDBfO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jbB7zbW8MUomiMJYjZ2A-35" source="-tGU8aZS875bEcrCDBfO-3" target="-tGU8aZS875bEcrCDBfO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-tGU8aZS875bEcrCDBfO-3" value="使用预定返回供应价格作为订单供应价格" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jbB7zbW8MUomiMJYjZ2A-35">
           <mxGeometry x="106" y="810" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-tGU8aZS875bEcrCDBfO-10" value="返回变价已吸收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jbB7zbW8MUomiMJYjZ2A-35">
+          <mxGeometry x="106.75" y="900" width="103.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jbB7zbW8MUomiMJYjZ2A-37" value="one-order" style="swimlane;startSize=20;html=1;" vertex="1" parent="jbB7zbW8MUomiMJYjZ2A-1">
           <mxGeometry x="890" y="20" width="180" height="1180" as="geometry" />
