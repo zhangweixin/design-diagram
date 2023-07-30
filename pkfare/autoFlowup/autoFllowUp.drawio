@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-30T12:55:32.974Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="j6MSWERw2U4PQ6VFWOYd" version="21.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-07-30T13:06:03.377Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="CUscvuhdPbxNzOjvlRPG" version="21.5.0" type="github" pages="3">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1588" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -792,7 +792,22 @@
         <mxCell id="jPsxuMP3VCl0q2h1OJQY-29" value="原变价吸收流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jPsxuMP3VCl0q2h1OJQY-3">
           <mxGeometry x="10" y="630" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jPsxuMP3VCl0q2h1OJQY-30" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="jPsxuMP3VCl0q2h1OJQY-3">
+        <mxCell id="jPsxuMP3VCl0q2h1OJQY-31" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="jPsxuMP3VCl0q2h1OJQY-3" source="jPsxuMP3VCl0q2h1OJQY-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="840.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPsxuMP3VCl0q2h1OJQY-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="jPsxuMP3VCl0q2h1OJQY-3" source="jPsxuMP3VCl0q2h1OJQY-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="840.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPsxuMP3VCl0q2h1OJQY-33" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jPsxuMP3VCl0q2h1OJQY-32">
+          <mxGeometry x="0.1514" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPsxuMP3VCl0q2h1OJQY-30" value="shopping 乘客单价大于等于 pricing 乘客单价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="jPsxuMP3VCl0q2h1OJQY-3">
           <mxGeometry x="150" y="690" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jPsxuMP3VCl0q2h1OJQY-4" value="gongfu-service" style="swimlane;startSize=20;html=1;" vertex="1" parent="jPsxuMP3VCl0q2h1OJQY-1">
