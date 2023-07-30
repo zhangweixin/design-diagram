@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-30T14:09:05.715Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="LGHkSen_m8pof6NX8sh7" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-30T14:10:14.904Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="k9di978NS_hi-veDCv_H" version="21.6.6" type="github" pages="4">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1434" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -902,6 +902,9 @@
         <mxCell id="J3fNOCrwVsngQggtVjG--4" value="pricing" style="rounded=1;whiteSpace=wrap;html=1;" parent="J3fNOCrwVsngQggtVjG--2" vertex="1">
           <mxGeometry x="45" y="60" width="95" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="FV0mm4fBcgbeXYLqHhve-54" value="返回结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J3fNOCrwVsngQggtVjG--2">
+          <mxGeometry x="33" y="1220" width="87" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="FV0mm4fBcgbeXYLqHhve-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="J3fNOCrwVsngQggtVjG--1" source="J3fNOCrwVsngQggtVjG--4" target="FV0mm4fBcgbeXYLqHhve-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -933,6 +936,14 @@
         </mxCell>
         <mxCell id="FV0mm4fBcgbeXYLqHhve-7" value="是否是 LCC 或者 TC 验价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="J3fNOCrwVsngQggtVjG--6">
           <mxGeometry x="125" y="140" width="110" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="FV0mm4fBcgbeXYLqHhve-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="J3fNOCrwVsngQggtVjG--6" source="FV0mm4fBcgbeXYLqHhve-9" target="FV0mm4fBcgbeXYLqHhve-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="1190" />
+              <mxPoint x="130" y="1190" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="FV0mm4fBcgbeXYLqHhve-9" value="原处理逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J3fNOCrwVsngQggtVjG--6">
           <mxGeometry x="10" y="260" width="90" height="30" as="geometry" />
@@ -1052,7 +1063,7 @@
           <mxGeometry x="130" y="1170" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FV0mm4fBcgbeXYLqHhve-49" value="" style="swimlane;startSize=0;dashed=1;strokeColor=#FF3333;" vertex="1" parent="J3fNOCrwVsngQggtVjG--6">
-          <mxGeometry x="50" y="310" width="420" height="810" as="geometry" />
+          <mxGeometry x="80" y="310" width="390" height="810" as="geometry" />
         </mxCell>
         <mxCell id="FV0mm4fBcgbeXYLqHhve-51" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 15px;&quot;&gt;发送 pricing 请求逻辑&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FV0mm4fBcgbeXYLqHhve-49">
           <mxGeometry x="200" y="20" width="170" height="30" as="geometry" />
@@ -1067,6 +1078,9 @@
         </mxCell>
         <mxCell id="J3fNOCrwVsngQggtVjG--38" value="pricing" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="J3fNOCrwVsngQggtVjG--37" vertex="1">
           <mxGeometry x="110" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FV0mm4fBcgbeXYLqHhve-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="J3fNOCrwVsngQggtVjG--1" source="FV0mm4fBcgbeXYLqHhve-48" target="FV0mm4fBcgbeXYLqHhve-54">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
