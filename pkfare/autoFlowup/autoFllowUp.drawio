@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T02:26:31.249Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="Z22yQSUUWVFpQT_rkf1n" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-07-31T02:27:07.416Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="83sr4jgEUlfvVHhTtsQ3" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="954" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1615,10 +1615,10 @@
             <mxPoint x="310" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n_EaOlgBfUq2aYFW0wfX-13" value="拉取供应信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n_EaOlgBfUq2aYFW0wfX-11">
+        <mxCell id="n_EaOlgBfUq2aYFW0wfX-13" value="定时拉取供应信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n_EaOlgBfUq2aYFW0wfX-11">
           <mxGeometry x="60" y="60" width="105" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="n_EaOlgBfUq2aYFW0wfX-14" value="返回结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n_EaOlgBfUq2aYFW0wfX-11">
+        <mxCell id="n_EaOlgBfUq2aYFW0wfX-14" value="缓存本地" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n_EaOlgBfUq2aYFW0wfX-11">
           <mxGeometry x="59" y="170" width="107" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n_EaOlgBfUq2aYFW0wfX-15" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: Consolas, monospace; font-size: 9.8pt;&quot;&gt;basic-data&lt;/div&gt;" style="swimlane;startSize=20;html=1;" vertex="1" parent="n_EaOlgBfUq2aYFW0wfX-10">
@@ -1629,7 +1629,7 @@
             <mxPoint x="-120" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n_EaOlgBfUq2aYFW0wfX-17" value="更新数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="n_EaOlgBfUq2aYFW0wfX-15">
+        <mxCell id="n_EaOlgBfUq2aYFW0wfX-17" value="查询数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="n_EaOlgBfUq2aYFW0wfX-15">
           <mxGeometry x="80" y="40" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
