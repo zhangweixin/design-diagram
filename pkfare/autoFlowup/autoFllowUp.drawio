@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T02:27:07.416Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="83sr4jgEUlfvVHhTtsQ3" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-07-31T02:28:32.296Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="aOF-xqCJUVUFGrqFWnUM" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="954" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1604,6 +1604,9 @@
         <mxCell id="n_EaOlgBfUq2aYFW0wfX-7" value="更新数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="n_EaOlgBfUq2aYFW0wfX-3">
           <mxGeometry x="80" y="40" width="60" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="n_EaOlgBfUq2aYFW0wfX-19" value="" style="swimlane;startSize=0;dashed=1;strokeColor=#FF3333;" vertex="1" parent="n_EaOlgBfUq2aYFW0wfX-3">
+          <mxGeometry x="30" y="30" width="150" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="n_EaOlgBfUq2aYFW0wfX-10" value="supplier信息获取" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="360" width="510" height="260" as="geometry" />
         </mxCell>
@@ -1631,6 +1634,9 @@
         </mxCell>
         <mxCell id="n_EaOlgBfUq2aYFW0wfX-17" value="查询数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="n_EaOlgBfUq2aYFW0wfX-15">
           <mxGeometry x="80" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n_EaOlgBfUq2aYFW0wfX-20" value="" style="swimlane;startSize=0;dashed=1;strokeColor=#FF3333;" vertex="1" parent="n_EaOlgBfUq2aYFW0wfX-15">
+          <mxGeometry x="35" y="30" width="150" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
