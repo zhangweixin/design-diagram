@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T11:59:47.030Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="UVFmUqVSexIV7OcHPS37" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-01T12:02:55.411Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="zdU7OVwh4F8pAdtHU-Z_" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1246" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -415,7 +415,7 @@
         <mxCell id="vrYzodw-wXzMlCgV3lVE-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="vrYzodw-wXzMlCgV3lVE-4" source="vrYzodw-wXzMlCgV3lVE-144" target="vrYzodw-wXzMlCgV3lVE-119" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vrYzodw-wXzMlCgV3lVE-144" value="原转化逻辑" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#212930;" parent="vrYzodw-wXzMlCgV3lVE-4" vertex="1">
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-144" value="原转价格化逻辑" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#212930;" parent="vrYzodw-wXzMlCgV3lVE-4" vertex="1">
           <mxGeometry x="195" y="1490" width="147.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8p2eXJLosCav-ndyFkDv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="vrYzodw-wXzMlCgV3lVE-4" source="vrYzodw-wXzMlCgV3lVE-146" target="vrYzodw-wXzMlCgV3lVE-114">
