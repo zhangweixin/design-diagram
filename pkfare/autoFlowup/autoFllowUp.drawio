@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T02:52:49.287Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="TexGX7ioqqrR549xzcTi" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-01T07:54:56.168Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="2qX2OR_YROtn-KT9ogJk" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
-    <mxGraphModel dx="954" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,7 +101,7 @@
         <mxCell id="vrYzodw-wXzMlCgV3lVE-134" value="转换为TagSolution其他逻辑" style="rounded=0;whiteSpace=wrap;html=1;" parent="vrYzodw-wXzMlCgV3lVE-154" vertex="1">
           <mxGeometry x="46.25" y="30" width="107.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vrYzodw-wXzMlCgV3lVE-155" value="复制solution的supplierMaxTicketPrice给TagSolution的supplierMaxFaceValue" style="rounded=0;whiteSpace=wrap;html=1;" parent="vrYzodw-wXzMlCgV3lVE-154" vertex="1">
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-155" value="复制solution的supplierMaxTicketPrice给TagSolution的supplierMaxTicketPrice" style="rounded=0;whiteSpace=wrap;html=1;" parent="vrYzodw-wXzMlCgV3lVE-154" vertex="1">
           <mxGeometry x="40.5" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vrYzodw-wXzMlCgV3lVE-156" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 15px;&quot;&gt;构造 TagSolution&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="vrYzodw-wXzMlCgV3lVE-154" vertex="1">
@@ -124,7 +124,7 @@
         <mxCell id="vrYzodw-wXzMlCgV3lVE-164" value="原转换逻辑" style="rounded=0;whiteSpace=wrap;html=1;" parent="vrYzodw-wXzMlCgV3lVE-158" vertex="1">
           <mxGeometry x="46.25" y="50" width="107.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vrYzodw-wXzMlCgV3lVE-170" value="按照 S2B 银行汇率取supplierMaxFaceValue&lt;br&gt;转为&lt;br&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: Consolas, monospace; font-size: 9.8pt;&quot;&gt;buyerMaxTicketPrice&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="vrYzodw-wXzMlCgV3lVE-158" vertex="1">
+        <mxCell id="vrYzodw-wXzMlCgV3lVE-170" value="按照 S2B 银行汇率supplierMaxTicketPrice&lt;br&gt;转为&lt;br&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: Consolas, monospace; font-size: 9.8pt;&quot;&gt;buyerMaxTicketPrice&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="vrYzodw-wXzMlCgV3lVE-158" vertex="1">
           <mxGeometry x="33.13" y="120" width="133.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vrYzodw-wXzMlCgV3lVE-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="vrYzodw-wXzMlCgV3lVE-3" source="vrYzodw-wXzMlCgV3lVE-173" edge="1">
@@ -435,7 +435,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FcyMMwzVQ7sVzzVJiw_M" name="shopping 取最低价逻辑">
-    <mxGraphModel dx="954" dy="1818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
