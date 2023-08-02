@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T07:11:50.530Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="-3wAHtXypLdU6vZ_GidI" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-02T07:13:11.988Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="yB-8ZLTWRAe4u9a5OZYp" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -844,7 +844,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XQ4MlhTmbq03vNWOSiSf-7" value="采购票价=max采购票价" style="rounded=0;whiteSpace=wrap;html=1;" parent="1-NP3nT4mg8qtGF3Hokd-21" vertex="1">
-          <mxGeometry x="42.5" y="340" width="140" height="50" as="geometry" />
+          <mxGeometry x="47.5" y="340" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XQ4MlhTmbq03vNWOSiSf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1-NP3nT4mg8qtGF3Hokd-21" source="XQ4MlhTmbq03vNWOSiSf-9" edge="1" target="XQ4MlhTmbq03vNWOSiSf-11">
           <mxGeometry relative="1" as="geometry">
@@ -852,7 +852,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XQ4MlhTmbq03vNWOSiSf-9" value="autoMarkup=max采购票价-采购票价" style="rounded=0;whiteSpace=wrap;html=1;" parent="1-NP3nT4mg8qtGF3Hokd-21" vertex="1">
-          <mxGeometry x="37.5" y="170" width="150" height="50" as="geometry" />
+          <mxGeometry x="42.5" y="170" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XQ4MlhTmbq03vNWOSiSf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1-NP3nT4mg8qtGF3Hokd-21" source="XQ4MlhTmbq03vNWOSiSf-11" edge="1" target="XQ4MlhTmbq03vNWOSiSf-7">
           <mxGeometry relative="1" as="geometry">
@@ -860,7 +860,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XQ4MlhTmbq03vNWOSiSf-11" value="供应结算票价=供应结算票价+&amp;nbsp;autoMarkup*b2sBankRate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1-NP3nT4mg8qtGF3Hokd-21" vertex="1">
-          <mxGeometry x="27.5" y="260" width="170" height="50" as="geometry" />
+          <mxGeometry x="32.5" y="260" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-37" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1-NP3nT4mg8qtGF3Hokd-21" source="1-NP3nT4mg8qtGF3Hokd-35" target="XQ4MlhTmbq03vNWOSiSf-9">
           <mxGeometry relative="1" as="geometry" />
@@ -870,12 +870,15 @@
             <Array as="points">
               <mxPoint x="13" y="80" />
               <mxPoint x="13" y="430" />
-              <mxPoint x="113" y="430" />
+              <mxPoint x="118" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-35" value="maxPrice存在" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1-NP3nT4mg8qtGF3Hokd-21">
-          <mxGeometry x="72.5" y="50" width="80" height="60" as="geometry" />
+          <mxGeometry x="77.5" y="50" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1-NP3nT4mg8qtGF3Hokd-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1-NP3nT4mg8qtGF3Hokd-21" source="1-NP3nT4mg8qtGF3Hokd-21" target="1-NP3nT4mg8qtGF3Hokd-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1-NP3nT4mg8qtGF3Hokd-31" target="1-NP3nT4mg8qtGF3Hokd-21">
           <mxGeometry relative="1" as="geometry" />
