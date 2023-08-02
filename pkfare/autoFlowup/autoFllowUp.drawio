@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T10:00:34.953Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="-kmLwNdN507AAuG5_Jsy" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-02T10:01:16.948Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="s5Rc3lG19UlVqi8A4p1O" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1288,7 +1288,7 @@
             <mxPoint x="370" y="870" as="targetPoint" />
             <Array as="points">
               <mxPoint x="340" y="800" />
-              <mxPoint x="340" y="1240" />
+              <mxPoint x="340" y="1360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1297,13 +1297,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FV0mm4fBcgbeXYLqHhve-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="J3fNOCrwVsngQggtVjG--6" source="FV0mm4fBcgbeXYLqHhve-36" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="940" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="GwhgpjgBTWKXF7KZmLgm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="J3fNOCrwVsngQggtVjG--6" source="FV0mm4fBcgbeXYLqHhve-36" target="FV0mm4fBcgbeXYLqHhve-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FV0mm4fBcgbeXYLqHhve-41" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FV0mm4fBcgbeXYLqHhve-40" vertex="1" connectable="0">
-          <mxGeometry x="-0.2836" y="-2" relative="1" as="geometry">
+        <mxCell id="GwhgpjgBTWKXF7KZmLgm-2" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GwhgpjgBTWKXF7KZmLgm-1">
+          <mxGeometry x="-0.1333" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1320,7 +1318,7 @@
             <mxPoint x="280" y="1150" as="targetPoint" />
             <Array as="points">
               <mxPoint x="290" y="980" />
-              <mxPoint x="290" y="1240" />
+              <mxPoint x="290" y="1360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1333,7 +1331,7 @@
           <mxGeometry x="130" y="1060" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FV0mm4fBcgbeXYLqHhve-48" value="合并有舱无舱请求结果并返回" style="rounded=0;whiteSpace=wrap;html=1;" parent="J3fNOCrwVsngQggtVjG--6" vertex="1">
-          <mxGeometry x="130" y="1220" width="100" height="40" as="geometry" />
+          <mxGeometry x="130" y="1340" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FV0mm4fBcgbeXYLqHhve-49" value="" style="swimlane;startSize=0;dashed=1;strokeColor=#FF3333;" parent="J3fNOCrwVsngQggtVjG--6" vertex="1">
           <mxGeometry x="80" y="310" width="470" height="840" as="geometry" />
@@ -1345,7 +1343,7 @@
           <mxGeometry x="250" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FV0mm4fBcgbeXYLqHhve-43" value="从 shopping 自动跟价来的 pricing 结果" style="rhombus;whiteSpace=wrap;html=1;" parent="FV0mm4fBcgbeXYLqHhve-49" vertex="1">
-          <mxGeometry x="60" y="630" width="80" height="80" as="geometry" />
+          <mxGeometry x="60" y="590" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="J3fNOCrwVsngQggtVjG--37" value="gongfu-service" style="swimlane;startSize=20;html=1;" parent="J3fNOCrwVsngQggtVjG--1" vertex="1">
           <mxGeometry x="840" y="20" width="490" height="1490" as="geometry" />
