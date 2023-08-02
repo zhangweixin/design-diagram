@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T13:27:47.110Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="GHGbyLGhP_rvAfEcjrjg" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-02T13:29:29.435Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="cR6FHZTvVGvb1ubgvA0W" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1298,7 +1298,7 @@
           <mxGeometry x="435" y="1800" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FV0mm4fBcgbeXYLqHhve-49" value="" style="swimlane;startSize=0;dashed=1;strokeColor=#FF3333;" parent="J3fNOCrwVsngQggtVjG--6" vertex="1">
-          <mxGeometry x="80" y="310" width="840" height="1340" as="geometry" />
+          <mxGeometry x="80" y="310" width="840" height="1360" as="geometry" />
         </mxCell>
         <mxCell id="FV0mm4fBcgbeXYLqHhve-51" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 15px;&quot;&gt;发送 pricing 请求逻辑&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="FV0mm4fBcgbeXYLqHhve-49" vertex="1">
           <mxGeometry x="200" y="20" width="170" height="30" as="geometry" />
