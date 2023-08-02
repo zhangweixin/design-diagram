@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T13:29:29.435Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="cR6FHZTvVGvb1ubgvA0W" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-02T13:29:38.651Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="44L-hHDtStBqcPFE-Ppu" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1421,7 +1421,7 @@
         <mxCell id="Dk3-YUHR8v0C14ZPBMBv-25" value="剔除该类型乘客对应自动加价细节" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FV0mm4fBcgbeXYLqHhve-49">
           <mxGeometry x="510" y="1071.5" width="100" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="Dk3-YUHR8v0C14ZPBMBv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="J3fNOCrwVsngQggtVjG--6" source="Dk3-YUHR8v0C14ZPBMBv-23" target="FV0mm4fBcgbeXYLqHhve-45">
+        <mxCell id="Dk3-YUHR8v0C14ZPBMBv-26" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="J3fNOCrwVsngQggtVjG--6" source="Dk3-YUHR8v0C14ZPBMBv-23" target="FV0mm4fBcgbeXYLqHhve-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Dk3-YUHR8v0C14ZPBMBv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="J3fNOCrwVsngQggtVjG--6" source="FV0mm4fBcgbeXYLqHhve-43" target="FV0mm4fBcgbeXYLqHhve-48">
