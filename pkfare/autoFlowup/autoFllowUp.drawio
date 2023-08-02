@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T09:55:42.403Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="EMZLSYedB4jGLK0YikNj" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-02T09:57:00.444Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="rShg0Ik9iOAPCOK_YWBu" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1270,13 +1270,13 @@
         <mxCell id="FV0mm4fBcgbeXYLqHhve-19" value="构造指定舱位请求" style="rounded=0;whiteSpace=wrap;html=1;" parent="J3fNOCrwVsngQggtVjG--6" vertex="1">
           <mxGeometry x="135" y="570" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FV0mm4fBcgbeXYLqHhve-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="J3fNOCrwVsngQggtVjG--6" edge="1">
+        <mxCell id="FV0mm4fBcgbeXYLqHhve-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="J3fNOCrwVsngQggtVjG--6" source="ZY4XRrqMZn-i7--WuW3Z-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="560" as="sourcePoint" />
             <mxPoint x="180" y="660" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="370" y="630" />
-              <mxPoint x="181" y="630" />
+              <mxPoint x="390" y="630" />
+              <mxPoint x="180" y="630" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1343,6 +1343,9 @@
         </mxCell>
         <mxCell id="FV0mm4fBcgbeXYLqHhve-51" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 15px;&quot;&gt;发送 pricing 请求逻辑&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="FV0mm4fBcgbeXYLqHhve-49" vertex="1">
           <mxGeometry x="200" y="20" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZY4XRrqMZn-i7--WuW3Z-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FV0mm4fBcgbeXYLqHhve-49">
+          <mxGeometry x="250" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J3fNOCrwVsngQggtVjG--37" value="gongfu-service" style="swimlane;startSize=20;html=1;" parent="J3fNOCrwVsngQggtVjG--1" vertex="1">
           <mxGeometry x="840" y="20" width="490" height="1370" as="geometry" />
