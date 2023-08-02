@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T03:08:54.155Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="2P2k849oq7TUw1COAcBF" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-02T03:09:12.867Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="1Bt8EpyLB1dYKma0fsAX" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -161,7 +161,7 @@
             <mxPoint x="191" y="1170" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xZwupfOcTyZDEEOrt6pu-4" value="跟踪加价逻辑" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-3">
+        <mxCell id="xZwupfOcTyZDEEOrt6pu-4" value="自动加价加价逻辑" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="vrYzodw-wXzMlCgV3lVE-3">
           <mxGeometry x="130" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vrYzodw-wXzMlCgV3lVE-4" value="xxx-processor" style="swimlane;startSize=20;html=1;" parent="vrYzodw-wXzMlCgV3lVE-1" vertex="1">
