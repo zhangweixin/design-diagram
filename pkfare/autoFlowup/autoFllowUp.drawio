@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T03:56:37.316Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="ddQ2Oiege1VcVl5Qu949" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-02T04:00:17.941Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="b8vkiNi_T3mUxaXC2-zs" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -505,7 +505,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BL_8u3DRFZ2-j0idkSxH-7" value="次低价与最低价是同一供应？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="BL_8u3DRFZ2-j0idkSxH-7" value="当前组是否只有一个solution抱歉" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="417.5" y="250" width="115" height="100" as="geometry" />
         </mxCell>
         <mxCell id="XQ4MlhTmbq03vNWOSiSf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BL_8u3DRFZ2-j0idkSxH-9" edge="1">
@@ -696,14 +696,14 @@
         <mxCell id="5h6r2QuucNgDnjV5li-K-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5h6r2QuucNgDnjV5li-K-62" target="5h6r2QuucNgDnjV5li-K-68" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="570" y="1470" />
+              <mxPoint x="575" y="1470" />
               <mxPoint x="1210" y="1470" />
               <mxPoint x="1210" y="50" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="5h6r2QuucNgDnjV5li-K-62" value="继续下一轮" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="1370" width="120" height="50" as="geometry" />
+          <mxGeometry x="515" y="1370" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5h6r2QuucNgDnjV5li-K-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5h6r2QuucNgDnjV5li-K-68" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -792,6 +792,12 @@
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-13" value="遍历删除solution自动跟价标识" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="-150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssC-6n1VdOXp35Ix2GZk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ssC-6n1VdOXp35Ix2GZk-15" target="5h6r2QuucNgDnjV5li-K-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ssC-6n1VdOXp35Ix2GZk-15" value="当前分组只保留最低价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
