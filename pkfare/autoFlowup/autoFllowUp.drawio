@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T08:56:35.467Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="p4lV5QuDmQ-jzj7TQY4w" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-02T09:01:45.411Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="ZcnD4aVomNypwhbBR_QZ" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1051,6 +1051,11 @@
         <mxCell id="9rGb_ox9cR6Q5nKRqk7z-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jPsxuMP3VCl0q2h1OJQY-38" source="9rGb_ox9cR6Q5nKRqk7z-6" target="9rGb_ox9cR6Q5nKRqk7z-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9rGb_ox9cR6Q5nKRqk7z-43" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9rGb_ox9cR6Q5nKRqk7z-12">
+          <mxGeometry x="-0.36" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9rGb_ox9cR6Q5nKRqk7z-6" value="shopping总价等于pricing总价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="jPsxuMP3VCl0q2h1OJQY-38">
           <mxGeometry x="235" y="290" width="90" height="90" as="geometry" />
         </mxCell>
@@ -1140,26 +1145,27 @@
         <mxCell id="9rGb_ox9cR6Q5nKRqk7z-36" value="是否全部乘客类型检查完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="jPsxuMP3VCl0q2h1OJQY-38">
           <mxGeometry x="315" y="700" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jPsxuMP3VCl0q2h1OJQY-39" value="缓存 pricing 结果" style="rounded=0;whiteSpace=wrap;html=1;" parent="jPsxuMP3VCl0q2h1OJQY-3" vertex="1">
-          <mxGeometry x="130" y="1370" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="jPsxuMP3VCl0q2h1OJQY-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="jPsxuMP3VCl0q2h1OJQY-3" source="jPsxuMP3VCl0q2h1OJQY-41" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190.3157894736844" y="1530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jPsxuMP3VCl0q2h1OJQY-41" value="自动跟价pricing相关埋点" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#3333FF;" parent="jPsxuMP3VCl0q2h1OJQY-3" vertex="1">
-          <mxGeometry x="130" y="1430" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="jPsxuMP3VCl0q2h1OJQY-43" value="返回结果" style="rounded=1;whiteSpace=wrap;html=1;" parent="jPsxuMP3VCl0q2h1OJQY-3" vertex="1">
-          <mxGeometry x="130" y="1530" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9rGb_ox9cR6Q5nKRqk7z-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jPsxuMP3VCl0q2h1OJQY-3" source="9rGb_ox9cR6Q5nKRqk7z-36" target="jPsxuMP3VCl0q2h1OJQY-39">
+        <mxCell id="9rGb_ox9cR6Q5nKRqk7z-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jPsxuMP3VCl0q2h1OJQY-3" source="jPsxuMP3VCl0q2h1OJQY-39" target="jPsxuMP3VCl0q2h1OJQY-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9rGb_ox9cR6Q5nKRqk7z-42" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9rGb_ox9cR6Q5nKRqk7z-37">
-          <mxGeometry x="-0.8113" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="jPsxuMP3VCl0q2h1OJQY-39" value="缓存 pricing 结果" style="rounded=0;whiteSpace=wrap;html=1;" parent="jPsxuMP3VCl0q2h1OJQY-3" vertex="1">
+          <mxGeometry x="305" y="1370" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9rGb_ox9cR6Q5nKRqk7z-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jPsxuMP3VCl0q2h1OJQY-3" source="jPsxuMP3VCl0q2h1OJQY-41" target="jPsxuMP3VCl0q2h1OJQY-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPsxuMP3VCl0q2h1OJQY-41" value="自动跟价pricing相关埋点" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#3333FF;" parent="jPsxuMP3VCl0q2h1OJQY-3" vertex="1">
+          <mxGeometry x="305" y="1450" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jPsxuMP3VCl0q2h1OJQY-43" value="返回结果" style="rounded=1;whiteSpace=wrap;html=1;" parent="jPsxuMP3VCl0q2h1OJQY-3" vertex="1">
+          <mxGeometry x="305" y="1530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9rGb_ox9cR6Q5nKRqk7z-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jPsxuMP3VCl0q2h1OJQY-3" source="9rGb_ox9cR6Q5nKRqk7z-36" target="jPsxuMP3VCl0q2h1OJQY-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="1340" />
+              <mxPoint x="365" y="1340" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jPsxuMP3VCl0q2h1OJQY-4" value="gongfu-service" style="swimlane;startSize=20;html=1;" parent="jPsxuMP3VCl0q2h1OJQY-1" vertex="1">
