@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T07:48:34.107Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="kUDipT_mx52c56GIkoBq" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-03T07:49:18.599Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="Sn3Bwd_6C2zsol1xa4Rv" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1828,6 +1828,11 @@
         <mxCell id="x83WcjX59alBpykIkbdn-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jbB7zbW8MUomiMJYjZ2A-35" source="jbB7zbW8MUomiMJYjZ2A-58" target="x83WcjX59alBpykIkbdn-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="x83WcjX59alBpykIkbdn-8" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x83WcjX59alBpykIkbdn-6">
+          <mxGeometry x="-0.4519" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="jbB7zbW8MUomiMJYjZ2A-58" value="自动跟价预定" style="rhombus;whiteSpace=wrap;html=1;" parent="jbB7zbW8MUomiMJYjZ2A-35" vertex="1">
           <mxGeometry x="120" y="500" width="80" height="80" as="geometry" />
         </mxCell>
@@ -1863,7 +1868,7 @@
         <mxCell id="-tGU8aZS875bEcrCDBfO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="-tGU8aZS875bEcrCDBfO-22" source="-tGU8aZS875bEcrCDBfO-3" target="-tGU8aZS875bEcrCDBfO-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x83WcjX59alBpykIkbdn-5" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="-tGU8aZS875bEcrCDBfO-22">
+        <mxCell id="x83WcjX59alBpykIkbdn-5" value="乘客维度检查变价" style="whiteSpace=wrap;html=1;" vertex="1" parent="-tGU8aZS875bEcrCDBfO-22">
           <mxGeometry x="220" y="110" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jbB7zbW8MUomiMJYjZ2A-37" value="one-order" style="swimlane;startSize=20;html=1;" parent="jbB7zbW8MUomiMJYjZ2A-1" vertex="1">
