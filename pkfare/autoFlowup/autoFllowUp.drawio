@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T03:47:10.462Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="H8Pz6LZVhENlDP9Ha6LS" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-03T03:57:43.279Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="2yjG3wH8q2TZxYozSKpQ" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1246" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1336,7 +1336,7 @@
         <mxCell id="Dk3-YUHR8v0C14ZPBMBv-2" value="取乘客维度价格比较" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FV0mm4fBcgbeXYLqHhve-49">
           <mxGeometry x="270" y="750" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Dk3-YUHR8v0C14ZPBMBv-6" value="shopping总价等于pricing总价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="FV0mm4fBcgbeXYLqHhve-49">
+        <mxCell id="Dk3-YUHR8v0C14ZPBMBv-6" value="shopping采购总价等于pricing采购总价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="FV0mm4fBcgbeXYLqHhve-49">
           <mxGeometry x="285" y="850" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Dk3-YUHR8v0C14ZPBMBv-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FV0mm4fBcgbeXYLqHhve-49" source="Dk3-YUHR8v0C14ZPBMBv-10" target="Dk3-YUHR8v0C14ZPBMBv-25">
