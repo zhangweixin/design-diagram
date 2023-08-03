@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T06:14:47.477Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="zC4PccFJqNZRiU3kX1oW" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-03T06:15:23.831Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="rpQkB1FG6ZGTm4ViwFL5" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -521,7 +521,7 @@
             <mxPoint x="760" y="115" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BL_8u3DRFZ2-j0idkSxH-4" value="&lt;font color=&quot;#ff3333&quot;&gt;比成人总价:&lt;br&gt;采购票价&lt;br&gt;采购税费&lt;br&gt;采购开票费&lt;br&gt;markup&lt;br&gt;汇率加价&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" parent="1" vertex="1">
+        <mxCell id="BL_8u3DRFZ2-j0idkSxH-4" value="&lt;font color=&quot;#ff3333&quot;&gt;比成人采购总价:&lt;br&gt;采购票价&lt;br&gt;采购税费&lt;br&gt;采购开票费&lt;br&gt;markup&lt;br&gt;汇率加价&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="80" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="BL_8u3DRFZ2-j0idkSxH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BL_8u3DRFZ2-j0idkSxH-7" edge="1" target="BL_8u3DRFZ2-j0idkSxH-9">
