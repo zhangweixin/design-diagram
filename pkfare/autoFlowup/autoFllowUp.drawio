@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T07:16:15.405Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="J9W8fro3fV3Ao4PzJS1H" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-03T07:17:33.181Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="4VJoiwUxgS8OZ7bw5Ft1" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1635,6 +1635,9 @@
         <mxCell id="s85QbPolJ7eayO9ACTrG-46" value="返回变价错误" style="rounded=0;whiteSpace=wrap;html=1;" parent="s85QbPolJ7eayO9ACTrG-64" vertex="1">
           <mxGeometry x="510" y="460" width="97" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="aphocJBz4GAPKkwitiqB-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="s85QbPolJ7eayO9ACTrG-64" source="s85QbPolJ7eayO9ACTrG-43" target="aphocJBz4GAPKkwitiqB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="s85QbPolJ7eayO9ACTrG-43" value="乘客维度供应单人总价=pricing供应单人 总价" style="rhombus;whiteSpace=wrap;html=1;" parent="s85QbPolJ7eayO9ACTrG-64" vertex="1">
           <mxGeometry x="120" y="150" width="120" height="80" as="geometry" />
         </mxCell>
@@ -1643,6 +1646,9 @@
         </mxCell>
         <mxCell id="s85QbPolJ7eayO9ACTrG-49" value="更新订单价格" style="rounded=0;whiteSpace=wrap;html=1;" parent="s85QbPolJ7eayO9ACTrG-64" vertex="1">
           <mxGeometry x="380" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aphocJBz4GAPKkwitiqB-3" value="乘客维度booking供应单人总价=pricing供应单人 总价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="s85QbPolJ7eayO9ACTrG-64">
+          <mxGeometry x="125" y="300" width="110" height="90" as="geometry" />
         </mxCell>
         <mxCell id="s85QbPolJ7eayO9ACTrG-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="s85QbPolJ7eayO9ACTrG-3" source="s85QbPolJ7eayO9ACTrG-66" target="s85QbPolJ7eayO9ACTrG-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
