@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T02:09:48.503Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="i5JYG3ipi5s3VDvRyyb5" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-03T03:17:05.891Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="fuWzQ9oHK-oyGi7B2zQo" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
-    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -475,7 +475,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FcyMMwzVQ7sVzzVJiw_M" name="自动跟价加价逻辑">
-    <mxGraphModel dx="2275" dy="2501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1661" dy="1969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -767,7 +767,12 @@
           <mxGeometry x="512.5" y="1740" width="125" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ssC-6n1VdOXp35Ix2GZk-17" target="5h6r2QuucNgDnjV5li-K-70">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="-330" />
+              <mxPoint x="130" y="50" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-20" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ssC-6n1VdOXp35Ix2GZk-18">
           <mxGeometry x="-0.7493" y="1" relative="1" as="geometry">
@@ -1190,7 +1195,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NazyN30yy7XBrLKity1E" name="protal-pricing流程">
-    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
