@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T06:12:13.556Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="bJmJuO9WyBl3ORaeh9c_" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-03T06:14:47.477Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="zC4PccFJqNZRiU3kX1oW" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -560,11 +560,10 @@
         <mxCell id="BL_8u3DRFZ2-j0idkSxH-9" value="该价格是否为自动跟价报价" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="360" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5h6r2QuucNgDnjV5li-K-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XQ4MlhTmbq03vNWOSiSf-3" target="ssC-6n1VdOXp35Ix2GZk-15" edge="1">
+        <mxCell id="5h6r2QuucNgDnjV5li-K-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XQ4MlhTmbq03vNWOSiSf-3" target="5h6r2QuucNgDnjV5li-K-62" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="80" y="500" />
-              <mxPoint x="80" y="1580" />
+              <mxPoint x="80" y="1860" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -696,7 +695,7 @@
         <mxCell id="5h6r2QuucNgDnjV5li-K-55" value="供应结算票价=供应结算票价+&amp;nbsp;autoMarkup*b2sBankRate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="485" y="1260" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1-NP3nT4mg8qtGF3Hokd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5h6r2QuucNgDnjV5li-K-58" target="1-NP3nT4mg8qtGF3Hokd-31">
+        <mxCell id="1-NP3nT4mg8qtGF3Hokd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#97D077;" edge="1" parent="1" source="5h6r2QuucNgDnjV5li-K-58" target="1-NP3nT4mg8qtGF3Hokd-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5h6r2QuucNgDnjV5li-K-58" value="取最低价计算" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -875,7 +874,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-21" value="" style="swimlane;startSize=0;dashed=1;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="100" y="700" width="320" height="460" as="geometry" />
+          <mxGeometry x="100" y="700" width="320" height="490" as="geometry" />
         </mxCell>
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1-NP3nT4mg8qtGF3Hokd-21" source="XQ4MlhTmbq03vNWOSiSf-7" target="1-NP3nT4mg8qtGF3Hokd-21">
           <mxGeometry relative="1" as="geometry">
@@ -916,8 +915,8 @@
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1-NP3nT4mg8qtGF3Hokd-21" source="1-NP3nT4mg8qtGF3Hokd-74" target="1-NP3nT4mg8qtGF3Hokd-21">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="50" y="440" />
-              <mxPoint x="160" y="440" />
+              <mxPoint x="50" y="460" />
+              <mxPoint x="160" y="460" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -936,7 +935,7 @@
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-74" value="记录加价失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1-NP3nT4mg8qtGF3Hokd-21">
           <mxGeometry x="5" y="215" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1-NP3nT4mg8qtGF3Hokd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1-NP3nT4mg8qtGF3Hokd-31" target="1-NP3nT4mg8qtGF3Hokd-21">
+        <mxCell id="1-NP3nT4mg8qtGF3Hokd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#97D077;" edge="1" parent="1" source="1-NP3nT4mg8qtGF3Hokd-31" target="1-NP3nT4mg8qtGF3Hokd-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-31" value="分乘客类型计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
