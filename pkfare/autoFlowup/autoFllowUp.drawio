@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T03:31:19.118Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="baIMlSlIxDss3HggsR_f" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-03T03:47:10.462Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="H8Pz6LZVhENlDP9Ha6LS" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1246" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1193,7 +1193,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NazyN30yy7XBrLKity1E" name="protal-pricing流程">
-    <mxGraphModel dx="794" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1273,7 +1273,7 @@
             <mxPoint x="180" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FV0mm4fBcgbeXYLqHhve-19" value="构造指定舱位请求" style="rounded=0;whiteSpace=wrap;html=1;" parent="J3fNOCrwVsngQggtVjG--6" vertex="1">
+        <mxCell id="FV0mm4fBcgbeXYLqHhve-19" value="构造指定供应指定舱位请求" style="rounded=0;whiteSpace=wrap;html=1;" parent="J3fNOCrwVsngQggtVjG--6" vertex="1">
           <mxGeometry x="135" y="570" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FV0mm4fBcgbeXYLqHhve-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="J3fNOCrwVsngQggtVjG--6" source="ZY4XRrqMZn-i7--WuW3Z-1" edge="1">
@@ -1320,7 +1320,7 @@
         <mxCell id="FV0mm4fBcgbeXYLqHhve-36" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;" parent="FV0mm4fBcgbeXYLqHhve-49" vertex="1">
           <mxGeometry x="290" y="450" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FV0mm4fBcgbeXYLqHhve-44" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="FV0mm4fBcgbeXYLqHhve-49" source="FV0mm4fBcgbeXYLqHhve-43" edge="1">
+        <mxCell id="FV0mm4fBcgbeXYLqHhve-44" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="FV0mm4fBcgbeXYLqHhve-49" source="FV0mm4fBcgbeXYLqHhve-43" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="750" as="targetPoint" />
           </mxGeometry>
@@ -1433,6 +1433,11 @@
               <mxPoint x="820" y="940" />
               <mxPoint x="820" y="1820" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6V0KMxOokRUQpMxKT_h-1" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dk3-YUHR8v0C14ZPBMBv-28">
+          <mxGeometry x="0.1909" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J3fNOCrwVsngQggtVjG--37" value="gongfu-service" style="swimlane;startSize=20;html=1;" parent="J3fNOCrwVsngQggtVjG--1" vertex="1">
