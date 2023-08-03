@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T07:00:54.674Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="2o9Jx-oUpTgjz-IJDMZH" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-03T07:16:15.405Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="J9W8fro3fV3Ao4PzJS1H" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1539,7 +1539,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eGzZXBIMfWI6LAk4jr8j" name="old-ssdc 预定">
-    <mxGraphModel dx="1187" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1625" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1623,34 +1623,6 @@
         <mxCell id="s85QbPolJ7eayO9ACTrG-42" value="原变价处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="s85QbPolJ7eayO9ACTrG-3" vertex="1">
           <mxGeometry x="15" y="540" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="s85QbPolJ7eayO9ACTrG-44" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="s85QbPolJ7eayO9ACTrG-3" source="s85QbPolJ7eayO9ACTrG-43" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190" y="800" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="s85QbPolJ7eayO9ACTrG-45" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="s85QbPolJ7eayO9ACTrG-3" source="s85QbPolJ7eayO9ACTrG-43" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="770" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="s85QbPolJ7eayO9ACTrG-43" value="乘客维度供应单人总价&amp;gt;pricing 总价" style="rhombus;whiteSpace=wrap;html=1;" parent="s85QbPolJ7eayO9ACTrG-3" vertex="1">
-          <mxGeometry x="150" y="670" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="s85QbPolJ7eayO9ACTrG-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="s85QbPolJ7eayO9ACTrG-3" source="s85QbPolJ7eayO9ACTrG-46" target="s85QbPolJ7eayO9ACTrG-54" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="s85QbPolJ7eayO9ACTrG-46" value="返回变价错误" style="rounded=0;whiteSpace=wrap;html=1;" parent="s85QbPolJ7eayO9ACTrG-3" vertex="1">
-          <mxGeometry x="11.5" y="770" width="97" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="s85QbPolJ7eayO9ACTrG-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="s85QbPolJ7eayO9ACTrG-3" source="s85QbPolJ7eayO9ACTrG-47" target="s85QbPolJ7eayO9ACTrG-49" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="s85QbPolJ7eayO9ACTrG-47" value="使用预定返回供应价格作为订单供应价格" style="rounded=0;whiteSpace=wrap;html=1;" parent="s85QbPolJ7eayO9ACTrG-3" vertex="1">
-          <mxGeometry x="140" y="800" width="105" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="s85QbPolJ7eayO9ACTrG-49" value="更新订单价格" style="rounded=0;whiteSpace=wrap;html=1;" parent="s85QbPolJ7eayO9ACTrG-3" vertex="1">
-          <mxGeometry x="280" y="800" width="120" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="s85QbPolJ7eayO9ACTrG-54" value="预定自动跟价埋点" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF3333;" parent="s85QbPolJ7eayO9ACTrG-3" vertex="1">
           <mxGeometry x="137.5" y="1541" width="105" height="50" as="geometry" />
         </mxCell>
@@ -1659,6 +1631,18 @@
         </mxCell>
         <mxCell id="s85QbPolJ7eayO9ACTrG-65" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 15px;&quot;&gt;变价处理流程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="s85QbPolJ7eayO9ACTrG-64" vertex="1">
           <mxGeometry x="240" y="10" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s85QbPolJ7eayO9ACTrG-46" value="返回变价错误" style="rounded=0;whiteSpace=wrap;html=1;" parent="s85QbPolJ7eayO9ACTrG-64" vertex="1">
+          <mxGeometry x="510" y="460" width="97" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s85QbPolJ7eayO9ACTrG-43" value="乘客维度供应单人总价=pricing供应单人 总价" style="rhombus;whiteSpace=wrap;html=1;" parent="s85QbPolJ7eayO9ACTrG-64" vertex="1">
+          <mxGeometry x="120" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s85QbPolJ7eayO9ACTrG-47" value="使用预定返回供应价格作为订单供应价格" style="rounded=0;whiteSpace=wrap;html=1;" parent="s85QbPolJ7eayO9ACTrG-64" vertex="1">
+          <mxGeometry x="460" y="370" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s85QbPolJ7eayO9ACTrG-49" value="更新订单价格" style="rounded=0;whiteSpace=wrap;html=1;" parent="s85QbPolJ7eayO9ACTrG-64" vertex="1">
+          <mxGeometry x="380" y="280" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s85QbPolJ7eayO9ACTrG-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="s85QbPolJ7eayO9ACTrG-3" source="s85QbPolJ7eayO9ACTrG-66" target="s85QbPolJ7eayO9ACTrG-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1700,15 +1684,6 @@
         </mxCell>
         <mxCell id="s85QbPolJ7eayO9ACTrG-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="s85QbPolJ7eayO9ACTrG-1" source="s85QbPolJ7eayO9ACTrG-25" target="s85QbPolJ7eayO9ACTrG-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="s85QbPolJ7eayO9ACTrG-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="s85QbPolJ7eayO9ACTrG-1" source="s85QbPolJ7eayO9ACTrG-51" edge="1" target="s85QbPolJ7eayO9ACTrG-66">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="1010" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1210" y="930" />
-              <mxPoint x="360" y="930" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="s85QbPolJ7eayO9ACTrG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="s85QbPolJ7eayO9ACTrG-1" source="s85QbPolJ7eayO9ACTrG-11" target="s85QbPolJ7eayO9ACTrG-15" edge="1">
           <mxGeometry relative="1" as="geometry">
