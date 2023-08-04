@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T06:06:03.568Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="SRkelfOHWAAJMP5Pwt-_" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-04T06:06:59.574Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="I_NI1yrPW1k-ibjW9aC0" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1880,7 +1880,7 @@
           <mxGeometry x="327.5" y="600" width="92.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-tGU8aZS875bEcrCDBfO-25" value="其他原处理流程" style="rounded=0;whiteSpace=wrap;html=1;" parent="jbB7zbW8MUomiMJYjZ2A-35" vertex="1">
-          <mxGeometry x="333.75" y="1220" width="100" height="50" as="geometry" />
+          <mxGeometry x="333.75" y="1310" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CYsC8b7juTKH739hNuGz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="jbB7zbW8MUomiMJYjZ2A-35" source="CYsC8b7juTKH739hNuGz-8" target="-tGU8aZS875bEcrCDBfO-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1936,7 +1936,8 @@
         <mxCell id="CYsC8b7juTKH739hNuGz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="jbB7zbW8MUomiMJYjZ2A-1" source="-tGU8aZS875bEcrCDBfO-25" target="-tGU8aZS875bEcrCDBfO-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="520" y="1265" />
+              <mxPoint x="914" y="1350" />
+              <mxPoint x="520" y="1350" />
               <mxPoint x="520" y="1005" />
             </Array>
           </mxGeometry>
