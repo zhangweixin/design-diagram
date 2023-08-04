@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T06:02:47.384Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="kOmhg9hx0hr5AmIyE_V3" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-04T06:03:32.625Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="UuFfycAh3fHYJDyVlEbm" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2113,6 +2113,19 @@
         </mxCell>
         <mxCell id="s2RKUOmzeGk-yC-5DHRn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="6n0AhoQ9HG-OD_vtrRAi-11" source="9dDs3tPZq87D6y_temun-3" target="UOc9WEiHrh3-zXp-a195-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2RKUOmzeGk-yC-5DHRn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6n0AhoQ9HG-OD_vtrRAi-11" source="UOc9WEiHrh3-zXp-a195-5" target="UOc9WEiHrh3-zXp-a195-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="475" />
+              <mxPoint x="410" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2RKUOmzeGk-yC-5DHRn-14" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s2RKUOmzeGk-yC-5DHRn-13">
+          <mxGeometry x="-0.0941" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6n0AhoQ9HG-OD_vtrRAi-18" value="ssdc-supplier" style="swimlane;startSize=20;html=1;" parent="6n0AhoQ9HG-OD_vtrRAi-1" vertex="1">
           <mxGeometry x="1130" y="20" width="200" height="960" as="geometry" />
