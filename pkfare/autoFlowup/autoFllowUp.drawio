@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T05:56:21.602Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="SMi0wvC-TvWEVC9k7hfm" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-04T05:58:10.581Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="aw5QJ87P1z7lIfGnv2Kc" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2043,7 +2043,7 @@
         <mxCell id="UOc9WEiHrh3-zXp-a195-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2q2WOiiu-NxI9chnSYoR-24" source="9dDs3tPZq87D6y_temun-3" target="2q2WOiiu-NxI9chnSYoR-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9dDs3tPZq87D6y_temun-3" value="使用paycheck返回供应价格作为订单供应价格" style="rounded=0;whiteSpace=wrap;html=1;" parent="2q2WOiiu-NxI9chnSYoR-24" vertex="1">
+        <mxCell id="9dDs3tPZq87D6y_temun-3" value="使用paycheck返回供应价格作为订单供应结算价格" style="rounded=0;whiteSpace=wrap;html=1;" parent="2q2WOiiu-NxI9chnSYoR-24" vertex="1">
           <mxGeometry x="130.5" y="540" width="108" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2q2WOiiu-NxI9chnSYoR-5" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2q2WOiiu-NxI9chnSYoR-24" source="2q2WOiiu-NxI9chnSYoR-1" target="9dDs3tPZq87D6y_temun-1" edge="1">
@@ -2075,8 +2075,14 @@
         <mxCell id="UOc9WEiHrh3-zXp-a195-10" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2q2WOiiu-NxI9chnSYoR-24" source="UOc9WEiHrh3-zXp-a195-7" target="9dDs3tPZq87D6y_temun-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="s2RKUOmzeGk-yC-5DHRn-1" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2q2WOiiu-NxI9chnSYoR-24" source="UOc9WEiHrh3-zXp-a195-7" target="9dDs3tPZq87D6y_temun-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UOc9WEiHrh3-zXp-a195-7" value="是否可以变价吸收" style="rhombus;whiteSpace=wrap;html=1;" parent="2q2WOiiu-NxI9chnSYoR-24" vertex="1">
           <mxGeometry x="137.25" y="422.5" width="94.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="9dDs3tPZq87D6y_temun-2" value="返回变价错误" style="rounded=0;whiteSpace=wrap;html=1;" parent="2q2WOiiu-NxI9chnSYoR-24" vertex="1">
+          <mxGeometry x="250" y="490" width="97" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UOc9WEiHrh3-zXp-a195-13" value="原其他处理流程" style="rounded=0;whiteSpace=wrap;html=1;" parent="6n0AhoQ9HG-OD_vtrRAi-11" vertex="1">
           <mxGeometry x="165" y="880" width="120" height="40" as="geometry" />
@@ -2084,8 +2090,8 @@
         <mxCell id="UOc9WEiHrh3-zXp-a195-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="6n0AhoQ9HG-OD_vtrRAi-11" source="9dDs3tPZq87D6y_temun-1" target="UOc9WEiHrh3-zXp-a195-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="390" y="350" />
-              <mxPoint x="390" y="900" />
+              <mxPoint x="430" y="350" />
+              <mxPoint x="430" y="900" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2097,21 +2103,10 @@
         <mxCell id="UOc9WEiHrh3-zXp-a195-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="6n0AhoQ9HG-OD_vtrRAi-11" source="2q2WOiiu-NxI9chnSYoR-12" target="UOc9WEiHrh3-zXp-a195-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UOc9WEiHrh3-zXp-a195-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="6n0AhoQ9HG-OD_vtrRAi-11" target="UOc9WEiHrh3-zXp-a195-13" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="620" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="300" y="620" />
-              <mxPoint x="300" y="900" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UOc9WEiHrh3-zXp-a195-17" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="UOc9WEiHrh3-zXp-a195-12" vertex="1" connectable="0">
-          <mxGeometry x="0.0054" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="UOc9WEiHrh3-zXp-a195-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="6n0AhoQ9HG-OD_vtrRAi-11" source="2q2WOiiu-NxI9chnSYoR-2" target="UOc9WEiHrh3-zXp-a195-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2RKUOmzeGk-yC-5DHRn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6n0AhoQ9HG-OD_vtrRAi-11" source="9dDs3tPZq87D6y_temun-2" target="UOc9WEiHrh3-zXp-a195-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6n0AhoQ9HG-OD_vtrRAi-18" value="ssdc-supplier" style="swimlane;startSize=20;html=1;" parent="6n0AhoQ9HG-OD_vtrRAi-1" vertex="1">
@@ -2119,9 +2114,6 @@
         </mxCell>
         <mxCell id="6n0AhoQ9HG-OD_vtrRAi-20" value="paycheck" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="6n0AhoQ9HG-OD_vtrRAi-18" vertex="1">
           <mxGeometry x="20" y="50" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9dDs3tPZq87D6y_temun-2" value="返回变价错误" style="rounded=0;whiteSpace=wrap;html=1;" parent="6n0AhoQ9HG-OD_vtrRAi-18" vertex="1">
-          <mxGeometry x="80" y="670" width="97" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2q2WOiiu-NxI9chnSYoR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="6n0AhoQ9HG-OD_vtrRAi-1" source="2q2WOiiu-NxI9chnSYoR-12" target="2q2WOiiu-NxI9chnSYoR-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
