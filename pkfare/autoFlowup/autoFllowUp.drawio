@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T02:33:17.839Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="hZUo5-1xQyS0Yyx2pZgQ" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-04T02:35:15.858Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="WO84-NKBUrZF6nvJpAUc" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1836,9 +1836,6 @@
         <mxCell id="jbB7zbW8MUomiMJYjZ2A-58" value="自动跟价预定" style="rhombus;whiteSpace=wrap;html=1;" parent="jbB7zbW8MUomiMJYjZ2A-35" vertex="1">
           <mxGeometry x="120" y="500" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jbB7zbW8MUomiMJYjZ2A-60" value="原变价处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="jbB7zbW8MUomiMJYjZ2A-35" vertex="1">
-          <mxGeometry x="10" y="590" width="100" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="-tGU8aZS875bEcrCDBfO-22" value="" style="swimlane;startSize=0;dashed=1;strokeColor=#FF3333;" parent="jbB7zbW8MUomiMJYjZ2A-35" vertex="1">
           <mxGeometry x="10" y="480" width="640" height="780" as="geometry" />
         </mxCell>
@@ -1851,7 +1848,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-tGU8aZS875bEcrCDBfO-25" value="其他原处理流程" style="rounded=0;whiteSpace=wrap;html=1;" parent="-tGU8aZS875bEcrCDBfO-22" vertex="1">
-          <mxGeometry x="325" y="560" width="100" height="50" as="geometry" />
+          <mxGeometry x="370" y="580" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-tGU8aZS875bEcrCDBfO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="-tGU8aZS875bEcrCDBfO-22" source="x83WcjX59alBpykIkbdn-12" target="-tGU8aZS875bEcrCDBfO-25" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1866,6 +1863,9 @@
         </mxCell>
         <mxCell id="x83WcjX59alBpykIkbdn-12" value="booking供应总价=pricing供应 总价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="-tGU8aZS875bEcrCDBfO-22">
           <mxGeometry x="335" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jbB7zbW8MUomiMJYjZ2A-60" value="原变价处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="-tGU8aZS875bEcrCDBfO-22" vertex="1">
+          <mxGeometry x="10" y="110" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jbB7zbW8MUomiMJYjZ2A-37" value="one-order" style="swimlane;startSize=20;html=1;" parent="jbB7zbW8MUomiMJYjZ2A-1" vertex="1">
           <mxGeometry x="1280" y="20" width="180" height="1260" as="geometry" />
@@ -1902,6 +1902,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="x83WcjX59alBpykIkbdn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="jbB7zbW8MUomiMJYjZ2A-1" source="jbB7zbW8MUomiMJYjZ2A-12" target="jbB7zbW8MUomiMJYjZ2A-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x83WcjX59alBpykIkbdn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jbB7zbW8MUomiMJYjZ2A-1" source="jbB7zbW8MUomiMJYjZ2A-60" target="-tGU8aZS875bEcrCDBfO-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
