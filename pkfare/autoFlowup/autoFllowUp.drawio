@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T06:07:09.870Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="T_u4i0VyKjqFyM4B3uQB" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-04T06:09:04.725Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="F_3F-z7n8_HbFYHtbumx" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1865,9 +1865,14 @@
         <mxCell id="CYsC8b7juTKH739hNuGz-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-tGU8aZS875bEcrCDBfO-22" source="x83WcjX59alBpykIkbdn-15" target="CYsC8b7juTKH739hNuGz-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="HQIkhai1DDEfeuAmayZx-1" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CYsC8b7juTKH739hNuGz-4">
+          <mxGeometry x="0.072" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CYsC8b7juTKH739hNuGz-7" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-tGU8aZS875bEcrCDBfO-22" source="x83WcjX59alBpykIkbdn-15" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="375" y="600" as="targetPoint" />
+            <mxPoint x="375" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="x83WcjX59alBpykIkbdn-15" value="变价是否可以吸收" style="rhombus;whiteSpace=wrap;html=1;" parent="-tGU8aZS875bEcrCDBfO-22" vertex="1">
@@ -1877,10 +1882,16 @@
           <mxGeometry x="170" y="482.5" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="CYsC8b7juTKH739hNuGz-8" value="是否全部比较完成" style="rhombus;whiteSpace=wrap;html=1;" parent="-tGU8aZS875bEcrCDBfO-22" vertex="1">
-          <mxGeometry x="327.5" y="600" width="92.5" height="60" as="geometry" />
+          <mxGeometry x="328.75" y="670" width="92.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HQIkhai1DDEfeuAmayZx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-tGU8aZS875bEcrCDBfO-22" source="HQIkhai1DDEfeuAmayZx-2" target="CYsC8b7juTKH739hNuGz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQIkhai1DDEfeuAmayZx-2" value="取预定返回的价格作为供应结算价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-tGU8aZS875bEcrCDBfO-22">
+          <mxGeometry x="330" y="580" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-tGU8aZS875bEcrCDBfO-25" value="其他原处理流程" style="rounded=0;whiteSpace=wrap;html=1;" parent="jbB7zbW8MUomiMJYjZ2A-35" vertex="1">
-          <mxGeometry x="333.75" y="1310" width="100" height="50" as="geometry" />
+          <mxGeometry x="335" y="1310" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CYsC8b7juTKH739hNuGz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="jbB7zbW8MUomiMJYjZ2A-35" source="CYsC8b7juTKH739hNuGz-8" target="-tGU8aZS875bEcrCDBfO-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
