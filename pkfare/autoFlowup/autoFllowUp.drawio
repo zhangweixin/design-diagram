@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T06:06:59.574Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="I_NI1yrPW1k-ibjW9aC0" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-04T06:07:09.870Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="T_u4i0VyKjqFyM4B3uQB" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1837,7 +1837,7 @@
           <mxGeometry x="120" y="500" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-tGU8aZS875bEcrCDBfO-22" value="" style="swimlane;startSize=0;dashed=1;strokeColor=#FF3333;" parent="jbB7zbW8MUomiMJYjZ2A-35" vertex="1">
-          <mxGeometry x="10" y="480" width="640" height="690" as="geometry" />
+          <mxGeometry x="10" y="480" width="640" height="740" as="geometry" />
         </mxCell>
         <mxCell id="-tGU8aZS875bEcrCDBfO-1" value="booking供应总价=pricing供应 总价" style="rhombus;whiteSpace=wrap;html=1;" parent="-tGU8aZS875bEcrCDBfO-22" vertex="1">
           <mxGeometry x="335" y="220" width="80" height="80" as="geometry" />
