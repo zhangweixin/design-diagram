@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T06:09:04.725Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="F_3F-z7n8_HbFYHtbumx" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-04T06:09:26.279Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="udqnwMPeYw2NjHqW6ruD" version="21.6.6" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1880,6 +1880,20 @@
         </mxCell>
         <mxCell id="CYsC8b7juTKH739hNuGz-3" value="返回变价错误" style="whiteSpace=wrap;html=1;" parent="-tGU8aZS875bEcrCDBfO-22" vertex="1">
           <mxGeometry x="170" y="482.5" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HQIkhai1DDEfeuAmayZx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-tGU8aZS875bEcrCDBfO-22" source="CYsC8b7juTKH739hNuGz-8" target="-tGU8aZS875bEcrCDBfO-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="700" />
+              <mxPoint x="550" y="200" />
+              <mxPoint x="375" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQIkhai1DDEfeuAmayZx-5" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HQIkhai1DDEfeuAmayZx-4">
+          <mxGeometry x="-0.8185" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="CYsC8b7juTKH739hNuGz-8" value="是否全部比较完成" style="rhombus;whiteSpace=wrap;html=1;" parent="-tGU8aZS875bEcrCDBfO-22" vertex="1">
           <mxGeometry x="328.75" y="670" width="92.5" height="60" as="geometry" />
