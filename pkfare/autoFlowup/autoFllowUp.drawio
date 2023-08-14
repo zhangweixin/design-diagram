@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T03:42:16.793Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="MhfSHSaCsCd7mzJkfjWd" version="21.6.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-14T05:53:18.668Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="qbuLhqcBhW1jkAuMDUNp" version="21.6.7" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1780" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -585,7 +585,7 @@
             <mxPoint x="575" y="1100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5h6r2QuucNgDnjV5li-K-17" value="autoMarkup=(次低价总价-最低总价)-1CNY*c2bBankRate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="5h6r2QuucNgDnjV5li-K-17" value="autoMarkup=(次低价采购price-最低价采购maxPrice)-1CNY*c2bBankRate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="492.5" y="1010" width="165" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5h6r2QuucNgDnjV5li-K-22" target="5h6r2QuucNgDnjV5li-K-36" edge="1">
@@ -1005,7 +1005,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PVrXuSXrQ6MLXZIrvFcD" name="api-pricing 逻辑">
-    <mxGraphModel dx="1194" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1780" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1272,7 +1272,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NazyN30yy7XBrLKity1E" name="protal-pricing流程">
-    <mxGraphModel dx="1194" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1780" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
