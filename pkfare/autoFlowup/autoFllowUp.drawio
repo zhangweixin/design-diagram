@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T05:58:14.686Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="fb9M-tOY_xdWQAv7MsDv" version="21.6.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-14T05:59:03.329Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="N-X8tO-IpbNBDcuOgCBQ" version="21.6.7" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1780" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1005,7 +1005,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qhoc5IHv2zXk4fUOy4y4-1" value="存在且大于price(采购票价)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="453" y="560" width="97" height="70" as="geometry" />
+          <mxGeometry x="453" y="560" width="107" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
