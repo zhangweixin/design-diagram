@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T02:44:15.707Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="xlfp9CmSpMSoz_T9XBsc" version="21.6.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-14T02:44:37.365Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="etZ0d4pzwko6oZTmY3pV" version="21.6.7" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1194" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2178,12 +2178,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s2RKUOmzeGk-yC-5DHRn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="6n0AhoQ9HG-OD_vtrRAi-11" source="9dDs3tPZq87D6y_temun-2" target="UOc9WEiHrh3-zXp-a195-13" edge="1">
+        <mxCell id="s2RKUOmzeGk-yC-5DHRn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6n0AhoQ9HG-OD_vtrRAi-11" source="9dDs3tPZq87D6y_temun-2" target="UOc9WEiHrh3-zXp-a195-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="185" y="720" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="309" y="700" />
-              <mxPoint x="185" y="700" />
+              <mxPoint x="349" y="860" />
+              <mxPoint x="225" y="860" />
             </Array>
           </mxGeometry>
         </mxCell>
