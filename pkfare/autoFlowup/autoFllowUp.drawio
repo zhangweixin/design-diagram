@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T06:11:30.499Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="1nEYz37XYLchaB6XXY2B" version="21.6.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-14T06:12:02.290Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="vHDdC9p67KFD_7vsTe7A" version="21.6.7" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1780" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -887,21 +887,13 @@
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-13" value="乘客类型是否遍历完成" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="792.5" y="1550" width="105" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="1-NP3nT4mg8qtGF3Hokd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1-NP3nT4mg8qtGF3Hokd-21" target="1-NP3nT4mg8qtGF3Hokd-13" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="1200" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="440" y="1230" />
-              <mxPoint x="560" y="1230" />
-              <mxPoint x="560" y="1510" />
-              <mxPoint x="792" y="1510" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Qhoc5IHv2zXk4fUOy4y4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF8000;" edge="1" parent="1" source="1-NP3nT4mg8qtGF3Hokd-21">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280.3333333333335" y="1270" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Qhoc5IHv2zXk4fUOy4y4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1-NP3nT4mg8qtGF3Hokd-21" target="1-NP3nT4mg8qtGF3Hokd-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-21" value="" style="swimlane;startSize=0;dashed=1;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="200" y="700" width="320" height="490" as="geometry" />
