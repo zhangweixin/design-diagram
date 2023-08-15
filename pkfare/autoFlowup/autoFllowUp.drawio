@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T08:10:00.170Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="G9uoWCiRNWL3-pLipm0i" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-15T08:11:35.627Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="KfAmuRpNAE3JLrjBKzL7" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="954" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1039,7 +1039,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3-jFVz1ESMJXBknMcWNh-8" value="price指的是票价" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="845" y="780" width="80" height="100" as="geometry" />
+          <mxGeometry x="845" y="800" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3-jFVz1ESMJXBknMcWNh-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1-NP3nT4mg8qtGF3Hokd-49" target="1-NP3nT4mg8qtGF3Hokd-66">
           <mxGeometry relative="1" as="geometry">
