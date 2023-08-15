@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T08:20:33.470Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="k_bnSgsFg2tSgymz_G-a" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-15T08:25:07.796Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="pbCmIPcAG6t235s8sz1B" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="954" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -856,11 +856,6 @@
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-13" value="乘客类型是否遍历完成" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="782.5" y="1920" width="105" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Qhoc5IHv2zXk4fUOy4y4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF8000;" parent="1" source="1-NP3nT4mg8qtGF3Hokd-21" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270.3333333333335" y="1640" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Qhoc5IHv2zXk4fUOy4y4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1-NP3nT4mg8qtGF3Hokd-21" target="1-NP3nT4mg8qtGF3Hokd-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -929,7 +924,7 @@
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF8000;" parent="1" source="1-NP3nT4mg8qtGF3Hokd-31" target="1-NP3nT4mg8qtGF3Hokd-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1-NP3nT4mg8qtGF3Hokd-31" value="分乘客类型计算" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="1-NP3nT4mg8qtGF3Hokd-31" value="取当前分组乘客类型对应价格进行计算" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="970" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="1-NP3nT4mg8qtGF3Hokd-46" target="1-NP3nT4mg8qtGF3Hokd-63" edge="1">
@@ -969,35 +964,15 @@
         <mxCell id="Qhoc5IHv2zXk4fUOy4y4-1" value="存在且大于price(采购票价)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="1080" width="107" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Qhoc5IHv2zXk4fUOy4y4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF8000;" parent="1" source="Qhoc5IHv2zXk4fUOy4y4-5" target="1-NP3nT4mg8qtGF3Hokd-21" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="1058.6666666666665" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="140" y="1685" />
-              <mxPoint x="140" y="1050" />
-              <mxPoint x="270" y="1050" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Qhoc5IHv2zXk4fUOy4y4-7" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Qhoc5IHv2zXk4fUOy4y4-6" vertex="1" connectable="0">
-          <mxGeometry x="-0.9032" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Qhoc5IHv2zXk4fUOy4y4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF8000;" parent="1" source="Qhoc5IHv2zXk4fUOy4y4-5" target="5h6r2QuucNgDnjV5li-K-62" edge="1">
+        <mxCell id="Qhoc5IHv2zXk4fUOy4y4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.006;exitY=0.933;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF8000;exitPerimeter=0;" parent="1" source="1-NP3nT4mg8qtGF3Hokd-21" target="3-jFVz1ESMJXBknMcWNh-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="270" y="2230" />
+              <mxPoint x="10" y="1527" />
+              <mxPoint x="10" y="230" />
+              <mxPoint x="475" y="230" />
             </Array>
+            <mxPoint x="270" y="1730" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Qhoc5IHv2zXk4fUOy4y4-9" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Qhoc5IHv2zXk4fUOy4y4-8" vertex="1" connectable="0">
-          <mxGeometry x="-0.7035" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Qhoc5IHv2zXk4fUOy4y4-5" value="乘客类型是否遍历完成" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="1640" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="3-jFVz1ESMJXBknMcWNh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3-jFVz1ESMJXBknMcWNh-1">
           <mxGeometry relative="1" as="geometry">
