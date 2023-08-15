@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T08:07:39.824Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="3IbS-8WMbCa9lZ_j2-B3" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-15T08:08:20.124Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="ejdy2HiWqUukDrFwPX41" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="954" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -516,7 +516,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BL_8u3DRFZ2-j0idkSxH-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="-460" width="110" height="40" as="geometry" />
+          <mxGeometry x="420" y="-570" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BL_8u3DRFZ2-j0idkSxH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BL_8u3DRFZ2-j0idkSxH-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -785,15 +785,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-4" value="采购是否开启自动跟价模式" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="435" y="-240" width="80" height="80" as="geometry" />
+          <mxGeometry x="435" y="-350" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ssC-6n1VdOXp35Ix2GZk-9" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="-200" as="targetPoint" />
+            <mxPoint x="520" y="-310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-9" value="nacos配置方式设置黑名单" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
-          <mxGeometry x="672.5" y="-280" width="80" height="80" as="geometry" />
+          <mxGeometry x="672.5" y="-390" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ssC-6n1VdOXp35Ix2GZk-13" target="5h6r2QuucNgDnjV5li-K-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -810,7 +810,7 @@
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ssC-6n1VdOXp35Ix2GZk-17" target="5h6r2QuucNgDnjV5li-K-70" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="130" y="-330" />
+              <mxPoint x="130" y="-440" />
               <mxPoint x="130" y="50" />
             </Array>
           </mxGeometry>
@@ -829,7 +829,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-17" value="自动跟价开关是否开启" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="435" y="-370" width="80" height="80" as="geometry" />
+          <mxGeometry x="435" y="-480" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1-NP3nT4mg8qtGF3Hokd-6" target="5h6r2QuucNgDnjV5li-K-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
