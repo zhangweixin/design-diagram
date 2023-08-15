@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T08:18:08.749Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="PClKM8G3d0g3fl5PG9qD" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-15T08:18:57.364Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="Vd9EY3vwl35o-RBVVLxL" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="954" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -568,6 +568,9 @@
         <mxCell id="BL_8u3DRFZ2-j0idkSxH-9" value="该价格是否为自动跟价报价" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="730" width="100" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="aRs9yKFHwdCfdXMcZJ24-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XQ4MlhTmbq03vNWOSiSf-3" target="3-jFVz1ESMJXBknMcWNh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XQ4MlhTmbq03vNWOSiSf-3" value="不做任何处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="660" width="100" height="40" as="geometry" />
         </mxCell>
@@ -1006,7 +1009,7 @@
             <mxPoint x="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3-jFVz1ESMJXBknMcWNh-1" value="全部分组是否全部遍历结束" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3-jFVz1ESMJXBknMcWNh-1" value="乘客类型分组是否全部遍历结束" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="422.5" y="250" width="105" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3-jFVz1ESMJXBknMcWNh-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=65;exitPerimeter=0;" edge="1" parent="1" source="3-jFVz1ESMJXBknMcWNh-8" target="5h6r2QuucNgDnjV5li-K-22">
