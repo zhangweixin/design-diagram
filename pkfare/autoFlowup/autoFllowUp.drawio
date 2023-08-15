@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T14:23:03.134Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="jtTTa_1VYGhjLStT_TEP" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-15T14:26:56.133Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="URSAgOCVDNJnCc3LBc0i" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1147,13 +1147,13 @@
         <mxCell id="9rGb_ox9cR6Q5nKRqk7z-1" value="取乘客维度价格比较" style="rounded=0;whiteSpace=wrap;html=1;" parent="jPsxuMP3VCl0q2h1OJQY-38" vertex="1">
           <mxGeometry x="220" y="190" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9rGb_ox9cR6Q5nKRqk7z-9" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="jPsxuMP3VCl0q2h1OJQY-38" source="9rGb_ox9cR6Q5nKRqk7z-6" target="9rGb_ox9cR6Q5nKRqk7z-36" edge="1">
+        <mxCell id="9rGb_ox9cR6Q5nKRqk7z-9" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="jPsxuMP3VCl0q2h1OJQY-38" source="9rGb_ox9cR6Q5nKRqk7z-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="335" as="targetPoint" />
+            <mxPoint x="355" y="750" as="targetPoint" />
             <Array as="points">
               <mxPoint x="170" y="335" />
-              <mxPoint x="170" y="750" />
-              <mxPoint x="355" y="750" />
+              <mxPoint x="170" y="700" />
+              <mxPoint x="355" y="700" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1193,12 +1193,13 @@
         <mxCell id="9rGb_ox9cR6Q5nKRqk7z-14" value="pricing采购价格取shopping采购价格" style="whiteSpace=wrap;html=1;" parent="jPsxuMP3VCl0q2h1OJQY-38" vertex="1">
           <mxGeometry x="225" y="540" width="110" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="9rGb_ox9cR6Q5nKRqk7z-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="jPsxuMP3VCl0q2h1OJQY-38" source="9rGb_ox9cR6Q5nKRqk7z-19" target="9rGb_ox9cR6Q5nKRqk7z-36" edge="1">
+        <mxCell id="9rGb_ox9cR6Q5nKRqk7z-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="jPsxuMP3VCl0q2h1OJQY-38" source="9rGb_ox9cR6Q5nKRqk7z-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="280" y="680" />
               <mxPoint x="355" y="680" />
             </Array>
+            <mxPoint x="355" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9rGb_ox9cR6Q5nKRqk7z-19" value="pricing供应结算价取shopping供应结算价" style="whiteSpace=wrap;html=1;" parent="jPsxuMP3VCl0q2h1OJQY-38" vertex="1">
@@ -1218,12 +1219,13 @@
         <mxCell id="9rGb_ox9cR6Q5nKRqk7z-26" value="是否可以变价 吸收" style="rhombus;whiteSpace=wrap;html=1;" parent="jPsxuMP3VCl0q2h1OJQY-38" vertex="1">
           <mxGeometry x="410" y="490" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9rGb_ox9cR6Q5nKRqk7z-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="jPsxuMP3VCl0q2h1OJQY-38" source="9rGb_ox9cR6Q5nKRqk7z-27" target="9rGb_ox9cR6Q5nKRqk7z-36" edge="1">
+        <mxCell id="9rGb_ox9cR6Q5nKRqk7z-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="jPsxuMP3VCl0q2h1OJQY-38" source="9rGb_ox9cR6Q5nKRqk7z-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="450" y="680" />
               <mxPoint x="355" y="680" />
             </Array>
+            <mxPoint x="355" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9rGb_ox9cR6Q5nKRqk7z-27" value="pricing采购价格取shopping采购价格" style="whiteSpace=wrap;html=1;" parent="jPsxuMP3VCl0q2h1OJQY-38" vertex="1">
