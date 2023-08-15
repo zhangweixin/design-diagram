@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T09:26:50.690Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="3wuKrmlLSOI78FRK8abo" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-15T09:27:23.368Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="-ymoyFTNFjc9cRhPlOxX" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="2158" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -534,11 +534,11 @@
         <mxCell id="Hbdipo1dZu8i-OKO_cac-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BL_8u3DRFZ2-j0idkSxH-4" target="5h6r2QuucNgDnjV5li-K-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Hbdipo1dZu8i-OKO_cac-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.238;entryY=0.19;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BL_8u3DRFZ2-j0idkSxH-4" target="5h6r2QuucNgDnjV5li-K-46">
+        <mxCell id="Hbdipo1dZu8i-OKO_cac-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.238;entryY=0.19;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BL_8u3DRFZ2-j0idkSxH-4" target="5h6r2QuucNgDnjV5li-K-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BL_8u3DRFZ2-j0idkSxH-4" value="&lt;font color=&quot;#ff3333&quot;&gt;比采购总价:&lt;br&gt;采购票价&lt;br&gt;采购税费&lt;br&gt;采购开票费&lt;br&gt;markup&lt;br&gt;汇率加价&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="580" y="590" width="130" height="110" as="geometry" />
+          <mxGeometry x="682.5" y="560" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="BL_8u3DRFZ2-j0idkSxH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BL_8u3DRFZ2-j0idkSxH-7" target="BL_8u3DRFZ2-j0idkSxH-9" edge="1">
           <mxGeometry relative="1" as="geometry">
