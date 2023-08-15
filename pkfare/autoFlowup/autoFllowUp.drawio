@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T05:52:15.319Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="TFXp9mQUkyszLErJgRY5" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-15T05:53:16.447Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="FYPSeneAtZ7BTl_vb_-q" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1780" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1041,6 +1041,9 @@
         </mxCell>
         <mxCell id="Qhoc5IHv2zXk4fUOy4y4-5" value="乘客类型是否遍历完成" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="1640" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3-jFVz1ESMJXBknMcWNh-1" value="全部分组是否遍历完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="422.5" y="250" width="105" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
