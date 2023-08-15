@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T08:09:34.135Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="TUVOH6Yy8fpInzchV5XO" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-15T08:10:00.170Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="G9uoWCiRNWL3-pLipm0i" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="954" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -799,7 +799,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-13" value="遍历删除solution自动跟价标识" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="-150" width="120" height="60" as="geometry" />
+          <mxGeometry x="150" y="-200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ssC-6n1VdOXp35Ix2GZk-15" target="5h6r2QuucNgDnjV5li-K-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1053,8 +1053,18 @@
         <mxCell id="aRs9yKFHwdCfdXMcZJ24-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aRs9yKFHwdCfdXMcZJ24-1" target="5h6r2QuucNgDnjV5li-K-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="aRs9yKFHwdCfdXMcZJ24-5" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aRs9yKFHwdCfdXMcZJ24-2">
+          <mxGeometry x="-0.3" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aRs9yKFHwdCfdXMcZJ24-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aRs9yKFHwdCfdXMcZJ24-1" target="ssC-6n1VdOXp35Ix2GZk-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRs9yKFHwdCfdXMcZJ24-4" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aRs9yKFHwdCfdXMcZJ24-3">
+          <mxGeometry x="0.0061" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="aRs9yKFHwdCfdXMcZJ24-1" value="采购是否在自动跟价黑名单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="435" y="-210" width="80" height="80" as="geometry" />
