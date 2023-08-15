@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T08:29:03.705Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="5b4qxMgNjQN8kCataIuI" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-15T08:30:43.116Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="GuRr97r5nXW6xtgZ3FjW" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="954" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -508,7 +508,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FcyMMwzVQ7sVzzVJiw_M" name="自动跟价加价逻辑">
-    <mxGraphModel dx="1706" dy="2168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2533" dy="2168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -590,7 +590,7 @@
             <mxPoint x="-2" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1-NP3nT4mg8qtGF3Hokd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5h6r2QuucNgDnjV5li-K-22" edge="1">
+        <mxCell id="1-NP3nT4mg8qtGF3Hokd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5h6r2QuucNgDnjV5li-K-22" edge="1" target="1-NP3nT4mg8qtGF3Hokd-46">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1350" y="1200" as="targetPoint" />
           </mxGeometry>
@@ -731,7 +731,7 @@
           <mxGeometry x="435" y="10" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5h6r2QuucNgDnjV5li-K-70" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="27.5" width="120" height="45" as="geometry" />
+          <mxGeometry x="-90" y="27.5" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5h6r2QuucNgDnjV5li-K-66" target="5h6r2QuucNgDnjV5li-K-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -739,14 +739,14 @@
         <mxCell id="5h6r2QuucNgDnjV5li-K-66" value="遍历航班组合分组" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="415" y="-90" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ssC-6n1VdOXp35Ix2GZk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ssC-6n1VdOXp35Ix2GZk-4" edge="1">
+        <mxCell id="ssC-6n1VdOXp35Ix2GZk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ssC-6n1VdOXp35Ix2GZk-4" edge="1" target="ssC-6n1VdOXp35Ix2GZk-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="-150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-12" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ssC-6n1VdOXp35Ix2GZk-5" vertex="1" connectable="0">
           <mxGeometry x="-0.2486" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-240" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ssC-6n1VdOXp35Ix2GZk-4" edge="1">
@@ -774,13 +774,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-13" value="遍历删除solution自动跟价标识" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="-200" width="120" height="60" as="geometry" />
+          <mxGeometry x="-90" y="-200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ssC-6n1VdOXp35Ix2GZk-17" target="5h6r2QuucNgDnjV5li-K-70" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="130" y="-440" />
-              <mxPoint x="130" y="50" />
+              <mxPoint x="-160" y="-440" />
+              <mxPoint x="-160" y="50" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -805,12 +805,6 @@
         </mxCell>
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-6" value="取当前分组乘客类型对应价格进行计算" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1013" y="640" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="1-NP3nT4mg8qtGF3Hokd-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1-NP3nT4mg8qtGF3Hokd-12" target="1-NP3nT4mg8qtGF3Hokd-46" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1-NP3nT4mg8qtGF3Hokd-12" value="不做任何处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="1200" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Qhoc5IHv2zXk4fUOy4y4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1-NP3nT4mg8qtGF3Hokd-21" target="3-jFVz1ESMJXBknMcWNh-1" edge="1">
           <mxGeometry relative="1" as="geometry">
