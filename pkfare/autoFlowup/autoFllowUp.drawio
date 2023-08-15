@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T09:12:29.404Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="tvH11fGxcczL_V-Qo_6z" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-15T09:25:57.713Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="bX0A5j-MfFHVeafAYe2n" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="2158" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -664,7 +664,7 @@
             <mxPoint x="-3" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5h6r2QuucNgDnjV5li-K-36" value="次低价采购price与最低价采购price相差不足 1CNY？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="5h6r2QuucNgDnjV5li-K-36" value="次低价采购总价与最低价采购总价相差不足 1CNY？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1008" y="970" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5h6r2QuucNgDnjV5li-K-46" target="1-NP3nT4mg8qtGF3Hokd-21" edge="1">
@@ -956,15 +956,6 @@
         </mxCell>
         <mxCell id="3-jFVz1ESMJXBknMcWNh-1" value="乘客类型分组是否全部遍历结束" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="422.5" y="250" width="105" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3-jFVz1ESMJXBknMcWNh-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3-jFVz1ESMJXBknMcWNh-8" target="5h6r2QuucNgDnjV5li-K-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3-jFVz1ESMJXBknMcWNh-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.654;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3-jFVz1ESMJXBknMcWNh-8" target="5h6r2QuucNgDnjV5li-K-46">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3-jFVz1ESMJXBknMcWNh-8" value="price指的是票价" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="845" y="800" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3-jFVz1ESMJXBknMcWNh-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1-NP3nT4mg8qtGF3Hokd-49" target="1-NP3nT4mg8qtGF3Hokd-66">
           <mxGeometry relative="1" as="geometry">
