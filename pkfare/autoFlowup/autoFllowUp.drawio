@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T09:27:23.368Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="-ymoyFTNFjc9cRhPlOxX" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-15T09:28:02.095Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="OMDVd5PCQoGI49FxfqSe" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="2158" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -508,7 +508,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FcyMMwzVQ7sVzzVJiw_M" name="自动跟价加价逻辑">
-    <mxGraphModel dx="2745" dy="2202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2533" dy="2168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1042,6 +1042,9 @@
         </mxCell>
         <mxCell id="aRs9yKFHwdCfdXMcZJ24-22" value="该组合只保留adt组最低价solution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="235" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hbdipo1dZu8i-OKO_cac-3" value="max采购总价:&lt;br style=&quot;border-color: var(--border-color); color: rgb(255, 51, 51);&quot;&gt;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;采购票价&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(255, 51, 51);&quot;&gt;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;采购税费&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(255, 51, 51);&quot;&gt;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;采购开票费&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(255, 51, 51);&quot;&gt;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;markup&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(255, 51, 51);&quot;&gt;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;汇率加价&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="540" y="790" width="197" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
