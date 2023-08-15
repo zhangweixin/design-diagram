@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T09:28:30.297Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="JZy_FLULxbYncZ9_-i87" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-15T09:29:34.977Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="FOVYCzhUz_myQNKy_vk0" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="2158" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -585,7 +585,7 @@
             <mxPoint x="835" y="1390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5h6r2QuucNgDnjV5li-K-17" value="autoMarkup=(次低价采购price-最低价采购price)-1CNY*c2bBankRate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="5h6r2QuucNgDnjV5li-K-17" value="autoMarkup=(次低价采购总价-最低价采购总maxPrice)-1CNY*c2bBankRate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="752.5" y="1160" width="165" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5h6r2QuucNgDnjV5li-K-22" target="5h6r2QuucNgDnjV5li-K-36" edge="1">
