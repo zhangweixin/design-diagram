@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T12:35:55.925Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="JwQ9l3Dhp-sERwLvz9K5" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-15T12:38:30.012Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="py-65yf9TYd9myOAJVz2" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1576,9 +1576,6 @@
         </mxCell>
         <mxCell id="JpBW7XZKRURXUbVlh8gI-1" value="变价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FV0mm4fBcgbeXYLqHhve-49">
           <mxGeometry x="510" y="1190" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="JpBW7XZKRURXUbVlh8gI-2" value="未变价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FV0mm4fBcgbeXYLqHhve-49">
-          <mxGeometry x="610" y="1060" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JpBW7XZKRURXUbVlh8gI-3" value="未变价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FV0mm4fBcgbeXYLqHhve-49">
           <mxGeometry x="280" y="1230" width="100" height="30" as="geometry" />
