@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T08:28:32.868Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="NUTIWn0ymt5y7HuvxL6F" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-15T08:29:03.705Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="5b4qxMgNjQN8kCataIuI" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="954" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -984,6 +984,16 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="835" y="1820" as="targetPoint" />
             <mxPoint x="835" y="1640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRs9yKFHwdCfdXMcZJ24-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1-NP3nT4mg8qtGF3Hokd-66" target="3-jFVz1ESMJXBknMcWNh-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="835" y="1880" />
+              <mxPoint x="1580" y="1880" />
+              <mxPoint x="1580" y="230" />
+              <mxPoint x="475" y="230" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1-NP3nT4mg8qtGF3Hokd-66" value="记录加价成功" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
