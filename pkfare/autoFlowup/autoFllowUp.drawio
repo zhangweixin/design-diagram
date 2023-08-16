@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T07:07:24.587Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="NspjVf4GO4qp6LHG1rzF" version="21.6.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-08-16T07:10:14.688Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="1WV3ab69eqtzKrYFL1js" version="21.6.8" type="github" pages="9">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2179,11 +2179,20 @@
         <mxCell id="Om1HJvIk4pnD0-36mScM-2" value="支付前校验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-2">
           <mxGeometry x="85" y="55" width="95" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-46" value="返回结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-2">
+          <mxGeometry x="60" y="940" width="120" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="y1_r7VxR59VS-y602wUF-3" value="pkfare-order-provider" style="swimlane;startSize=20;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-1">
           <mxGeometry x="290" y="20" width="340" height="1045" as="geometry" />
         </mxCell>
         <mxCell id="Om1HJvIk4pnD0-36mScM-7" value="支付前校验" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-3">
           <mxGeometry x="110" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="y1_r7VxR59VS-y602wUF-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="962.25" as="targetPoint" />
+            <mxPoint x="390" y="962" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="y1_r7VxR59VS-y602wUF-4" value="order-manage" style="swimlane;startSize=20;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-1">
           <mxGeometry x="630" y="20" width="600" height="1045" as="geometry" />
@@ -2217,12 +2226,28 @@
         <mxCell id="Om1HJvIk4pnD0-36mScM-18" value="自动跟价订单？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-4">
           <mxGeometry x="170" y="265" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="y1_r7VxR59VS-y602wUF-4" source="Om1HJvIk4pnD0-36mScM-22" target="Om1HJvIk4pnD0-36mScM-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Om1HJvIk4pnD0-36mScM-22" value="原变价检查流程" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-4">
           <mxGeometry x="50" y="375" width="120" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="Om1HJvIk4pnD0-36mScM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="y1_r7VxR59VS-y602wUF-4" source="Om1HJvIk4pnD0-36mScM-25">
+        <mxCell id="Om1HJvIk4pnD0-36mScM-28" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="y1_r7VxR59VS-y602wUF-4" source="Om1HJvIk4pnD0-36mScM-25">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="y1_r7VxR59VS-y602wUF-4" source="Om1HJvIk4pnD0-36mScM-25" target="Om1HJvIk4pnD0-36mScM-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="515" />
+              <mxPoint x="210" y="963" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-43" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Om1HJvIk4pnD0-36mScM-42">
+          <mxGeometry x="-0.785" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Om1HJvIk4pnD0-36mScM-25" value="订单供应总价=支付前校验供应总价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-4">
@@ -2234,9 +2259,17 @@
         <mxCell id="Om1HJvIk4pnD0-36mScM-26" value="计算抛除分销比例之后订单供应总价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-4">
           <mxGeometry x="290" y="372.5" width="120" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="Om1HJvIk4pnD0-36mScM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="y1_r7VxR59VS-y602wUF-4" source="Om1HJvIk4pnD0-36mScM-29">
+        <mxCell id="Om1HJvIk4pnD0-36mScM-30" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="y1_r7VxR59VS-y602wUF-4" source="Om1HJvIk4pnD0-36mScM-29">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="745" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-40" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="y1_r7VxR59VS-y602wUF-4" source="Om1HJvIk4pnD0-36mScM-29" target="Om1HJvIk4pnD0-36mScM-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="655" />
+              <mxPoint x="240" y="963" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Om1HJvIk4pnD0-36mScM-29" value="订单供应总价&amp;gt;支付前校验供应总价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-4">
@@ -2247,11 +2280,25 @@
             <mxPoint x="350" y="885" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-34" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Om1HJvIk4pnD0-36mScM-32">
+          <mxGeometry x="-0.3389" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-39" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="y1_r7VxR59VS-y602wUF-4" source="Om1HJvIk4pnD0-36mScM-31" target="Om1HJvIk4pnD0-36mScM-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Om1HJvIk4pnD0-36mScM-31" value="是否变价可吸收" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-4">
           <mxGeometry x="310" y="745" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="y1_r7VxR59VS-y602wUF-4" source="Om1HJvIk4pnD0-36mScM-33" target="Om1HJvIk4pnD0-36mScM-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Om1HJvIk4pnD0-36mScM-33" value="返回变价异常" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-4">
           <mxGeometry x="290" y="885" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-36" value="返回结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-4">
+          <mxGeometry x="50" y="945" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="90lxVPorT7A6LjcpYzv8-1" value="gongfu-service" style="swimlane;startSize=20;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-1">
           <mxGeometry x="1230" y="20" width="210" height="1045" as="geometry" />
