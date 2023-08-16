@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T08:13:12.236Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="8pPQOnOSAKwZOUr76d85" version="21.6.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-08-16T09:13:23.994Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="uyo7r4epwmSa0Hq1xHkF" version="21.6.8" type="github" pages="9">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -750,7 +750,7 @@
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-12" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ssC-6n1VdOXp35Ix2GZk-5" vertex="1" connectable="0">
           <mxGeometry x="-0.2486" relative="1" as="geometry">
-            <mxPoint x="-240" as="offset" />
+            <mxPoint x="-149" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ssC-6n1VdOXp35Ix2GZk-4" edge="1">
@@ -780,10 +780,10 @@
         <mxCell id="ssC-6n1VdOXp35Ix2GZk-13" value="遍历删除solution自动跟价标识" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-90" y="-270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ssC-6n1VdOXp35Ix2GZk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ssC-6n1VdOXp35Ix2GZk-17" target="5h6r2QuucNgDnjV5li-K-70" edge="1">
+        <mxCell id="ssC-6n1VdOXp35Ix2GZk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ssC-6n1VdOXp35Ix2GZk-17" target="ssC-6n1VdOXp35Ix2GZk-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-290" y="-510" />
+              <mxPoint x="-30" y="-510" />
             </Array>
           </mxGeometry>
         </mxCell>
