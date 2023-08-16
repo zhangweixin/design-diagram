@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T14:30:28.117Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="qyG58awNRuoP2QvbNuCF" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-16T03:40:40.047Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="DyiRmWLCLuHnQZawsxyK" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -506,7 +506,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FcyMMwzVQ7sVzzVJiw_M" name="自动跟价加价逻辑">
-    <mxGraphModel dx="2261" dy="2015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2533" dy="2168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1051,7 +1051,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PVrXuSXrQ6MLXZIrvFcD" name="api-pricing 逻辑">
-    <mxGraphModel dx="1434" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1360,7 +1360,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NazyN30yy7XBrLKity1E" name="protal-pricing流程">
-    <mxGraphModel dx="1434" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1697,7 +1697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eGzZXBIMfWI6LAk4jr8j" name="old-ssdc(protal)预定">
-    <mxGraphModel dx="1780" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1814,7 +1814,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xQbYMyQpuc8kRoCBlc07-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="s85QbPolJ7eayO9ACTrG-3" source="aphocJBz4GAPKkwitiqB-15" target="aphocJBz4GAPKkwitiqB-26">
+        <mxCell id="xQbYMyQpuc8kRoCBlc07-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="s85QbPolJ7eayO9ACTrG-3" source="aphocJBz4GAPKkwitiqB-15" target="aphocJBz4GAPKkwitiqB-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="290" y="880" />
@@ -1822,7 +1822,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xQbYMyQpuc8kRoCBlc07-2" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xQbYMyQpuc8kRoCBlc07-1">
+        <mxCell id="xQbYMyQpuc8kRoCBlc07-2" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xQbYMyQpuc8kRoCBlc07-1" vertex="1" connectable="0">
           <mxGeometry x="-0.4133" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1919,7 +1919,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mX8guUQ7iGbLiRTII4fP" name="new-ssdc预定">
-    <mxGraphModel dx="1780" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2012,6 +2012,14 @@
         </mxCell>
         <mxCell id="-tGU8aZS875bEcrCDBfO-22" value="" style="swimlane;startSize=0;dashed=1;strokeColor=#FF3333;" parent="jbB7zbW8MUomiMJYjZ2A-35" vertex="1">
           <mxGeometry x="10" y="480" width="640" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5wFH9hHDKudDx1T651-1" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-tGU8aZS875bEcrCDBfO-22" source="-tGU8aZS875bEcrCDBfO-1" target="CYsC8b7juTKH739hNuGz-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="260" />
+              <mxPoint x="530" y="670" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-tGU8aZS875bEcrCDBfO-1" value="booking供应总价=pricing供应 总价" style="rhombus;whiteSpace=wrap;html=1;" parent="-tGU8aZS875bEcrCDBfO-22" vertex="1">
           <mxGeometry x="335" y="220" width="80" height="80" as="geometry" />
