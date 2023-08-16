@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T06:29:30.387Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="SCqdthg40UCoKO_OsiMv" version="21.6.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-08-16T06:52:25.486Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="53mL2J3GUxmM2LQh2-lY" version="21.6.8" type="github" pages="9">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2165,6 +2165,51 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="zy8PoFxI1FsFfeVEf47T" name="支付前校验流程(old-ssdc)">
+    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y1_r7VxR59VS-y602wUF-1" value="支付前校验流程(old-ssdc)" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="105" width="1460" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="y1_r7VxR59VS-y602wUF-2" value="protal" style="swimlane;startSize=20;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-1">
+          <mxGeometry y="20" width="290" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-2" value="支付前校验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-2">
+          <mxGeometry x="85" y="55" width="95" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="y1_r7VxR59VS-y602wUF-3" value="pkfare-order-provider" style="swimlane;startSize=20;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-1">
+          <mxGeometry x="290" y="20" width="340" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-7" value="支付前校验" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-3">
+          <mxGeometry x="110" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y1_r7VxR59VS-y602wUF-4" value="order-manage" style="swimlane;startSize=20;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-1">
+          <mxGeometry x="630" y="20" width="430" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-9" value="构造支付前校验请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-4">
+          <mxGeometry x="150" y="52.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="90lxVPorT7A6LjcpYzv8-1" value="gongfu-service" style="swimlane;startSize=20;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-1">
+          <mxGeometry x="1060" y="20" width="210" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="90lxVPorT7A6LjcpYzv8-2" value="gds-processor" style="swimlane;startSize=20;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-1">
+          <mxGeometry x="1270" y="20" width="190" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="y1_r7VxR59VS-y602wUF-1" source="Om1HJvIk4pnD0-36mScM-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="92.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Om1HJvIk4pnD0-36mScM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="y1_r7VxR59VS-y602wUF-1" source="Om1HJvIk4pnD0-36mScM-7" target="Om1HJvIk4pnD0-36mScM-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="-vev7WhQLZoMIxRfvZwh" name="支付前校验流程(new-ssdc)">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2429,32 +2474,6 @@
         </mxCell>
         <mxCell id="n_EaOlgBfUq2aYFW0wfX-20" value="" style="swimlane;startSize=0;dashed=1;strokeColor=#FF3333;" parent="n_EaOlgBfUq2aYFW0wfX-15" vertex="1">
           <mxGeometry x="35" y="30" width="150" height="140" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="zy8PoFxI1FsFfeVEf47T" name="支付前校验流程(old-ssdc)">
-    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="y1_r7VxR59VS-y602wUF-1" value="支付前校验流程(old-ssdc)" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="105" width="1590" height="770" as="geometry" />
-        </mxCell>
-        <mxCell id="y1_r7VxR59VS-y602wUF-2" value="protal" style="swimlane;startSize=20;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-1">
-          <mxGeometry y="20" width="290" height="750" as="geometry" />
-        </mxCell>
-        <mxCell id="y1_r7VxR59VS-y602wUF-3" value="pkfare-order-provider" style="swimlane;startSize=20;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-1">
-          <mxGeometry x="290" y="20" width="340" height="750" as="geometry" />
-        </mxCell>
-        <mxCell id="y1_r7VxR59VS-y602wUF-4" value="order-manage" style="swimlane;startSize=20;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-1">
-          <mxGeometry x="630" y="20" width="430" height="750" as="geometry" />
-        </mxCell>
-        <mxCell id="90lxVPorT7A6LjcpYzv8-1" value="gongfu-service" style="swimlane;startSize=20;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-1">
-          <mxGeometry x="1060" y="20" width="250" height="750" as="geometry" />
-        </mxCell>
-        <mxCell id="90lxVPorT7A6LjcpYzv8-2" value="gds-processor" style="swimlane;startSize=20;html=1;" vertex="1" parent="y1_r7VxR59VS-y602wUF-1">
-          <mxGeometry x="1310" y="20" width="280" height="750" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
