@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T03:40:40.047Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="DyiRmWLCLuHnQZawsxyK" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-16T03:47:38.563Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="P2VJRqFT2BHe9ku4P61G" version="21.6.8" type="github" pages="8">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
     <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2021,8 +2021,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-tGU8aZS875bEcrCDBfO-1" value="booking供应总价=pricing供应 总价" style="rhombus;whiteSpace=wrap;html=1;" parent="-tGU8aZS875bEcrCDBfO-22" vertex="1">
-          <mxGeometry x="335" y="220" width="80" height="80" as="geometry" />
+        <mxCell id="-tGU8aZS875bEcrCDBfO-1" value="booking乘客维度供应总价=pricing乘客维度供应总价" style="rhombus;whiteSpace=wrap;html=1;" parent="-tGU8aZS875bEcrCDBfO-22" vertex="1">
+          <mxGeometry x="312.5" y="220" width="125" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-tGU8aZS875bEcrCDBfO-7" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="-tGU8aZS875bEcrCDBfO-22" source="-tGU8aZS875bEcrCDBfO-1" edge="1">
           <mxGeometry relative="1" as="geometry">
