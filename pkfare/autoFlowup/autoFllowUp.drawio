@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T02:54:51.259Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="IKqIjFXj6zlKs-qjOBqY" version="21.6.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-08-17T11:46:16.042Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.0.2562 Yowser/2.5 Safari/537.36" etag="IsaJXMfXPN6tO5nIZKgp" version="21.6.8" type="github" pages="9">
   <diagram name="shopping" id="bmTWLVl7lHP5WHelwrOG">
-    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1406" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -301,7 +301,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W6jd0gw-vxV0akRhbq96-1" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vrYzodw-wXzMlCgV3lVE-96" source="3_ZwC6f7IRWcrvINIxTj-1" target="vrYzodw-wXzMlCgV3lVE-64">
+        <mxCell id="W6jd0gw-vxV0akRhbq96-1" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="vrYzodw-wXzMlCgV3lVE-96" source="3_ZwC6f7IRWcrvINIxTj-1" target="vrYzodw-wXzMlCgV3lVE-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3_ZwC6f7IRWcrvINIxTj-1" value="自动跟价开关是否打开" style="rhombus;whiteSpace=wrap;html=1;" parent="vrYzodw-wXzMlCgV3lVE-96" vertex="1">
@@ -330,7 +330,7 @@
         <mxCell id="tpVxFEPLJyuBSaKKWBy4-2" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="vrYzodw-wXzMlCgV3lVE-96" source="tpVxFEPLJyuBSaKKWBy4-1" target="D-S9jN1vPysCTN4gr2OE-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W6jd0gw-vxV0akRhbq96-2" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vrYzodw-wXzMlCgV3lVE-96" source="tpVxFEPLJyuBSaKKWBy4-1" target="3_ZwC6f7IRWcrvINIxTj-1">
+        <mxCell id="W6jd0gw-vxV0akRhbq96-2" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="vrYzodw-wXzMlCgV3lVE-96" source="tpVxFEPLJyuBSaKKWBy4-1" target="3_ZwC6f7IRWcrvINIxTj-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tpVxFEPLJyuBSaKKWBy4-1" value="仓位数是否小于请求人数" style="rhombus;whiteSpace=wrap;html=1;" parent="vrYzodw-wXzMlCgV3lVE-96" vertex="1">
@@ -408,7 +408,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8p2eXJLosCav-ndyFkDv-3" value="maxPrice是否大于底价" style="rhombus;whiteSpace=wrap;html=1;" parent="vrYzodw-wXzMlCgV3lVE-96" vertex="1">
-          <mxGeometry x="200" y="650" width="80" height="80" as="geometry" />
+          <mxGeometry x="200" y="645" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PIwFRHKqJusnCxtjklqS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="vrYzodw-wXzMlCgV3lVE-96" source="PIwFRHKqJusnCxtjklqS-1" target="vrYzodw-wXzMlCgV3lVE-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1697,7 +1697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eGzZXBIMfWI6LAk4jr8j" name="old-ssdc(protal)预定">
-    <mxGraphModel dx="1706" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1406" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
