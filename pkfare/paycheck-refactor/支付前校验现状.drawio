@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T07:00:12.172Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-x-myyWlsa-Esm8t-Es1" version="22.1.18" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2024-01-10T07:02:00.856Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="nwDpihHEgoU0ffDVkNoB" version="22.1.18" type="github" pages="13">
   <diagram id="QPk3VyPuOKQygFWotXc3" name="API支付前检验流程">
     <mxGraphModel dx="1006" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1071,7 +1071,7 @@
             <mxPoint x="450" y="2810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-2" value="是否通过最晚出票时间判断/不足15min" style="rhombus;whiteSpace=wrap;html=1;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
+        <mxCell id="iWQUa-pTEo2-h8qP0TEZ-2" value="是否通过最晚出票时间判断/不足1h" style="rhombus;whiteSpace=wrap;html=1;" parent="QK3JLm6o1d5tWPSBXhA1-2" vertex="1">
           <mxGeometry x="385" y="2650" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="iWQUa-pTEo2-h8qP0TEZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="QK3JLm6o1d5tWPSBXhA1-2" source="iWQUa-pTEo2-h8qP0TEZ-5" edge="1">
