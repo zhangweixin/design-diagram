@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T03:14:09.510Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.1.762 Yowser/2.5 Safari/537.36" etag="4yCrBd8DdY7S60mAe9CP" version="21.3.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-01-10T11:39:55.084Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_hz0Zvy_K3whGi2aPiFw" version="22.1.18" type="github" pages="9">
   <diagram name="支付前校验主流程" id="-3oY8U69ml2H9E9dqWh5">
-    <mxGraphModel dx="1194" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2151,7 +2151,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pwVn3uVgXT-Uwnsneaf0" name="gds支付前校验-IBE">
-    <mxGraphModel dx="1194" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2331,6 +2331,11 @@
         <mxCell id="uEUFi3Mm2ZmicawddF4U-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="uEUFi3Mm2ZmicawddF4U-3" source="uEUFi3Mm2ZmicawddF4U-65" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="1385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f-9TYOZPlefpSV28oME_-1" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uEUFi3Mm2ZmicawddF4U-66">
+          <mxGeometry x="-0.343" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uEUFi3Mm2ZmicawddF4U-114" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="uEUFi3Mm2ZmicawddF4U-3" source="uEUFi3Mm2ZmicawddF4U-65" edge="1">
